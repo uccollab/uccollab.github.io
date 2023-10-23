@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - uccollab
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - uccollab/AnnoMI
+  - uccollab/expert_laypeople_reflection_annotation
+  - vsrana-ai/Augmenting-AnnoMI
