@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a>. Malostranské náměstí 25, 118 00 Praha, Czech Republic.
+subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a>.<br> Malostranské náměstí 25, 118 00 Praha, Czech Republic.
 
 profile:
   align: right
