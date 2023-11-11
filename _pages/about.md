@@ -7,7 +7,7 @@ subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and A
 profile:
   align: right
   image: propic_new_no_flare_small.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 230, IMPAKT Building</p>
     <p>V Holešovičkách 2, 180 00 Praha 8</p>
