@@ -21,6 +21,6 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a computer scientist with a passion for Artificial Intelligence (AI) and language. I'm mainly interested into applying AI to behaviour change, and inspecting AI safety.
 
-At the moment, I'm a postdoc at the Institute of Formal and Applied Linguistics (UFAL), at Charles University (CZ). I work within the ERC-funded "NG-NLG" project, covering controllability of neural approaches to text generation.
+Currently, I'm a postdoc at the Institute of Formal and Applied Linguistics (UFAL), at Charles University (CZ). I work within the ERC-funded "NG-NLG" project, covering controllability of neural approaches to text generation.
 
-Prior to this, I worked on healthcare applications of Natural Language Generation (NLG) as a Marie-Curie ESR at University of Aberdeen (UK), and on unsupervised knowledge extraction from text and business-oriented data mining at Università degli studi di Cagliari (IT).
+Prior to this, I worked on efficient healthcare communication as a Marie-Curie ESR at University of Aberdeen (UK), and on unsupervised NLP and business-oriented data mining at Università degli studi di Cagliari (IT).
