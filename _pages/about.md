@@ -6,7 +6,7 @@ subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and A
 
 profile:
   align: right
-  image: propic.jpg
+  image: propic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 230, IMPAKT Building</p>
