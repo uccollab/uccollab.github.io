@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a><br> Malostranské náměstí 25, 118 00 Praha, Czech Republic.
+subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a><br>
 
 profile:
   align: right
   image: propic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room 230, IMPAKT Building</p>
-    <p>V Holešovičkách 2, 180 00 Praha 8</p>
-    <p>Prague, Czech Republic </p>
+    <p>V Holešovičkách 2, 180 00</p>
+    <p>Praha 8, Prague, Czech Republic </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
