@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Room 230, IMPAKT Building</p>
     <p>V Holešovičkách 2, 180 00</p>
-    <p>Praha 8, Prague, Czech Republic </p>
+    <p>Praha 8, Prague, CZ</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
