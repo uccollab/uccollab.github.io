@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a computer scientist with a passion for Artificial Intelligence (AI) and language. I'm mainly interested into applying AI to behaviour change, and inspecting AI safety.
+Computer scientist with 6+ years of experience in NLP & AI research. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I mainly focus on applying AI to mental health and behaviour change, and evaluating its safety and controllability. I have extensive experience on human evaluation of AI.
 
 Currently, I'm a postdoc at the Institute of Formal and Applied Linguistics (UFAL), at Charles University (CZ). I work within the ERC-funded "NG-NLG" project, covering controllability of neural approaches to text generation.
 
