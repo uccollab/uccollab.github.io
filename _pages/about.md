@@ -15,7 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a><br>
-Room 230, IMPAKT Building, V Holešovičkách 2, 180 00, Praha 8, Prague, CZ <br>
+Room 230, IMPAKT Building, V Holešovičkách 2, 180 00<br>
+Praha 8, Prague (CZ) <br>
 
 Computer scientist with 6+ years of experience in NLP & AI research. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I mainly focus on applying AI to mental health and behaviour change, and evaluating its safety and controllability. I have extensive experience on human evaluation of AI.
 
