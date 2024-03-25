@@ -29,7 +29,6 @@
 }
 
 @article{atzori2020fully,
-  selected={true},
   title={Fully-unsupervised embeddings-based hypernym discovery},
   author={Atzori, Maurizio and Balloccu, Simone},
   journal={Information},
@@ -187,3 +186,21 @@ isbn={978-989-758-629-3},
     abstract = "Reflection is a crucial counselling skill where the therapist conveys to the client their interpretation of what the client said. Language models have recently been used to generate reflections automatically, but human evaluation is challenging, particularly due to the cost of hiring experts. Laypeople-based evaluation is less expensive and easier to scale, but its quality is unknown for reflections. Therefore, we explore whether laypeople can be an alternative to experts in evaluating a fundamental quality aspect: coherence and context-consistency. We do so by asking a group of laypeople and a group of experts to annotate both synthetic reflections and human reflections from actual therapists. We find that both laypeople and experts are reliable annotators and that they have moderate-to-strong inter-group correlation, which shows that laypeople can be trusted for such evaluations. We also discover that GPT-3 mostly produces coherent and consistent reflections, and we explore changes in evaluation results when the source of synthetic reflections changes to GPT-3 from the less powerful GPT-2.",
 }
 
+@inproceedings{balloccu-etal-2024-leak,
+    selected={true},
+    title = "Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source {LLM}s",
+    author = "Balloccu, Simone  and
+      Schmidtov{\'a}, Patr{\'\i}cia  and
+      Lango, Mateusz  and
+      Dusek, Ondrej",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.5",
+    pages = "67--93",
+    abstract = "Natural Language Processing (NLP) research is increasingly focusing on the use of Large Language Models (LLMs), with some of the most popular ones being either fully or partially closed-source. The lack of access to model details, especially regarding training data, has repeatedly raised concerns about data contamination among researchers. Several attempts have been made to address this issue, but they are limited to anecdotal evidence and trial and error. Additionally, they overlook the problem of indirect data leaking, where modelsare iteratively improved by using data coming from users. In this work, we conduct the first systematic analysis of work using OpenAI{'}s GPT-3.5 and GPT-4, the most prominently used LLMs today, in the context of data contamination. By analysing 255 papers and considering OpenAI{'}s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model{'}s release. We report that these models have been globally exposed to ∼4.7M samples from 263 benchmarks. At the same time, we document a number of evaluation malpractices emerging in the reviewed papers, such as unfair or missing baseline comparisons and reproducibility issues. We release our results as a collaborative project on https://leak-llm.github.io/, where other researchers can contribute to our efforts.",
+}
