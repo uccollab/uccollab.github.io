@@ -3,9 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics </a><br>
-    <p>Room 230, IMPAKT Building</p>
-    <p>V Holešovičkách 2, 180 00</p>
-    <p>Praha 8, Prague, CZ</p>
+    Room 230, IMPAKT Building<br>
+    V Holešovičkách 2, 180 00<br>
+    Praha 8, Prague, CZ
 
 profile:
   align: right
