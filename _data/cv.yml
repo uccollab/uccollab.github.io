@@ -64,8 +64,15 @@
   contents:
     - title: Event co-organization
       description:
-      - <a href='https://humeval.github.io/'>HumEval 2023</a> (<a href='https://ranlp.org/ranlp2023/'>@RANLP 2023</a>)
-      - <a href='https://sigdialinlg2023.github.io/'>INLG 2023 and SigDial 2023</a>
+      - title: Co-chair
+        description:
+        - <a href='https://humeval.github.io/'>HumEval 2024</a> (<a href='https://lrec-coling-2024.org/'>@LREC-COLING 2024)</a>)
+        - <a href='https://aibd.unica.it/humad/'>HUMAD 2024</a> (<a href='https://www.um.org/umap2024/'>@ACM UMAP 2024)</a>)
+      - title: Organization member committee
+        description:
+        - <a href='https://humeval.github.io/2023/'>HumEval 2023</a> (<a href='https://ranlp.org/ranlp2023/'>@RANLP 2023</a>)
+        - <a href='https://sigdialinlg2023.github.io/'>INLG 2023 and SigDial 2023</a>
+
 
     - title: Demonstrator
       institution: <a href='https://www.abdn.ac.uk/'>University of Aberdeen</a>, Aberdeen, United Kingdom
