@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: #example_pdf.pdf
-description: The following is an up-to-date version of my academic CV.
+cv_pdf: CV_22_07_2024.pdf
+description: You can download an up-to-date version of my CV with the button above. The following is an alternative version, for instant visualisation. Some minor details may differ.
 toc:
   sidebar: left
 ---

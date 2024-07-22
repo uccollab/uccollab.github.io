@@ -10,7 +10,7 @@
     - name: Domain
       value: Computer science; NLP; AI;
     - name: Bio
-      value: Simone Balloccu is a researcher with deep interest in Artificial Intelligence (AI) applied to natural language and Human Computer Interaction (HCI).<br><br> He currently is a postdoctoral researcher at the Institute of Formal and Applied Linguistic, at Charles University (CZ). He works within the ERC-funded "NG-NLG" project, covering explainability and controllability of large language models. <br><br> Previously, he was a Marie-Curie Early Stage Researcher (ESR) at University of Aberdeen (UK), within the Horizon 2020 "Philhumans" project. There, he worked on using Natural Language Generation (NLG) and Conversational AI for tailored healthcare communication and counselling. <br><br>He completed his Bachelor's and Master's Degree in Computer Science at Università Degli Studi di Cagliari (IT), where he also did research on Natural Language Understanding (NLU) and Business-oriented data mining. Within the "OKGraph" project, he worked on unsupervised language modelling for knowledge extraction from unstructured text. Within the "DoUtDes" project, he focused on effectively mining and visualising data from companies' social media platforms.
+      value: Computer scientist with 6+ years of experience in NLP & AI research, and author of 17 peer-reviewed NLP publications. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I implemented and evaluated several AI resources for behaviour change, including conversational agents and datasets for nutrition counselling and motivational interviewing.
 
 - title: Work
   type: time_table
@@ -64,6 +64,7 @@
   contents:
     - title: Co-chair
       description:
+      - <a href='https://practicald2t.github.io/'>Practical D2T 2024</a> (<a href='https://inlg2024.github.io/'>@INLG 2024)</a>)
       - <a href='https://humeval.github.io/'>HumEval 2024</a> (<a href='https://lrec-coling-2024.org/'>@LREC-COLING 2024)</a>)
       - <a href='https://aibd.unica.it/humad/'>HUMAD 2024</a> (<a href='https://www.um.org/umap2024/'>@ACM UMAP 2024)</a>)
     - title: Organization member committee
@@ -71,6 +72,13 @@
       - <a href='https://humeval.github.io/2023/'>HumEval 2023</a> (<a href='https://ranlp.org/ranlp2023/'>@RANLP 2023</a>)
       - <a href='https://sigdialinlg2023.github.io/'>INLG 2023 and SigDial 2023</a>
 
+    - title: Teaching assistant
+      institution: <a href='https://ufal.mff.cuni.cz/home-page'>Institute of Formal and Applied Linguistics (UFAL)</a>, Prague, Czech Republic
+      year: 2021<br> - <br>2022
+      description:
+      - title: Statistical Dialogue Systems (MSc course)
+        contents:
+        - Lab demonstrations.
 
     - title: Demonstrator
       institution: <a href='https://www.abdn.ac.uk/'>University of Aberdeen</a>, Aberdeen, United Kingdom
@@ -112,7 +120,7 @@
         - Intent-based conversational AI; development tools including Juji, DialogFlow and RASA.
     - title: Misc.
       description:
-        - Experience running human evaluations of NLP systems, including both intrinsic and extrinsic, with and without experts.
+        - Extensive experience in human evaluations of NLP systems, including both intrinsic and extrinsic, with and without experts.
         - Experience with crowdsourcing platforms, including Amazon Mechanical Turk and Prolific.
         - Algorithm optimisation and parallelization.
         - Genetic algorithms.
