@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Simone
 middle_name: 
 last_name: Balloccu
-email: balloccu.simone@gmail.com; balloccu@ufal.mff.cuni.cz
+email: balloccu.simone@gmail.com; simone.balloccu@tu-darmstadt.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Simone Balloccu's personal website. Based on [*folio](https://github.com/bogoli/-folio).
 #footer_text: >
