@@ -18,10 +18,10 @@ social: true  # includes social icons at the bottom of the page
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
 Darmstadt (DE) <br>
 
-Computer scientist with 6+ years of experience in NLP & AI research. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I focus on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience on human evaluation of AI.
+Computer scientist with 6+ years of experience in NLP & AI research. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I focus on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience in the human evaluation of AI.
 
-I'm the leader of the "NLP for expert domains" independent group at TU Darmstadt, focused on developing AI agents capable of cooperating with domain experts for tasks like machine learning, data science and software engineering. 
+Currently, I lead the "NLP for expert domains" group at TU Darmstadt, focused on the cooperation between AI agents and domain experts. 
 
 Prior to this, I was a postdoc at Charles University (CZ), within the ERC-funded "NG-NLG" project, covering controllability of neural approaches to text generation.
 
-I also was a Marie-Curie ESR at at University of Aberdeen (UK) within the H2020 "Philhumans" project, working on efficient healthcare communication. During my undergrad studies, I worked on unsupervised NLP and business-oriented data mining at Università degli studi di Cagliari (IT).
+During my PhD I was a Marie-Curie ESR at at University of Aberdeen (UK) within the H2020 "Philhumans" project, working on efficient healthcare communication. During my undergrad studies, I worked on unsupervised NLP and business-oriented data mining at Università degli studi di Cagliari (IT).
