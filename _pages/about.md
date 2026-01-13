@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
 Darmstadt (DE) <br>
 
-[Link to academic CV (updated 04/12/2025)](https://uccollab.github.io/assets/pdf/CV.pdf)
+[Link to academic CV (updated 12/01/2026)](https://uccollab.github.io/assets/pdf/CV.pdf)
 
 Computer scientist with 8+ years of experience in NLP & AI research. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I focus on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience in the human evaluation of AI.
 
