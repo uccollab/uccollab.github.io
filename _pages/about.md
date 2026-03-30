@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-{% assign start_year = 2020 %}
+{% assign start_year = 2017 %}
 {% assign current_year = 'now' | date: '%Y' | plus: 0 %}
 {% assign years_experience = current_year | minus: start_year %}
 
