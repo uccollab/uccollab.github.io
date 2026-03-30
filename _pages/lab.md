@@ -27,7 +27,7 @@ Our interests include:
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/doan.jpg"
+        path="assets/img/people/placeholder.png"
         class="img-fluid rounded z-depth-1"
         alt="Doan"
       %}
@@ -46,7 +46,7 @@ Our interests include:
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/anna.jpg"
+        path="assets/img/people/placeholder.png"
         class="img-fluid rounded z-depth-1"
         alt="Anna"
       %}
@@ -65,7 +65,7 @@ Our interests include:
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/ruilong.jpg"
+        path="assets/img/people/placeholder.png"
         class="img-fluid rounded z-depth-1"
         alt="Ruilong"
       %}

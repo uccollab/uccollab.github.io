@@ -41,10 +41,9 @@ TODO - bio
 
 ---
 
-## Selected Publications
+## Publications
 
-### Option A: manual list
-- **Paper Title 1** — Conference/Journal, Year. [PDF](#) [Code](#)
-- **Paper Title 2** — Conference/Journal, Year. [PDF](#) [Project Page](#)
+- **Paper Title 1** — Conference/Journal, Year. [PDF](#), [Project Page](#), [Code](#)
+- **Paper Title 2** — Conference/Journal, Year. [PDF](#), [Project Page](#), [Code](#)
 
 ---
