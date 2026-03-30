@@ -66,7 +66,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-honoured-to-announce-that-from-today-i-started-working-at-tu-darmstadt-as-a-junior-lab-leader-of-the-nlp-for-expert-domains-expnlp-group-i-m-currently-looking-for-phd-students-so-feel-free-to-hit-me-up",
           title: 'I’m honoured to announce that, from today, I started working at TU Darmstadt...',
           description: "",
-          section: "News",},{id: "news-our-papers-do-my-eyes-deceive-me-a-survey-of-human-evaluations-of-hallucinations-in-nlg-when-llms-can-t-help-real-world-evaluation-of-llms-in-nutrition-and-were-accepted-at-inlg-2025",
+          section: "News",},{id: "news-our-papers-do-my-eyes-deceive-me-a-survey-of-human-evaluations-of-hallucinations-in-nlg-and-when-llms-can-t-help-real-world-evaluation-of-llms-in-nutrition-were-accepted-at-inlg-2025",
           title: 'Our papers “Do My Eyes Deceive Me? A Survey of Human Evaluations of...',
           description: "",
           section: "News",},{id: "news-our-paper-arqa-a-benchmark-for-grounded-table-text-qa-in-enterprise-annual-reports-was-accepted-at-eacl-2026",
