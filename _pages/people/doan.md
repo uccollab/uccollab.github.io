@@ -9,7 +9,7 @@ nav: false
 <div class="row">
   <div class="col-sm-4">
     {% include figure.liquid
-      path="assets/img/people/student1.jpg"
+      path="assets/img/people/placeholder.png"
       class="img-fluid rounded z-depth-1"
       alt="Student One"
     %}
