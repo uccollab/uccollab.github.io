@@ -1,13 +1,11 @@
 ---
 layout: page
-title: ExpNLP
+title: Natural Language Processing for Expert Domains (ExpNLP)
 permalink: /lab/
 nav: true
 nav_order: 4
-description: Research, people, and projects
+description:
 ---
-
-# Natural Language Processing for Expert Domains (ExpNLP)
 
 At ExpNLP, we work on **Natural Language Processing** applied to expert domains, with a focus on the real-world impact of AI.
 
@@ -35,11 +33,10 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student1/' | relative_url }}">Student One</a></h4>
-      <p><strong>Topics:</strong> Controllable text generation, evaluation, alignment</p>
+      <h4><a href="{{ '/people/student1/' | relative_url }}">Doan Nam Long Vu</a></h4>
+      <p><strong>Topics:</strong> Multimodal AI for mental health </p>
       <p>
-        Short bio for the student. One or two sentences are enough here.
-        This should explain their research direction and role in the lab.
+        TODO - bio
       </p>
     </div>
   </div>
@@ -55,11 +52,10 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student2/' | relative_url }}">Student Two</a></h4>
-      <p><strong>Topics:</strong> Multilingual NLP, low-resource learning, fairness</p>
+      <h4><a href="{{ '/people/student2/' | relative_url }}">Anna Mokhova</a></h4>
+      <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
       <p>
-        Short bio for the student. Add a brief description of their main focus,
-        methods, or application area.
+        TODO - bio
       </p>
     </div>
   </div>
@@ -75,10 +71,10 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student3/' | relative_url }}">Student Three</a></h4>
-      <p><strong>Topics:</strong> Human-AI collaboration, explainability, LLM interfaces</p>
+      <h4><a href="{{ '/people/student3/' | relative_url }}">Ruilong Wang</a></h4>
+      <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
-        Short bio for the student. Keep the structure consistent across all profiles.
+        TODO - bio
       </p>
     </div>
   </div>
