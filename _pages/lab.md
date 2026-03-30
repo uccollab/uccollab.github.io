@@ -84,13 +84,18 @@ Our interests include:
 
 ---
 
-## Recent Student Thesis
+## Student Thesis
 
+### Finished
 - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao
+
+### Ongoing
+
 - **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman
 - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
 - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
 - **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous
+
 ---
 
 ## Openings / Collaboration
