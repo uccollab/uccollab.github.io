@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Natural Language Processing for Expert Domains (ExpNLP)
+title: ExpNLP
 permalink: /lab/
 nav: true
 nav_order: 4
 description:
 ---
+
+## Natural Language Processing For Expert Domains (ExpNLP)
 
 At ExpNLP, we work on **Natural Language Processing** applied to expert domains, with a focus on the real-world impact of AI.
 
@@ -33,7 +35,7 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student1/' | relative_url }}">Doan Nam Long Vu</a></h4>
+      <h4><a href="{{ '/people/doan/' | relative_url }}">Doan Nam Long Vu</a></h4>
       <p><strong>Topics:</strong> Multimodal AI for mental health </p>
       <p>
         TODO - bio
@@ -52,7 +54,7 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student2/' | relative_url }}">Anna Mokhova</a></h4>
+      <h4><a href="{{ '/people/anna/' | relative_url }}">Anna Mokhova</a></h4>
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
       <p>
         TODO - bio
@@ -71,7 +73,7 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/student3/' | relative_url }}">Ruilong Wang</a></h4>
+      <h4><a href="{{ '/people/ruilong/' | relative_url }}">Ruilong Wang</a></h4>
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
         TODO - bio
