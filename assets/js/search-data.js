@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-natural-language-processing-for-expert-domains-expnlp",
-          title: "Natural Language Processing for Expert Domains (ExpNLP)",
+        },{id: "nav-expnlp",
+          title: "ExpNLP",
           description: "",
           section: "Navigation",
           handler: () => {
