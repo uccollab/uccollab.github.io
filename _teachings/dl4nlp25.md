@@ -81,3 +81,6 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 - Basic knowledge of linear algebra and calculus
 - Programming experience in Python
 - Probability and statistics fundamentals
+
+## Lectures recordings
+Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH)
