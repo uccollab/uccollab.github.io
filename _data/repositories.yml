@@ -1,9 +1,14 @@
 github_users:
-  - uccollab
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
 
 github_repos:
-  - uccollab/AnnoMI
-  - uccollab/expert_laypeople_reflection_annotation
-  - vsrana-ai/Augmenting-AnnoMI
-  - uccollab/hai-coaching
-  - leak-llm/leak-llm.github.io
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
