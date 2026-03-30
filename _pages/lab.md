@@ -4,6 +4,7 @@ title: ExpNLP
 permalink: /lab/
 nav: true
 nav_order: 4
+show_title: false
 description:
 ---
 
