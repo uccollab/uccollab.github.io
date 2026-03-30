@@ -347,6 +347,10 @@ imagemagick:
   output_formats:
     webp: "-resize 800x"
 
+third_party_libraries:
+  download: false
+  assets:
+
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
