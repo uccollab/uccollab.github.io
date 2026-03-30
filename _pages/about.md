@@ -24,12 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 {% assign start_year = 2017 %}
 {% assign current_year = 'now' | date: '%Y' | plus: 0 %}
 {% assign years_experience = current_year | minus: start_year %}
-
-{% bibliography --query @* %}
 
 <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a><br>
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
