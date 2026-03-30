@@ -30,7 +30,6 @@ latest_posts:
 {% assign years_experience = current_year | minus: start_year %}
 
 {% bibliography --query @* %}
-{% assign pubs = site.bibliography %}
 
 <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a><br>
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
@@ -38,7 +37,7 @@ Darmstadt (DE) <br>
 
 [Link to academic CV (updated 12/01/2026)](https://uccollab.github.io/assets/pdf/CV.pdf)
 
-Computer scientist with {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience in NLP & AI research, with {{ pubs | size }} peer-reviewed publications. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I focus on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience in the human evaluation of AI. 
+Computer scientist with {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience in NLP & AI research, with {{ site.bibliography | size }} peer-reviewed publications. I was involved in several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. I focus on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience in the human evaluation of AI. 
 
 Since Oct 2024, I lead the "NLP for expert domains" (ExpNLP) research lab at TU Darmstadt, focused on the cooperation between AI agents and domain experts. My current research involves efficient RAG systems for corporate knowledge basis, Multimodal NLP applied to mental health, and modelling expert preferences in LLMs.
 
