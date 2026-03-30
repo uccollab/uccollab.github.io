@@ -16,8 +16,6 @@ Our interests include:
 - Reliable integration of multimodal data in AI to help domain experts in their work.
 - Expert-AI interaction and collaboration.
 
-At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to contact Dr. Simone Balloccu. If possible include a grade transcript, an initial topic (or at least proposals), and a CV.
-
 ---
 
 ## People
@@ -29,9 +27,9 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/student1.jpg"
+        path="assets/img/people/doan.jpg"
         class="img-fluid rounded z-depth-1"
-        alt="Student 1"
+        alt="Doan"
       %}
     </div>
     <div class="col-sm-9">
@@ -48,9 +46,9 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/student2.jpg"
+        path="assets/img/people/anna.jpg"
         class="img-fluid rounded z-depth-1"
-        alt="Student 2"
+        alt="Anna"
       %}
     </div>
     <div class="col-sm-9">
@@ -67,9 +65,9 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/student3.jpg"
+        path="assets/img/people/ruilong.jpg"
         class="img-fluid rounded z-depth-1"
-        alt="Student 3"
+        alt="Ruilong"
       %}
     </div>
     <div class="col-sm-9">
@@ -85,27 +83,17 @@ At the moment, we welcome application from B.Sc. and M.Sc. thesis students who w
 
 ---
 
-## Research Themes
+## Recent Student Thesis
 
-### Theme 1
-A short paragraph describing one major research direction in the lab.
-
-### Theme 2
-A short paragraph describing another major research direction.
-
-### Theme 3
-A short paragraph describing a third research direction.
-
----
-
-## Recent Student Projects
-
-- **Project title 1** — short description, student name, optional link
-- **Project title 2** — short description, student name, optional link
-- **Project title 3** — short description, student name, optional link
-
+- **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao
+- **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman
+- **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
+- **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
+- **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous
 ---
 
 ## Openings / Collaboration
 
-If you are interested in working with us, feel free to get in touch by email. You can also describe here whether you are open to internships, theses, visiting students, or collaborations.
+If you are interested in working with us, feel free to get in touch by email.
+
+At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to contact Dr. Simone Balloccu. If possible include a grade transcript, an initial topic (or at least proposals), and a CV.
