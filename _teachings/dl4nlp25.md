@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Deep Learning For Natural Language Processing
-description: Complete crash-course on Deep Learning applied to text. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.
+description: Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.
 year: 2025
 term: Summer Semester
 
@@ -73,7 +73,7 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 
 - Key machine learning paradigms and concepts
 - Both basic and advanced machine learning algorithms/models applied to NLP
-- Evaluation, optimisation, and comparison model performance
+- Evaluation, optimisation, and comparison of NLP models
 - Applying NLP models and techniques to real-world problems
 
 ## Prerequisites
