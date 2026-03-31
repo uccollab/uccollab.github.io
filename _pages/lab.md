@@ -10,12 +10,14 @@ description:
 
 ## Natural Language Processing For Expert Domains (ExpNLP)
 
-At ExpNLP, we work on **Natural Language Processing** applied to expert domains, with a focus on the real-world impact of AI.
+At ExpNLP, we work on AI (and NLP specifically) for expert domains. That means, we focus on the real-world impact of AI. We ask ourselves "How can language technologies support experts' work in complex, high-stakes settings"? This requires us to measure performance not only by benchmark scores, but also by reliability, transparency, and practical value. We highly value qualitative insights, explanations beyond pure scores, and human evaluation.
 
-Our interests include:
-- Evaluation of Large Language Models in expert domains including software engineering, healthcare, and industry dynamics.
-- Reliable integration of multimodal data in AI to help domain experts in their work.
-- Expert-AI interaction and collaboration.
+Our research interests include: 
+
+- Evaluating AI in expert domains: in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
+- Integrating multimodal data in Expert AI: experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
+- Expert–AI interaction and collaboration: we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
+
 
 ---
 
@@ -86,7 +88,7 @@ Our interests include:
 
 ## Student Thesis
 
-### Finished
+### Concluded
 - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao, supervised by Dr. Simone Balloccu
 
 ### Ongoing
