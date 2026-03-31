@@ -14,9 +14,9 @@ At ExpNLP, we work on AI (and NLP specifically) for expert domains. That means, 
 
 Our research interests include: 
 
-- Evaluating AI in expert domains: in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
-- Integrating multimodal data in Expert AI: experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
-- Expert–AI interaction and collaboration: we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
+- **Evaluating AI in expert domains:** in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
+- **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
+- **Expert–AI interaction and collaboration:** we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
 
 
 ---
