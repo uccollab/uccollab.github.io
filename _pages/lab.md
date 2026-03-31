@@ -104,6 +104,6 @@ Our research interests include:
 
 If you are interested in working with us, feel free to get in touch!
 
-At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. If possible include a grade transcript, an initial topic (or at least proposals), and a CV. <a href="mailto:anna.mokhova@tu-darmstadt.de">contact Dr. Simone Balloccu</a>
+At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. If possible include a grade transcript, an initial topic (or at least proposals), and a CV. <a href="mailto:anna.mokhova@tu-darmstadt.de">contact Dr. Simone Balloccu</a> aaa
 
 Application for internships are currently considered only if the candidate is self-funded (or virtual). Candidates are welcome to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with topic proposals. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
