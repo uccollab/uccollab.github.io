@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ExpNLP
-permalink: /lab/
+permalink: /expnlp/
 nav: true
 nav_order: 4
 show_title: false
@@ -87,14 +87,14 @@ Our interests include:
 ## Student Thesis
 
 ### Finished
-- **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao
+- **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao, supervised by Dr. Simone Balloccu
 
 ### Ongoing
 
-- **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman
-- **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
-- **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
-- **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous
+- **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman,  supervised by Ruilong Wang
+- **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu,  supervised by Ruilong Wang
+- **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel,  supervised by Doan Nam Long Vu
+- **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous,  supervised by Doan Nam Long Vu
 
 ---
 
