@@ -100,6 +100,8 @@ Our interests include:
 
 ## Openings / Collaboration
 
-If you are interested in working with us, feel free to get in touch by email.
+If you are interested in working with us, feel free to get in touch!
 
 At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to contact Dr. Simone Balloccu. If possible include a grade transcript, an initial topic (or at least proposals), and a CV.
+
+Application for internships are currently considered only if the candidate is self-funded (or virtual). Candidates are welcome to contact Dr. Simone Balloccu with topic proposals. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
