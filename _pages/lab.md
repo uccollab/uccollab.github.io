@@ -34,7 +34,7 @@ Our interests include:
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/doan/' | relative_url }}">Doan Nam Long Vu</a></h4>
+      <h4><a href="{{ '/people/doannamlongvu/' | relative_url }}">Doan Nam Long Vu</a></h4>
       <p><strong>Topics:</strong> Multimodal AI for mental health </p>
       <p>
         TODO - bio
@@ -53,7 +53,7 @@ Our interests include:
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/anna/' | relative_url }}">Anna Mokhova</a></h4>
+      <h4><a href="{{ '/people/annamokhova/' | relative_url }}">Anna Mokhova</a></h4>
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
       <p>
         TODO - bio
@@ -72,7 +72,7 @@ Our interests include:
       %}
     </div>
     <div class="col-sm-9">
-      <h4><a href="{{ '/people/ruilong/' | relative_url }}">Ruilong Wang</a></h4>
+      <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
         TODO - bio
