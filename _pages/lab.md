@@ -49,7 +49,7 @@ Our research interests include:
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/ruilongwang.png"
+        path="assets/img/people/annamokhova.png"
         class="img-fluid rounded z-depth-1"
         alt="Anna"
       %}
@@ -68,7 +68,7 @@ Our research interests include:
   <div class="row">
     <div class="col-sm-3">
       {% include figure.liquid
-        path="assets/img/people/annamokhova.png"
+        path="assets/img/people/ruilongwang.png"
         class="img-fluid rounded z-depth-1"
         alt="Ruilong"
       %}
