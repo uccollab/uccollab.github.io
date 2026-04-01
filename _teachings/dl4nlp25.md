@@ -11,7 +11,7 @@ schedule:
   - week: 1
     date: Apr 22
     topic: NLP tasks and evaluation
-#    description: Overview of machine learning, course structure, and expectations.
+    description: Overview of machine learning, course structure, and expectations.
 #    materials:
 #     - name: Syllabus
 #        url: /assets/pdf/example_pdf.pdf
