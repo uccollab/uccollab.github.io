@@ -70,7 +70,7 @@ schedule:
   - week: 13
     date: Jul 22
     topic: Guest lecture (Mechanistic interpretability, Privacy and Security in LLMs, Culture-aware LLMs)
-    description: 
+    description: |
       - Do Language Models Dream of Electric Clocks? (Federico Tiblias, UKP lab)
       - Privacy and Security in Large Language Models (Anmol Goel, UKP Lab)
       - Global Voices, Responsible Models; Cultural Evaluation and Adaptation in LLMs (Cecilia Liu, UKP lab)
