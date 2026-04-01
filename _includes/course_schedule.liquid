@@ -14,6 +14,16 @@ Instructor: {{ course.instructor }}
 Term: {{ course.term }}
 {% endif %}
 
+{% assign show_materials = false %}
+{% if course.schedule %}
+  {% for entry in course.schedule %}
+    {% if entry.materials and entry.materials.size > 0 %}
+      {% assign show_materials = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 {% if course.schedule %}
 <table class="table table-sm table-borderless">
   <thead>
@@ -21,6 +31,9 @@ Term: {{ course.term }}
       <th>Week</th>
       <th>Date</th>
       <th>Topic</th>
+      {% if show_materials %}
+      <th>Materials</th>
+      {% endif %}
     </tr>
   </thead>
   <tbody>
@@ -36,6 +49,23 @@ Term: {{ course.term }}
           <div>{{ entry.description | markdownify }}</div>
         {% endif %}
       </td>
+      {% if show_materials %}
+      <td>
+        {% if entry.materials and entry.materials.size > 0 %}
+          <ul class="list-unstyled mb-0">
+            {% for material in entry.materials %}
+            <li>
+              {% if material.url %}
+                <a href="{{ material.url | relative_url }}">{{ material.name }}</a>
+              {% else %}
+                {{ material.name }}
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </td>
+      {% endif %}
     </tr>
     {% endfor %}
   </tbody>
