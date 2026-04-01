@@ -190,4 +190,4 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 
 ## Material
 - Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH).
-- Other material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1564).
+- Other material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1788).
