@@ -20,8 +20,8 @@ nav: false
     <p><strong>Topics:</strong> Expert-AI collaboration in coding </p>
     <p><strong>Email:</strong> <a href="mailto:anna.mokhova@tu-darmstadt.de">anna.mokhova@tu-darmstadt.de</a></p>
     <p><strong>Links:</strong>
-      <a href="TODO" target="_blank">Scholar</a> /
-      <a href="TODO" target="_blank">GitHub</a> /
+      <a href="https://scholar.google.de/citations?user=yTI0Lo8AAAAJ&hl=en" target="_blank">Scholar</a> /
+      <a href="https://github.com/nnmkhv" target="_blank">GitHub</a> /
       <a href="https://www.linkedin.com/in/anna-mokhova-9bb233b4/" target="_blank">LinkedIn</a>
     </p>
   </div>
