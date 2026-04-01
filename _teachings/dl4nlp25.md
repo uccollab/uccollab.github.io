@@ -12,153 +12,153 @@ schedule:
     date: Apr 22
     topic: NLP tasks and evaluation
     description: |
-    - Course Logistics
-    - Definition of text classification and generation task
-    - Evaluation
+      - Course Logistics
+      - Definition of text classification and generation task
+      - Evaluation
 
   - week: 2
     date: Apr 29
     topic: Mathematical foundations of deep learning
     description: |
-    - Function minimization
-    - Efficient computation of gradients
-    - Stochastic Gradient Descent (SGD)
+      - Function minimization
+      - Efficient computation of gradients
+      - Stochastic Gradient Descent (SGD)
 
   - week: 3
     date: May 6
     topic: Log-linear models
     description: |
-    - Ambiguity of human language
-    - Fundamentals of vectors and linear functions
-    - Binary classification
-    - Tokenization
-    - Bag-Of-Words (BoW) and Byte-Pair-Econding (BPE)
-    - Nonlinear mapping and sigmoid function
-    - Log-linear model (Logistic Regression)
+      - Ambiguity of human language
+      - Fundamentals of vectors and linear functions
+      - Binary classification
+      - Tokenization
+      - Bag-Of-Words (BoW) and Byte-Pair-Econding (BPE)
+      - Nonlinear mapping and sigmoid function
+      - Log-linear model (Logistic Regression)
 
   - week: 4
     date: May 13
     topic: Deep Neural Networks
     description: |
-    - Loss functions and Binary Cross-Entropy
-    - Online and Minibatch SGD
-    Multi-class classification
-    - Continuous Bag-Of-Words (CBOW)
-    - Softmax and Temperature
-    - Categorical Cross-Entropy Loss
-    - Linearity and non-linearity in neural networks
-    - ReLU
+      - Loss functions and Binary Cross-Entropy
+      - Online and Minibatch SGD
+      Multi-class classification
+      - Continuous Bag-Of-Words (CBOW)
+      - Softmax and Temperature
+      - Categorical Cross-Entropy Loss
+      - Linearity and non-linearity in neural networks
+      - ReLU
 
   - week: 5
     date: May 20
     topic: Language models and word embeddings
     description: |
-    - Fundamentals of probability
-    - Classic Language Model
-    - Markov chain property for word probability
-    - Maximum Likelihood Estimation
-    - Perplexity
-    - Neural language models
-    - Word vector lookup
-    - Basic text generation with neural LM
-    - Greedy decoding and sampling
+      - Fundamentals of probability
+      - Classic Language Model
+      - Markov chain property for word probability
+      - Maximum Likelihood Estimation
+      - Perplexity
+      - Neural language models
+      - Word vector lookup
+      - Basic text generation with neural LM
+      - Greedy decoding and sampling
 
   - week: 6
     date: May 27
     topic: Learning Word Embeddings
     description: |
-    - Dot product among vectors and cosine similarity
-    - Distributional Hypothesis
-    - Negative sampling
-    - Word2Vec (CBOW and Skip-gram variants)
-    - FastText
-    - Limits of cosine similarity
+      - Dot product among vectors and cosine similarity
+      - Distributional Hypothesis
+      - Negative sampling
+      - Word2Vec (CBOW and Skip-gram variants)
+      - FastText
+      - Limits of cosine similarity
 
   - week: 7
     date: Jun 3
     topic: Recurrent neural networks (RNNs)
     description: |
-    - RNN abstraction
-    - States and outputs
-    - Acceptor and encoder RNNs
-    - Bidirectional RNN
-    - Simple RNN (Elmann network)
-    - Vanishing/exploding gradient
-    - Gates (hard and soft)
-    - LSTMs (input, keep, and forget gates; solving the vanishing gradient)
+      - RNN abstraction
+      - States and outputs
+      - Acceptor and encoder RNNs
+      - Bidirectional RNN
+      - Simple RNN (Elmann network)
+      - Vanishing/exploding gradient
+      - Gates (hard and soft)
+      - LSTMs (input, keep, and forget gates; solving the vanishing gradient)
 
   - week: 8
     date: Jun 10
     topic: Autoregressive encoder-decoder with RNNs and attention
     description: |
-    - NLP "sequence" tasks (classification, labeling, generation)
-    - The issue of variable length generation
-    - PAD and EOS tokens as "dirty" solutions
-    - Encoder-Decoder architecture
-    - Teacher forcing
-    - Fundamentals of attention (formalization; explainability; generalization, calculation)
-    - Cross vs self attention
+      - NLP "sequence" tasks (classification, labeling, generation)
+      - The issue of variable length generation
+      - PAD and EOS tokens as "dirty" solutions
+      - Encoder-Decoder architecture
+      - Teacher forcing
+      - Fundamentals of attention (formalization; explainability; generalization, calculation)
+      - Cross vs self attention
 
   - week: 9
     date: Jun 24
     topic: Transformers, Self-attention and BERT (double lecture)
     description: |
-    - Motivation for the Transformer architecture
-    - Contextualized text representations
-    - The encoder block
-    - Scaled dot-product
-    - Multi-head attention
-    - Parallelizing MHA
-    - Residual connection
-    - Positional embeddings
-    - Encoder vs Decoder block
-    - Transfer learning
-    - BERT
-    - Pretraining objectives of BERT (MLM, NSP)
-    - On LM development in academia vs industry
-    - Model complexity and explainability
-    - Finetuning
-    - Decoder heads in BERT
-    - Finetuning tasks
-    - Pretraining variants
-    - Pretrained LMs architectures
+      - Motivation for the Transformer architecture
+      - Contextualized text representations
+      - The encoder block
+      - Scaled dot-product
+      - Multi-head attention
+      - Parallelizing MHA
+      - Residual connection
+      - Positional embeddings
+      - Encoder vs Decoder block
+      - Transfer learning
+      - BERT
+      - Pretraining objectives of BERT (MLM, NSP)
+      - On LM development in academia vs industry
+      - Model complexity and explainability
+      - Finetuning
+      - Decoder heads in BERT
+      - Finetuning tasks
+      - Pretraining variants
+      - Pretrained LMs architectures
 
   - week: 10
     date: Jul 1
     topic: Decoder-only Models and GPT
     description: |
-    - Types of Transformers (encoder-decoder, encoder-only, decoder-only)
-    - Attention masks
-    - Full, prefix and masked language modelling
-    - Autoregressive decoder-only transformers (GPT-2)
-    - Zero-shot, one-shot, and few-shot learning
-    - In-context-learning
-    - Zero-shot, one-shot and few-shot prompting
-    - Hallucinations
-    - Brief intro on reasoning and LLMs
-    - Data contamination
-    - Continuous prompts
+      - Types of Transformers (encoder-decoder, encoder-only, decoder-only)
+      - Attention masks
+      - Full, prefix and masked language modelling
+      - Autoregressive decoder-only transformers (GPT-2)
+      - Zero-shot, one-shot, and few-shot learning
+      - In-context-learning
+      - Zero-shot, one-shot and few-shot prompting
+      - Hallucinations
+      - Brief intro on reasoning and LLMs
+      - Data contamination
+      - Continuous prompts
 
   - week: 11
     date: Jul 8
     topic: Contemporary LLMs and Explainability
     description: |
-    - Instruction tuning
-    - RLHF
-    - Toolformer
-    - Motivations for Explainable AI
-    - Elements of Explainable AI
-    - Local VS global explanations
-    - Ante-hoc and post-hoc explanations
-    - Saliency VS Textual explanations
-    - Evaluating explanations
-    - Cognitive biases in humans
-    - Wrong agreement
-    - Likeability-Effectiveness tradeoff
-    - Fairwashing
-    - Manipulation
-    - bouncer problem
-    - Antropomorphization of AI
+      - Instruction tuning
+      - RLHF
+      - Toolformer
+      - Motivations for Explainable AI
+      - Elements of Explainable AI
+      - Local VS global explanations
+      - Ante-hoc and post-hoc explanations
+      - Saliency VS Textual explanations
+      - Evaluating explanations
+      - Cognitive biases in humans
+      - Wrong agreement
+      - Likeability-Effectiveness tradeoff
+      - Fairwashing
+      - Manipulation
+      - bouncer problem
+      - Antropomorphization of AI
 
   - week: 12
     date: Jul 15
