@@ -113,9 +113,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-deep-learning-for-natural-language-processing",
-          title: 'Deep Learning For Natural Language Processing',
-          description: "Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.",
+            },},{id: "teachings-",
+          title: '',
+          description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/dl4nlp25/";
             },},{
