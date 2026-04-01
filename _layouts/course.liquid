@@ -24,6 +24,16 @@ layout: page
 
   {{ content }}
 
+  {% assign show_materials = false %}
+  {% if page.schedule %}
+    {% for entry in page.schedule %}
+      {% if entry.materials and entry.materials.size > 0 %}
+        {% assign show_materials = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   {% if page.schedule %}
     <h2>Schedule</h2>
     <table class="table table-sm table-responsive">
@@ -32,7 +42,9 @@ layout: page
           <th>Week</th>
           <th>Date</th>
           <th>Topic</th>
-          <th>Materials</th>
+          {% if show_materials %}
+            <th>Materials</th>
+          {% endif %}
         </tr>
       </thead>
       <tbody>
@@ -48,25 +60,27 @@ layout: page
                 <div class="schedule-description">{{ entry.description | markdownify }}</div>
               {% endif %}
             </td>
-            <td>
-              {% if entry.materials %}
-                <ul class="schedule-materials">
-                  {% for material in entry.materials %}
-                    <li>
-                      {% if material.url %}
-                        {% if material.url contains '://' %}
-                          <a href="{{ material.url }}" target="_blank">{{ material.name }}</a>
+            {% if show_materials %}
+              <td>
+                {% if entry.materials %}
+                  <ul class="schedule-materials">
+                    {% for material in entry.materials %}
+                      <li>
+                        {% if material.url %}
+                          {% if material.url contains '://' %}
+                            <a href="{{ material.url }}" target="_blank">{{ material.name }}</a>
+                          {% else %}
+                            <a href="{{ material.url | relative_url }}" target="_blank">{{ material.name }}</a>
+                          {% endif %}
                         {% else %}
-                          <a href="{{ material.url | relative_url }}" target="_blank">{{ material.name }}</a>
+                          {{ material.name }}
                         {% endif %}
-                      {% else %}
-                        {{ material.name }}
-                      {% endif %}
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </td>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </td>
+            {% endif %}
           </tr>
         {% endfor %}
       </tbody>
