@@ -188,5 +188,6 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 - Programming experience in Python
 - Probability and statistics fundamentals
 
-## Lectures recordings
-Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH)
+## Material
+- Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH).
+- Other material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1564).
