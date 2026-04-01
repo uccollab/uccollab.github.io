@@ -89,14 +89,16 @@ Our research interests include:
 ## Student Thesis
 
 ### Concluded
-- **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao, supervised by Dr. Simone Balloccu
+- Supervised by Dr. Simone Balloccu
+  - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao
 
 ### Ongoing
-
-- **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman,  supervised by Ruilong Wang
-- **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu,  supervised by Ruilong Wang
-- **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel,  supervised by Doan Nam Long Vu
-- **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous,  supervised by Doan Nam Long Vu
+- Co-supervised by Ruilong Wang
+  - **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman
+  - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
+- Co-supervised by Doan Nam Long Vu
+  - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
+  - **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous 
 
 ---
 
