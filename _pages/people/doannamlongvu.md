@@ -43,12 +43,7 @@ TODO
 
 ## Publications
 
-
-## Pre-prints
-
-- **Roleplaying with Structure: Synthetic Therapist-Client Conversation Generation from Questionnaires** (https://arxiv.org/pdf/2510.25384), [Code](https://github.com/AI-MH/questionnaire2dialogue)
-- **The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal
-Gains in Clinical VLM Evaluation** (https://arxiv.org/pdf/2603.28387), [Code](https://github.com/long21wt/scaffold-effect)
+{% bibliography --file doannamlongvu %}
 -
 
 ---
