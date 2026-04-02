@@ -1,10 +1,13 @@
 ---
 ---
 
-@article{vu2026scaffold,
-  title={The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation},
-  author={Doan Nam Long Vu, Simone Balloccu},
-  journal={arXiv preprint arXiv:2603.28387},
-  year={2026},
-  doi = "https://doi.org/10.48550/arXiv.2603.28387",
-  abstract = "Trustworthy clinical AI requires that performance gains reflect genuine evidence integration rather than surface-level artifacts. We evaluate 12 open-weight vision-language models (VLMs) on binary classification across two clinical neuroimaging cohorts, \textsc{FOR2107} (affective disorders) and \textsc{OASIS-3} (cognitive decline). Both datasets come with structural MRI data that carries no reliable individual-level diagnostic signal. Under these conditions, smaller VLMs exhibit gains of up to 58\% F1 upon introduction of neuroimaging context, with distilled models becoming competitive with counterparts an order of magnitude larger. A contrastive confidence analysis reveals that merely \emph{mentioning} MRI availability in the task prompt accounts for 70-80\% of this shift, independent of whether imaging data is present, a domain-specific instance of modality collapse we term the \emph{scaffold effect}. Expert evaluation reveals fabrication of neuroimaging-grounded justifications across all conditions, and preference alignment, while eliminating MRI-referencing behavior, collapses both conditions toward random baseline. Our findings demonstrate that surface evaluations are inadequate indicators of multimodal reasoning, with direct implications for the deployment of VLMs in clinical settings.",}
+@inproceedings{vu2026scaffold,
+    title = "The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation",
+    author = "Doan Nam Long Vu  and Simone Balloccu",
+    author = {Vu, Doan Nam Long and Balloccu, Simone},
+    month = mar,
+    year = "2026",
+    url = "https://arxiv.org/abs/2603.28387",
+    doi = "10.48550/arXiv.2603.28387",
+    abstract = "Trustworthy clinical AI requires that performance gains reflect genuine evidence integration rather than surface-level artifacts. We evaluate 12 open-weight vision-language models (VLMs) on binary classification across two clinical neuroimaging cohorts, \textsc{FOR2107} (affective disorders) and \textsc{OASIS-3} (cognitive decline). Both datasets come with structural MRI data that carries no reliable individual-level diagnostic signal. Under these conditions, smaller VLMs exhibit gains of up to 58\% F1 upon introduction of neuroimaging context, with distilled models becoming competitive with counterparts an order of magnitude larger. A contrastive confidence analysis reveals that merely \emph{mentioning} MRI availability in the task prompt accounts for 70-80\% of this shift, independent of whether imaging data is present, a domain-specific instance of modality collapse we term the \emph{scaffold effect}. Expert evaluation reveals fabrication of neuroimaging-grounded justifications across all conditions, and preference alignment, while eliminating MRI-referencing behavior, collapses both conditions toward random baseline. Our findings demonstrate that surface evaluations are inadequate indicators of multimodal reasoning, with direct implications for the deployment of VLMs in clinical settings."
+}
