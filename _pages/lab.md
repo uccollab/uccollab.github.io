@@ -77,7 +77,9 @@ Our research interests include:
       <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
-        TODO - bio
+        I am a PhD student working on NLP, LLMs, and knowledge-intensive AI for industrial applications. In collaboration with Volkswagen, I focus on developing AI systems that support production planning and engineering decision-making.
+
+        My research investigates how expert knowledge from technical documents, standards, historical project data, and human experience can be incorporated into AI systems to make them more reliable, explainable, and effective in real-world industrial settings. In particular, I explore how LLMs can be combined with structured knowledge representations to build AI assistants that reason over domain knowledge and support experts in complex decision processes. My work also includes attribution-aware question answering, especially methods that improve the grounding and evidential support of LLM-generated responses.
       </p>
     </div>
   </div>
