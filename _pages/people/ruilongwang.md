@@ -18,10 +18,10 @@ nav: false
   <div class="col-sm-8">
     <p><strong>Position:</strong> PhD Student</p>
     <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications </p>
-    <p><strong>Email:</strong> <a href="mailto:TODO">TODO</a></p>
+    <p><strong>Email:</strong> <a href="mailto:ruilong.wang@volkswagen.de">ruilong.wang@volkswagen.de</a></p>
     <p><strong>Links:</strong>
-      <a href="TODO" target="_blank">Scholar</a> /
-      <a href="TODO" target="https://github.com/RuilongWang?tab=repositories">GitHub</a> /
+      <a href="https://scholar.google.com/citations?&authuser=1&user=vsOk7Q4AAAAJ" target="_blank">Scholar</a> /
+      <a href="https://github.com/RuilongWang?tab=repositories" target="_blank">GitHub</a> /
       <a href="https://www.linkedin.com/in/ruilongwang93/" target="_blank">LinkedIn</a>
     </p>
   </div>
