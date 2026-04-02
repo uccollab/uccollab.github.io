@@ -39,10 +39,10 @@ TODO
 
 - TODO
 
----
+<div class="publications">
 
 ## Publications
 
+{% bibliography --file annamokhova %}
 
-
----
+</div>

@@ -46,10 +46,10 @@ My research investigates how expert knowledge from technical documents, standard
 - Expert knowledge modeling
 - Grounded, evidence-based Question Answering.
 
----
+<div class="publications">
 
 ## Publications
 
-- **ARQA: A Benchmark for Grounded Table–Text QA in Enterprise Annual Reports** — EACL, 2026. [PDF](https://aclanthology.org/2026.eacl-industry.63.pdf), [Code](https://github.com/RuilongWang/ARQA-Benchmark/)
+{% bibliography --file ruilongwang %}
 
----
+</div>
