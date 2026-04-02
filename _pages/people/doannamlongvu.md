@@ -41,8 +41,11 @@ TODO
 
 ---
 
-## Publications
+<div class="publications">
+
 
 {% bibliography --file doannamlongvu %}
+
+</div>
 
 ---
