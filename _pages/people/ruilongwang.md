@@ -46,9 +46,11 @@ My research investigates how expert knowledge from technical documents, standard
 - Expert knowledge modeling
 - Grounded, evidence-based Question Answering.
 
-<div class="publications">
+---
 
 ## Publications
+
+<div class="publications">
 
 {% bibliography --file ruilongwang %}
 
