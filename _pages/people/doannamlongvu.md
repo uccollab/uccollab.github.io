@@ -31,13 +31,20 @@ nav: false
 
 ## Bio
 
-TODO
+I am a researcher working on NLP, large language models, and clinical AI, with a focus on interpretability and mental health applications. My research investigates how language models encode and respond to clinically relevant content, particularly how the register in which symptoms are described shapes model behavior and assessments. A central question driving my work is whether LLMs, when applied to mental health contexts, are responding to underlying clinical conditions or to the surface-level language used to express them.
+
+Additionally, I am exploring the deployment of state-of-the-art, open-source multimodal AI models in real-world clinical research scenarios. My applied work includes transforming clinical questionnaires into natural dialogues, developing dialogue-aware text-to-speech system, and utilizing automatic speech recognition for niche use cases, such as analyzing interactions between caretakers and children with autism. Furthermore, I am experimenting with video-based models for gaze tracking and behavioral classification in children.
 
 ---
 
 ## Research Interests
 
-- TODO
+- Natural Language Processing
+- Large Language Models
+- Multimodal AI
+- Model Interpretability
+- Clinical AI & Mental Health Applications
+- Text-to-Speech & Automatic Speech Recognition
 
 ---
 
