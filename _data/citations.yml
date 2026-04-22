@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-04-22'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 354
+    citations: 353
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:0EnyYjriUFMC:
@@ -66,7 +66,7 @@ papers:
     title: 'Ask the experts: sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
     year: '2024'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 82
+    citations: 83
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
