@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-22'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 350
+    citations: 353
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:0EnyYjriUFMC:
@@ -26,7 +26,7 @@ papers:
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 46
+    citations: 47
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -66,7 +66,7 @@ papers:
     title: 'Ask the experts: sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
     year: '2024'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 80
+    citations: 83
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
@@ -74,7 +74,7 @@ papers:
     title: Towards in-context non-expert evaluation of reflection generation for counselling conversations
     year: '2022'
   O-eIjBAAAAAJ:Wp0gIr-vW9MC:
-    citations: 39
+    citations: 41
     title: 'Automatic metrics in natural language generation: A survey of current evaluation practices'
     year: '2024'
   O-eIjBAAAAAJ:Y0pCki6q_DkC:
@@ -94,7 +94,7 @@ papers:
     title: Comparing informativeness of an NLG chatbot vs graphical app in diet-information domain
     year: '2022'
   O-eIjBAAAAAJ:hFOr9nPyWt4C:
-    citations: 13
+    citations: 14
     title: 'Llms as span annotators: A comparative study of llms and humans'
     year: '2026'
   O-eIjBAAAAAJ:mB3voiENLucC:
