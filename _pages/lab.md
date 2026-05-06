@@ -60,7 +60,7 @@ Our research interests include:
       <h4><a href="{{ '/people/annamokhova/' | relative_url }}">Anna Mokhova</a></h4>
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
       <p>
-        TODO - bio
+        A key challenge of AI research today is for AI systems reflect the knowledge, judgment, and professional standards of domain experts. The central focus of my PhD is to advance AI systems in order for them to act as a supportive collaborator with the help of human experts insights. This alignment improves trust, reliability, and real-world usefulness, especially in high-stakes areas like software engineering. Besides human-AI scope, being a linguist, I am also interested in more traditional NLP topics such as how to tackle multilinguality or semantic ambiguity. Outside of my research, I enjoy exploring and practicing various forms of art, hiking and visiting new places.
       </p>
     </div>
   </div>

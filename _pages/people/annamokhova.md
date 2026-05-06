@@ -37,7 +37,9 @@ A key challenge of AI research today is for AI systems reflect the knowledge, ju
 
 ## Research Interests
 
-- TODO
+- Expert-AI collaboration
+- Subjective Preferences alignment
+- Human evaluation of AI
 
 ---
 
