@@ -1,11 +1,10 @@
 /* ExpNLP logo theme switching */
 
 .expnlp-logo {
-  max-width: 320px;
-  width: 30%;
-  min-width: 220px;
+  max-width: 260px;
+  width: 25%;
+  min-width: 180px;
 }
-
 .expnlp-logo img {
   width: 100%;
   height: auto;
@@ -23,5 +22,15 @@ body[data-theme="dark"] .expnlp-logo .logo-light {
 
 html[data-theme="dark"] .expnlp-logo .logo-dark,
 body[data-theme="dark"] .expnlp-logo .logo-dark {
+  display: block;
+}
+
+html.dark .expnlp-logo .logo-light,
+body.dark .expnlp-logo .logo-light {
+  display: none;
+}
+
+html.dark .expnlp-logo .logo-dark,
+body.dark .expnlp-logo .logo-dark {
   display: block;
 }
