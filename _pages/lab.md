@@ -9,19 +9,18 @@ description:
 ---
 
 
-<div class="expnlp-logo float-end ms-4 mb-3">
+<div class="expnlp-logo float-end ms-4 mb-3" style="width: clamp(180px, 28vw, 280px);">
   <img
-    class="logo-light img-fluid"
+    class="only-light img-fluid"
     src="{{ '/assets/img/logo-light.png' | relative_url }}"
     alt="ExpNLP"
   >
   <img
-    class="logo-dark img-fluid"
+    class="only-dark img-fluid"
     src="{{ '/assets/img/logo-dark.png' | relative_url }}"
     alt="ExpNLP"
   >
 </div>
-
 
 ## Natural Language Processing For Expert Domains (ExpNLP)
 
