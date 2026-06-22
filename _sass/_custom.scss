@@ -1,0 +1,13 @@
+/* ExpNLP logo theme switching */
+
+.expnlp-logo .logo-dark {
+  display: none;
+}
+
+html[data-theme="dark"] .expnlp-logo .logo-light {
+  display: none;
+}
+
+html[data-theme="dark"] .expnlp-logo .logo-dark {
+  display: block;
+}
