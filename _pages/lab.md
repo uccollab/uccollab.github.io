@@ -36,14 +36,14 @@ Our research interests include:
   <h3>PhD Students</h3>
 
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
       {% include figure.liquid
         path="assets/img/people/doannamlongvu.png"
         class="img-fluid rounded z-depth-1"
         alt="Doan"
       %}
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <h4><a href="{{ '/people/doannamlongvu/' | relative_url }}">Doan Nam Long Vu</a></h4>
       <p><strong>Topics:</strong> Multimodal AI for mental health </p>
       <p>
@@ -57,14 +57,14 @@ Our research interests include:
   <hr>
 
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
       {% include figure.liquid
         path="assets/img/people/annamokhova.png"
         class="img-fluid rounded z-depth-1"
         alt="Anna"
       %}
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <h4><a href="{{ '/people/annamokhova/' | relative_url }}">Anna Mokhova</a></h4>
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
       <p>
@@ -76,14 +76,14 @@ Our research interests include:
   <hr>
 
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
       {% include figure.liquid
         path="assets/img/people/ruilongwang.png"
         class="img-fluid rounded z-depth-1"
         alt="Ruilong"
       %}
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-10">
       <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
