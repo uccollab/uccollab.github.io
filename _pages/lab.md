@@ -8,6 +8,15 @@ show_title: false
 description:
 ---
 
+<div class="row align-items-start mb-3">
+  <div class="col-sm-2 text-start mb-3 mb-sm-0">
+    <img
+      src="{{ '/assets/img//expnlplogo.bmp' | relative_url }}"
+      class="img-fluid rounded z-depth-1"
+      alt="ExpNLP placeholder image"
+      style="max-width: 160px; height: auto;"
+    >
+
 ## Natural Language Processing For Expert Domains (ExpNLP)
 
 At ExpNLP, we work on AI (and NLP specifically) for expert domains. That means, we focus on the real-world impact of AI. We ask ourselves "How can language technologies support experts' work in complex, high-stakes settings"? This requires us to measure performance not only by benchmark scores, but also by reliability, transparency, and practical value. We highly value qualitative insights, explanations beyond pure scores, and human evaluation.
@@ -17,16 +26,6 @@ Our research interests include:
 - **Evaluating AI in expert domains:** in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
 - **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
 - **Expert–AI interaction and collaboration:** we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
-
-<div class="row justify-content-center mt-4 mb-4">
-  <div class="col-sm-10">
-    {% include figure.liquid
-      path="assets/img/expnlplogo.bmp"
-      class="img-fluid rounded z-depth-1"
-      alt="ExpNLP placeholder image"
-    %}
-  </div>
-</div>
 
 ---
 
