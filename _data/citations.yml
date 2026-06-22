@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-29'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 353
+    citations: 370
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:0EnyYjriUFMC:
@@ -22,11 +22,11 @@ papers:
     title: 'HUMAD 2024: International Workshop on Human-Centered Modeling and Adaptation for Digital Transformation'
     year: '2024'
   O-eIjBAAAAAJ:4TOpqqG69KYC:
-    citations: 0
+    citations: 1
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 47
+    citations: 48
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -62,11 +62,11 @@ papers:
     title: Are experts needed? On human evaluation of counselling reflection generation
     year: '2023'
   O-eIjBAAAAAJ:QIV2ME_5wuYC:
-    citations: 21
+    citations: 24
     title: 'Ask the experts: sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
     year: '2024'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 83
+    citations: 88
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
@@ -74,19 +74,15 @@ papers:
     title: Towards in-context non-expert evaluation of reflection generation for counselling conversations
     year: '2022'
   O-eIjBAAAAAJ:Wp0gIr-vW9MC:
-    citations: 41
+    citations: 46
     title: 'Automatic metrics in natural language generation: A survey of current evaluation practices'
     year: '2024'
   O-eIjBAAAAAJ:Y0pCki6q_DkC:
     citations: 3
     title: 'Beyond calories: evaluating how tailored communication reduces emotional load in diet-coaching'
     year: '2022'
-  O-eIjBAAAAAJ:ZeXyd9-uunAC:
-    citations: 0
-    title: 'Shape Happens: Automatic Feature Manifold Discovery in LLMs via Supervised Multi-Dimensional Scaling'
-    year: '2025'
   O-eIjBAAAAAJ:aqlVkmm33-oC:
-    citations: 0
+    citations: 1
     title: Feedback-Driven Insight Generation and Recommendation for Health Self-Management
     year: '2023'
   O-eIjBAAAAAJ:eQOLeE2rZwMC:
@@ -94,19 +90,19 @@ papers:
     title: Comparing informativeness of an NLG chatbot vs graphical app in diet-information domain
     year: '2022'
   O-eIjBAAAAAJ:hFOr9nPyWt4C:
-    citations: 14
+    citations: 16
     title: 'Llms as span annotators: A comparative study of llms and humans'
     year: '2026'
   O-eIjBAAAAAJ:mB3voiENLucC:
-    citations: 0
+    citations: 1
     title: Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling
-    year: Unknown Year
+    year: '2026'
   O-eIjBAAAAAJ:mVmsd5A6BfQC:
-    citations: 8
+    citations: 9
     title: 'factgenie: A framework for span-based evaluation of generated texts'
     year: '2024'
   O-eIjBAAAAAJ:qUcmZB5y_30C:
-    citations: 0
+    citations: 1
     title: Do My Eyes Deceive Me? A Survey of Human Evaluations of Hallucinations in NLG
     year: '2025'
   O-eIjBAAAAAJ:qxL8FJ1GzNcC:
