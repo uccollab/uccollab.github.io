@@ -18,6 +18,15 @@ Our research interests include:
 - **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
 - **Expert–AI interaction and collaboration:** we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
 
+<div class="row justify-content-center mt-4 mb-4">
+  <div class="col-sm-10">
+    {% include figure.liquid
+      path="assets/img/expnlplogo.bmp"
+      class="img-fluid rounded z-depth-1"
+      alt="ExpNLP placeholder image"
+    %}
+  </div>
+</div>
 
 ---
 
