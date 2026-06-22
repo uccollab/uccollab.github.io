@@ -6,16 +6,13 @@ nav: true
 nav_order: 4
 show_title: false
 description:
----
 
-<div class="row align-items-start mb-3">
-  <div class="col-sm-2 text-start mb-3 mb-sm-0">
-    <img
-      src="{{ '/assets/img//expnlplogo.bmp' | relative_url }}"
-      class="img-fluid rounded z-depth-1"
-      alt="ExpNLP placeholder image"
-      style="max-width: 160px; height: auto;"
-    >
+profile:
+  align: left
+  image: expnlplogo.bmp
+  image_circular: false # crops the image to make it circular
+  more_info:
+---
 
 ## Natural Language Processing For Expert Domains (ExpNLP)
 
