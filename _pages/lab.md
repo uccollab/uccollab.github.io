@@ -18,13 +18,21 @@ Our research interests include:
 - **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively We investigate combine such data to support real-world expert workflows.
 - **Expert–AI interaction and collaboration:** we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
 
+  <div class="col-md-5 text-center">
+    {% include figure.liquid
+      path="assets/img/expnlplogo.bmp"
+      class="img-fluid rounded z-depth-1"
+      alt="ExpNLP Lab"
+    %}
+  </div>
+
 ---
 
 ## People
 
 <div class="publications">
 
-  <h2>PhD Students</h2>
+  <h3>PhD Students</h3>
 
   <div class="row">
     <div class="col-sm-3">
@@ -94,14 +102,16 @@ Our research interests include:
 ### Concluded
 - Supervised by Dr. Simone Balloccu
   - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models (finished)** —  Kai Zhao
-
-### Ongoing
 - Co-supervised by Ruilong Wang
   - **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports (ongoing)** — Karim Abdelrahman
+- Co-supervised by Doan Nam Long Vu
+  - **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous 
+
+### Ongoing
   - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
 - Co-supervised by Doan Nam Long Vu
   - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
-  - **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous 
+
 
 ---
 
