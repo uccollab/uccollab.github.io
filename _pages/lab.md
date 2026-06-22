@@ -8,23 +8,16 @@ show_title: false
 description:
 ---
 
-<!--<div class="float-end ms-4 mb-3" style="max-width:320px;">
-  {% include figure.liquid
-    path="assets/img/expnlplogo.bmp"
-    class="img-fluid"
-    alt="ExpNLP"
-  %}
-</div>!-->
 
 <div class="expnlp-logo float-end ms-4 mb-3">
   <img
     class="logo-light img-fluid"
-    src="{{ '/assets/img/expnlplogo-light.bmp' | relative_url }}"
+    src="{{ '/assets/img/expnlplogo-light.png' | relative_url }}"
     alt="ExpNLP"
   >
   <img
     class="logo-dark img-fluid"
-    src="{{ '/assets/img/expnlplogo-dark.bmp' | relative_url }}"
+    src="{{ '/assets/img/expnlplogo-dark.png' | relative_url }}"
     alt="ExpNLP"
   >
 </div>
