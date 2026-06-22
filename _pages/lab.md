@@ -1,17 +1,11 @@
 ---
-layout: about
+layout: page
 title: ExpNLP
 permalink: /expnlp/
 nav: true
 nav_order: 4
 show_title: false
 description:
-
-profile:
-  align: left
-  image: expnlplogo.bmp
-  image_circular: false # crops the image to make it circular
-  more_info:
 ---
 
 ## Natural Language Processing For Expert Domains (ExpNLP)
