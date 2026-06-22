@@ -12,12 +12,12 @@ description:
 <div class="expnlp-logo float-end ms-4 mb-3">
   <img
     class="logo-light img-fluid"
-    src="{{ '/assets/img/expnlplogo-light.png' | relative_url }}"
+    src="{{ '/assets/img/logo-light.png' | relative_url }}"
     alt="ExpNLP"
   >
   <img
     class="logo-dark img-fluid"
-    src="{{ '/assets/img/expnlplogo-dark.png' | relative_url }}"
+    src="{{ '/assets/img/logo-dark.png' | relative_url }}"
     alt="ExpNLP"
   >
 </div>
