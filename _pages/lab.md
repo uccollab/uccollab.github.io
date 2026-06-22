@@ -109,6 +109,7 @@ Our research interests include:
   - **Synthetic Therapist-Client Conversation Generation From Questionnaires (ongoing)** — Mohamed Aziz Boudabous 
 
 ### Ongoing
+- Co-supervised by Ruilong Wang
   - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning (ongoing)** —  Cagin Senemoglu
 - Co-supervised by Doan Nam Long Vu
   - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues (ongoing)** — Marleen Sinsel
