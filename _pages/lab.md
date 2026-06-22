@@ -16,15 +16,15 @@ description:
   %}
 </div>!-->
 
-<div class="expnlp-logo">
+<div class="expnlp-logo float-end ms-4 mb-3">
   <img
-    class="logo-light"
-    src="{{ '/assets/img/expnlp/logo-light.png' | relative_url }}"
+    class="logo-light img-fluid"
+    src="{{ '/assets/img/expnlplogo-light.bmp' | relative_url }}"
     alt="ExpNLP"
   >
   <img
-    class="logo-dark"
-    src="{{ '/assets/img/expnlp/logo-dark.png' | relative_url }}"
+    class="logo-dark img-fluid"
+    src="{{ '/assets/img/expnlplogo-dark.bmp' | relative_url }}"
     alt="ExpNLP"
   >
 </div>
