@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: ExpNLP
 permalink: /expnlp/
 nav: true
