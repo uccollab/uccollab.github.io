@@ -1,16 +1,12 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-07-20'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 370
+    citations: 418
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
-  O-eIjBAAAAAJ:0EnyYjriUFMC:
-    citations: 10
-    title: Data Augmentation for Reliability and Fairness in Counselling Quality Classification
-    year: '2022'
   O-eIjBAAAAAJ:2osOgNQ5qMEC:
-    citations: 17
+    citations: 18
     title: Fully-unsupervised embeddings-based hypernym discovery
     year: '2020'
   O-eIjBAAAAAJ:3fE2CSJIrl8C:
@@ -26,7 +22,7 @@ papers:
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 48
+    citations: 56
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -42,13 +38,17 @@ papers:
     title: "ARQA: A Benchmark for Grounded Table\u2013Text QA in Enterprise Annual Reports"
     year: '2026'
   O-eIjBAAAAAJ:IWHjjKOFINEC:
-    citations: 1
+    citations: 2
     title: "When LLMs Can\u2019t Help: Real-World Evaluation of LLMs in Nutrition"
     year: '2025'
   O-eIjBAAAAAJ:IjCSPb-OGe4C:
     citations: 18
     title: Unaddressed challenges in persuasive dieting chatbots
     year: '2021'
+  O-eIjBAAAAAJ:JV2RwH3_ST0C:
+    citations: 8
+    title: Data augmentation for reliability and fairness in counselling quality classification
+    year: '2023'
   O-eIjBAAAAAJ:LkGwnXOMwfcC:
     citations: 4
     title: How are you? Introducing stress-based text tailoring
@@ -61,20 +61,28 @@ papers:
     citations: 19
     title: Are experts needed? On human evaluation of counselling reflection generation
     year: '2023'
+  O-eIjBAAAAAJ:NMxIlDl6LWMC:
+    citations: 0
+    title: Proceedings of the 1st Symposium on Natural Language Generation Evaluations
+    year: '2026'
   O-eIjBAAAAAJ:QIV2ME_5wuYC:
-    citations: 24
+    citations: 25
     title: 'Ask the experts: sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
     year: '2024'
+  O-eIjBAAAAAJ:TQgYirikUcIC:
+    citations: 0
+    title: Subjective Code Preferences in Experts and Large Language Models
+    year: '2026'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 88
+    citations: 100
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
-    citations: 2
+    citations: 4
     title: Towards in-context non-expert evaluation of reflection generation for counselling conversations
     year: '2022'
   O-eIjBAAAAAJ:Wp0gIr-vW9MC:
-    citations: 46
+    citations: 55
     title: 'Automatic metrics in natural language generation: A survey of current evaluation practices'
     year: '2024'
   O-eIjBAAAAAJ:Y0pCki6q_DkC:
@@ -90,19 +98,31 @@ papers:
     title: Comparing informativeness of an NLG chatbot vs graphical app in diet-information domain
     year: '2022'
   O-eIjBAAAAAJ:hFOr9nPyWt4C:
-    citations: 16
+    citations: 21
     title: 'Llms as span annotators: A comparative study of llms and humans'
     year: '2026'
+  O-eIjBAAAAAJ:hMod-77fHWUC:
+    citations: 7
+    title: Data augmentation for reliability and fairness in counselling quality classification
+    year: '2022'
+  O-eIjBAAAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+    year: '2023'
+  O-eIjBAAAAAJ:k_IJM867U9cC:
+    citations: 0
+    title: 'The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation'
+    year: '2026'
   O-eIjBAAAAAJ:mB3voiENLucC:
-    citations: 1
+    citations: 7
     title: Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling
     year: '2026'
   O-eIjBAAAAAJ:mVmsd5A6BfQC:
-    citations: 9
+    citations: 10
     title: 'factgenie: A framework for span-based evaluation of generated texts'
     year: '2024'
   O-eIjBAAAAAJ:qUcmZB5y_30C:
-    citations: 1
+    citations: 2
     title: Do My Eyes Deceive Me? A Survey of Human Evaluations of Hallucinations in NLG
     year: '2025'
   O-eIjBAAAAAJ:qxL8FJ1GzNcC:
