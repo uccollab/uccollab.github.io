@@ -1,24 +1,18 @@
 ---
 ---
 
-@inproceedings{vu2025roleplay,
-    title = "Roleplaying with Structure: Synthetic Therapist-Client Conversation Generation from Questionnaires",
-    author = {"Doan Nam Long Vu, Rui Tan, Lena Moench, Svenja Jule Francke, Daniel Woiwod, Florian Thomas-Odenthal, Sanna Stroth, Tilo Kircher, Christiane Hermann, Udo Dannlowski, Hamidreza Jamalabadi, Simone Balloccu, Shaoxiong Ji"},
-    publisher = {ArXiV},
-    month = oct,
-    year = "2025",
-    url = "https://arxiv.org/abs/2510.25384",
-    doi = "10.48550/arXiv.2510.25384",
-    abstract = "The development of AI for mental health is hindered by a lack of authentic therapy dialogues, due to strict privacy regulations and the fact that clinical sessions were historically rarely recorded. We present an LLM-driven pipeline that generates synthetic counseling dialogues based on structured client profiles and psychological questionnaires. Grounded on the principles of Cognitive Behavioral Therapy (CBT), our method creates synthetic therapeutic conversations for clinical disorders such as anxiety and depression. Our framework, SQPsych (Structured Questionnaire-based Psychotherapy), converts structured psychological input into natural language dialogues through therapist-client simulations. Due to data governance policies and privacy restrictions prohibiting the transmission of clinical questionnaire data to third-party services, previous methodologies relying on proprietary models are infeasible in our setting. We address this limitation by generating a high-quality corpus using open-weight LLMs, validated through human expert evaluation and LLM-based assessments. Our SQPsychLLM models fine-tuned on SQPsychConv achieve strong performance on counseling benchmarks, surpassing baselines in key therapeutic skills. Our findings highlight the potential of synthetic data to enable scalable, data-secure, and clinically informed AI for mental health support. We will release our code, models, and corpus at this https URL."
+@article{vu2025roleplaying,
+  title={Roleplaying with Structure: Synthetic Therapist-Client Conversation Generation from Questionnaires},
+  author={Vu, Doan Nam Long and Tan, Rui and Moench, Lena and Francke, Svenja Jule and Woiwod, Daniel and Thomas-Odenthal, Florian and Stroth, Sanna and Kircher, Tilo and Hermann, Christiane and Dannlowski, Udo and others},
+  journal={arXiv preprint arXiv:2510.25384},
+  year={2025},
+  abstract = "The development of AI for mental health is hindered by a lack of authentic therapy dialogues, due to strict privacy regulations and the fact that clinical sessions were historically rarely recorded. We present an LLM-driven pipeline that generates synthetic counseling dialogues based on structured client profiles and psychological questionnaires. Grounded on the principles of Cognitive Behavioral Therapy (CBT), our method creates synthetic therapeutic conversations for clinical disorders such as anxiety and depression. Our framework, SQPsych (Structured Questionnaire-based Psychotherapy), converts structured psychological input into natural language dialogues through therapist-client simulations. Due to data governance policies and privacy restrictions prohibiting the transmission of clinical questionnaire data to third-party services, previous methodologies relying on proprietary models are infeasible in our setting. We address this limitation by generating a high-quality corpus using open-weight LLMs, validated through human expert evaluation and LLM-based assessments. Our SQPsychLLM models fine-tuned on SQPsychConv achieve strong performance on counseling benchmarks, surpassing baselines in key therapeutic skills. Our findings highlight the potential of synthetic data to enable scalable, data-secure, and clinically informed AI for mental health support. We will release our code, models, and corpus at this https URL."
 }
 
-@inproceedings{vu2026scaffold,
-    title = "The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation",
-    author = {Vu, Doan Nam Long and Balloccu, Simone},
-    publisher = {ArXiV},
-    month = mar,
-    year = "2026",
-    url = "https://arxiv.org/abs/2603.28387",
-    doi = "10.48550/arXiv.2603.28387",
-    abstract = "Trustworthy clinical AI requires that performance gains reflect genuine evidence integration rather than surface-level artifacts. We evaluate 12 open-weight vision-language models (VLMs) on binary classification across two clinical neuroimaging cohorts, \textsc{FOR2107} (affective disorders) and \textsc{OASIS-3} (cognitive decline). Both datasets come with structural MRI data that carries no reliable individual-level diagnostic signal. Under these conditions, smaller VLMs exhibit gains of up to 58\% F1 upon introduction of neuroimaging context, with distilled models becoming competitive with counterparts an order of magnitude larger. A contrastive confidence analysis reveals that merely \emph{mentioning} MRI availability in the task prompt accounts for 70-80\% of this shift, independent of whether imaging data is present, a domain-specific instance of modality collapse we term the \emph{scaffold effect}. Expert evaluation reveals fabrication of neuroimaging-grounded justifications across all conditions, and preference alignment, while eliminating MRI-referencing behavior, collapses both conditions toward random baseline. Our findings demonstrate that surface evaluations are inadequate indicators of multimodal reasoning, with direct implications for the deployment of VLMs in clinical settings."
+@article{vu2026scaffold,
+  title={The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation},
+  author={Vu, Doan Nam Long and Balloccu, Simone},
+  journal={arXiv preprint arXiv:2603.28387},
+  year={2026},
+  abstract = "Trustworthy clinical AI requires that performance gains reflect genuine evidence integration rather than surface-level artifacts. We evaluate 12 open-weight vision-language models (VLMs) on binary classification across two clinical neuroimaging cohorts, \textsc{FOR2107} (affective disorders) and \textsc{OASIS-3} (cognitive decline). Both datasets come with structural MRI data that carries no reliable individual-level diagnostic signal. Under these conditions, smaller VLMs exhibit gains of up to 58\% F1 upon introduction of neuroimaging context, with distilled models becoming competitive with counterparts an order of magnitude larger. A contrastive confidence analysis reveals that merely \emph{mentioning} MRI availability in the task prompt accounts for 70-80\% of this shift, independent of whether imaging data is present, a domain-specific instance of modality collapse we term the \emph{scaffold effect}. Expert evaluation reveals fabrication of neuroimaging-grounded justifications across all conditions, and preference alignment, while eliminating MRI-referencing behavior, collapses both conditions toward random baseline. Our findings demonstrate that surface evaluations are inadequate indicators of multimodal reasoning, with direct implications for the deployment of VLMs in clinical settings."
 }
