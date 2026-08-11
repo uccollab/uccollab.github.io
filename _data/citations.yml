@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-08-05'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 418
+    citations: 431
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:2osOgNQ5qMEC:
@@ -22,7 +22,7 @@ papers:
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 56
+    citations: 57
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -39,7 +39,7 @@ papers:
     year: '2026'
   O-eIjBAAAAAJ:IWHjjKOFINEC:
     citations: 2
-    title: "When LLMs Can\u2019t Help: Real-World Evaluation of LLMs in Nutrition"
+    title: "When llms can\u2019t help: Real-world evaluation of llms in nutrition"
     year: '2025'
   O-eIjBAAAAAJ:IjCSPb-OGe4C:
     citations: 18
@@ -66,29 +66,33 @@ papers:
     title: Proceedings of the 1st Symposium on Natural Language Generation Evaluations
     year: '2026'
   O-eIjBAAAAAJ:QIV2ME_5wuYC:
-    citations: 25
-    title: 'Ask the experts: sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
+    citations: 28
+    title: 'Ask the experts: Sourcing a high-quality nutrition counseling dataset through Human-AI collaboration'
     year: '2024'
   O-eIjBAAAAAJ:TQgYirikUcIC:
     citations: 0
     title: Subjective Code Preferences in Experts and Large Language Models
     year: '2026'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 100
+    citations: 103
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
-    citations: 4
+    citations: 5
     title: Towards in-context non-expert evaluation of reflection generation for counselling conversations
     year: '2022'
   O-eIjBAAAAAJ:Wp0gIr-vW9MC:
-    citations: 55
+    citations: 54
     title: 'Automatic metrics in natural language generation: A survey of current evaluation practices'
     year: '2024'
   O-eIjBAAAAAJ:Y0pCki6q_DkC:
     citations: 3
     title: 'Beyond calories: evaluating how tailored communication reduces emotional load in diet-coaching'
     year: '2022'
+  O-eIjBAAAAAJ:YFjsv_pBGBYC:
+    citations: 7
+    title: "Fahime Same, Vil\xE9m Zouhar, Saad Mahamood, and Ondrej Dusek. 2025. Do my eyes deceive me? a survey of human evaluations of hallucinations in NLG"
+    year: Unknown Year
   O-eIjBAAAAAJ:aqlVkmm33-oC:
     citations: 1
     title: Feedback-Driven Insight Generation and Recommendation for Health Self-Management
@@ -98,8 +102,8 @@ papers:
     title: Comparing informativeness of an NLG chatbot vs graphical app in diet-information domain
     year: '2022'
   O-eIjBAAAAAJ:hFOr9nPyWt4C:
-    citations: 21
-    title: 'Llms as span annotators: A comparative study of llms and humans'
+    citations: 23
+    title: 'LLMs as span annotators: A comparative study of LLMs and humans'
     year: '2026'
   O-eIjBAAAAAJ:hMod-77fHWUC:
     citations: 7
@@ -126,7 +130,7 @@ papers:
     title: Do My Eyes Deceive Me? A Survey of Human Evaluations of Hallucinations in NLG
     year: '2025'
   O-eIjBAAAAAJ:qxL8FJ1GzNcC:
-    citations: 2
+    citations: 3
     title: 'ReproHum# 0043-4: Evaluating summarization models: investigating the impact of education and language proficiency on reproducibility'
     year: '2024'
   O-eIjBAAAAAJ:u-x6o8ySG0sC:
