@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-14'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 440
+    citations: 442
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:2osOgNQ5qMEC:
