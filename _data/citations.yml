@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-24'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 442
+    citations: 452
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:2osOgNQ5qMEC:
@@ -22,7 +22,7 @@ papers:
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 60
+    citations: 61
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -34,11 +34,11 @@ papers:
     title: A NLG framework for user tailoring and profiling in healthcare
     year: '2020'
   O-eIjBAAAAAJ:HDshCWvjkbEC:
-    citations: 0
+    citations: 1
     title: "ARQA: A Benchmark for Grounded Table\u2013Text QA in Enterprise Annual Reports"
     year: '2026'
   O-eIjBAAAAAJ:IWHjjKOFINEC:
-    citations: 2
+    citations: 3
     title: "When llms can\u2019t help: Real-world evaluation of llms in nutrition"
     year: '2025'
   O-eIjBAAAAAJ:IjCSPb-OGe4C:
@@ -74,7 +74,7 @@ papers:
     title: Subjective Code Preferences in Experts and Large Language Models
     year: '2026'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 107
+    citations: 110
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
@@ -82,7 +82,7 @@ papers:
     title: Towards in-context non-expert evaluation of reflection generation for counselling conversations
     year: '2022'
   O-eIjBAAAAAJ:Wp0gIr-vW9MC:
-    citations: 56
+    citations: 58
     title: 'Automatic metrics in natural language generation: A survey of current evaluation practices'
     year: '2024'
   O-eIjBAAAAAJ:Y0pCki6q_DkC:
@@ -102,7 +102,7 @@ papers:
     title: Comparing informativeness of an NLG chatbot vs graphical app in diet-information domain
     year: '2022'
   O-eIjBAAAAAJ:hFOr9nPyWt4C:
-    citations: 23
+    citations: 26
     title: 'LLMs as span annotators: A comparative study of LLMs and humans'
     year: '2026'
   O-eIjBAAAAAJ:hMod-77fHWUC:
@@ -122,7 +122,7 @@ papers:
     title: Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling
     year: '2026'
   O-eIjBAAAAAJ:mVmsd5A6BfQC:
-    citations: 10
+    citations: 11
     title: 'factgenie: A framework for span-based evaluation of generated texts'
     year: '2024'
   O-eIjBAAAAAJ:qUcmZB5y_30C:
