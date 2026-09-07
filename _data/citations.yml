@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-07'
 papers:
   O-eIjBAAAAAJ:-f6ydRqryjwC:
-    citations: 452
+    citations: 456
     title: 'Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source LLMs'
     year: '2024'
   O-eIjBAAAAAJ:2osOgNQ5qMEC:
@@ -22,7 +22,7 @@ papers:
     title: 'PhilHumans: Benchmarking Machine Learning for Personal Health'
     year: '2024'
   O-eIjBAAAAAJ:8k81kl-MbHgC:
-    citations: 61
+    citations: 64
     title: Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues
     year: '2023'
   O-eIjBAAAAAJ:9ZlFYXVOiuMC:
@@ -74,7 +74,7 @@ papers:
     title: Subjective Code Preferences in Experts and Large Language Models
     year: '2026'
   O-eIjBAAAAAJ:Tyk-4Ss8FVUC:
-    citations: 110
+    citations: 113
     title: 'Anno-mi: A dataset of expert-annotated counselling dialogues'
     year: '2022'
   O-eIjBAAAAAJ:UebtZRa9Y70C:
@@ -118,7 +118,7 @@ papers:
     title: 'The Scaffold Effect: How Prompt Framing Drives Apparent Multimodal Gains in Clinical VLM Evaluation'
     year: '2026'
   O-eIjBAAAAAJ:mB3voiENLucC:
-    citations: 7
+    citations: 8
     title: Hypothesis-Driven Feature Manifold Analysis in LLMs via Supervised Multi-Dimensional Scaling
     year: '2026'
   O-eIjBAAAAAJ:mVmsd5A6BfQC:
