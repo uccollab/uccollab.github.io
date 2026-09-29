@@ -36,25 +36,10 @@ nav_order: 2
     margin-bottom: 2rem;
 
     /*
-     * Small amount of space between the publication content
+     * Keep a small amount of space between the publication content
      * and the scrollbar.
      */
-    padding-right: 0.75rem;
-
-    /*
-     * Prevent the content width from shifting when a scrollbar
-     * appears/disappears.
-     */
-    scrollbar-gutter: stable;
-
-    /*
-     * Firefox scrollbar styling.
-     * Matches the subtle scrollbar used on the news page.
-     */
-    scrollbar-width: thin;
-    scrollbar-color:
-      var(--global-text-color-light)
-      transparent;
+    padding-right: 0.35rem;
   }
 
   /*
@@ -67,14 +52,17 @@ nav_order: 2
     overscroll-behavior: contain;
 
     /*
-     * A little room below the third visible item so it does
-     * not feel clipped against the bottom of the scroll area.
+     * Match the scrollbar styling used by the news boxes.
+     * Firefox.
      */
-    padding-bottom: 0.4rem;
+    scrollbar-width: thin;
+    scrollbar-color:
+      var(--global-text-color-light)
+      transparent;
   }
 
   /**************************************************************************
-   * Scrollbar — Chromium / Edge / Safari
+   * Scrollbar: Chrome / Edge / Safari
    **************************************************************************/
 
   .publications-scroll-by-year
@@ -93,19 +81,6 @@ nav_order: 2
     border-radius: 999px;
   }
 
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll::-webkit-scrollbar-thumb:hover {
-    background-color: var(--global-text-color);
-  }
-
-  /*
-   * Avoid showing scrollbar buttons/arrows where supported.
-   */
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll::-webkit-scrollbar-button {
-    display: none;
-  }
-
   /**************************************************************************
    * Mobile adjustments
    **************************************************************************/
@@ -117,13 +92,8 @@ nav_order: 2
     }
 
     .publications-scroll-by-year ol.bibliography {
-      padding-right: 0.4rem;
+      padding-right: 0.25rem;
       margin-bottom: 1.5rem;
-    }
-
-    .publications-scroll-by-year
-      ol.bibliography.publication-year-scroll::-webkit-scrollbar {
-      width: 6px;
     }
   }
 </style>
@@ -147,15 +117,15 @@ nav_order: 2
 
       yearLists.forEach(function (list) {
         /*
-         * Remove the previous height first so that measurements
-         * use the publication's natural rendered size.
+         * Remove the previous height first so measurements are based
+         * on the natural rendered height of each publication.
          */
         list.style.maxHeight = "none";
         list.classList.remove("publication-year-scroll");
 
         /*
-         * bib_search may hide publications.
-         * Count only entries that are currently visible.
+         * bib_search can hide entries.
+         * Count only publications that are currently visible.
          */
         const visibleItems = Array.from(
           list.querySelectorAll(":scope > li")
@@ -170,19 +140,19 @@ nav_order: 2
         });
 
         /*
-         * Three publications or fewer:
-         * no scrollbar is necessary.
+         * If the year contains three publications or fewer,
+         * show everything and do not add a scrollbar.
          */
         if (visibleItems.length <= maxVisiblePublications) {
           return;
         }
 
         /*
-         * Measure the actual rendered height of the first
-         * three publications.
+         * Measure the real height of the first three visible
+         * publications.
          *
-         * Publication entries can have very different heights,
-         * so using a fixed max-height would be less reliable.
+         * This is better than a fixed max-height because publication
+         * entries can have very different amounts of text.
          */
         const firstItems = visibleItems.slice(
           0,
@@ -205,8 +175,8 @@ nav_order: 2
         });
 
         /*
-         * Add a few pixels so the third item is never visually
-         * clipped by browser rounding differences.
+         * Add a few pixels to avoid visually clipping the third item
+         * because of sub-pixel browser rounding.
          */
         requiredHeight += 4;
 
@@ -225,9 +195,8 @@ nav_order: 2
     updatePublicationScrollAreas();
 
     /*
-     * Recalculate when the viewport changes.
-     * This is important because publication entries become
-     * taller on narrower/mobile screens.
+     * Recalculate when the browser width changes.
+     * Publication entries become taller on narrow/mobile screens.
      */
     let resizeTimer;
 
@@ -240,9 +209,8 @@ nav_order: 2
     });
 
     /*
-     * The bibliography search hides/shows <li> elements.
-     * Recalculate after every search update so the scroll area
-     * still corresponds to three visible results.
+     * The bibliography search hides and shows publication entries.
+     * Recalculate after each search update.
      */
     const searchInputs = publicationsRoot.querySelectorAll(
       'input[type="text"], input[type="search"]'
@@ -251,8 +219,8 @@ nav_order: 2
     searchInputs.forEach(function (input) {
       input.addEventListener("input", function () {
         /*
-         * Allow the existing al-folio bibliography-search script
-         * to update the DOM first.
+         * Give the existing al-folio search script time to update
+         * the publication list before measuring it again.
          */
         window.setTimeout(function () {
           updatePublicationScrollAreas();
@@ -261,9 +229,9 @@ nav_order: 2
     });
 
     /*
-     * Abstract/BibTeX buttons can expand and collapse publication
-     * content. Recalculate after clicks because the height of one
-     * of the first three items may change.
+     * Abstract / BibTeX buttons can expand publication entries.
+     * Recalculate after clicks because the height of one of the
+     * first three visible publications may change.
      */
     publicationsRoot.addEventListener("click", function () {
       window.setTimeout(function () {
