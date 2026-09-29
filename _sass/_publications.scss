@@ -28,13 +28,21 @@
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: right;
   }
 
+  /*****************************************************************************
+   * Bibliography list
+   *****************************************************************************/
+
   ol.bibliography {
     list-style: none;
-    padding: 0;
+
     margin-top: 0;
+    margin-bottom: 2rem;
+
+    padding: 0;
 
     li {
       margin-bottom: 1rem;
@@ -102,10 +110,12 @@
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+
           margin-left: 0;
 
           &:hover {
@@ -113,6 +123,7 @@
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -120,6 +131,7 @@
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: v.$black-color;
@@ -138,6 +150,7 @@
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
+
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
@@ -158,6 +171,7 @@
 
       .hidden.open {
         max-height: 100em;
+
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
@@ -173,11 +187,100 @@
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+
+  /*****************************************************************************
+   * Scrollable publication years
+   *
+   * This intentionally mirrors the appearance of .news-box and
+   * .news-box-scroll from _components.scss.
+   *****************************************************************************/
+
+  ol.bibliography.publication-year-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    overscroll-behavior: contain;
+
+    /*
+     * Same visual language as the news boxes.
+     */
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+
+    background-color: var(--global-card-bg-color);
+
+    /*
+     * Same horizontal spacing used by .news-box-scroll.
+     */
+    padding: 0.75rem 1.25rem;
+
+    /*
+     * Keep the scrollbar inside the rounded card.
+     */
+    box-sizing: border-box;
+
+    /*
+     * Firefox — identical to .news-box-scroll.
+     */
+    scrollbar-width: thin;
+    scrollbar-color:
+      var(--global-text-color-light)
+      transparent;
+
+    /*
+     * The last item should not create unnecessary empty space.
+     */
+    > li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  /*
+   * Chrome / Edge / Safari
+   *
+   * These are intentionally the same values as .news-box-scroll.
+   */
+  ol.bibliography.publication-year-scroll::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ol.bibliography.publication-year-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ol.bibliography.publication-year-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--global-text-color-light);
+    border-radius: 999px;
+  }
+
+  /*****************************************************************************
+   * Mobile
+   *****************************************************************************/
+
+  @media (max-width: 576px) {
+    h2.bibliography {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ol.bibliography {
+      margin-bottom: 1.5rem;
+    }
+
+    ol.bibliography.publication-year-scroll {
+      /*
+       * Matches the tighter spacing used by news on mobile.
+       */
+      padding: 0.6rem 0.75rem;
     }
   }
 }

@@ -15,89 +15,6 @@ nav_order: 2
 
 </div>
 
-<style>
-  /**************************************************************************
-   * Publications: one scrollable area per year
-   **************************************************************************/
-
-  .publications-scroll-by-year h2.bibliography {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  /*
-   * Jekyll Scholar generates one <ol class="bibliography">
-   * for each year.
-   */
-  .publications-scroll-by-year ol.bibliography {
-    overflow-x: hidden;
-    overflow-y: visible;
-
-    margin-bottom: 2rem;
-
-    /*
-     * Keep a small amount of space between the publication content
-     * and the scrollbar.
-     */
-    padding-right: 0.35rem;
-  }
-
-  /*
-   * JS adds this class only when a year contains more than
-   * three currently visible publications.
-   */
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll {
-    overflow-y: auto;
-    overscroll-behavior: contain;
-
-    /*
-     * Match the scrollbar styling used by the news boxes.
-     * Firefox.
-     */
-    scrollbar-width: thin;
-    scrollbar-color:
-      var(--global-text-color-light)
-      transparent;
-  }
-
-  /**************************************************************************
-   * Scrollbar: Chrome / Edge / Safari
-   **************************************************************************/
-
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll::-webkit-scrollbar {
-    width: 7px;
-  }
-
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  .publications-scroll-by-year
-    ol.bibliography.publication-year-scroll::-webkit-scrollbar-thumb {
-    background-color: var(--global-text-color-light);
-    border-radius: 999px;
-  }
-
-  /**************************************************************************
-   * Mobile adjustments
-   **************************************************************************/
-
-  @media (max-width: 576px) {
-    .publications-scroll-by-year h2.bibliography {
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .publications-scroll-by-year ol.bibliography {
-      padding-right: 0.25rem;
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const publicationsRoot = document.querySelector(
@@ -117,15 +34,15 @@ nav_order: 2
 
       yearLists.forEach(function (list) {
         /*
-         * Remove the previous height first so measurements are based
-         * on the natural rendered height of each publication.
+         * Reset the list before measuring it.
          */
         list.style.maxHeight = "none";
         list.classList.remove("publication-year-scroll");
 
         /*
-         * bib_search can hide entries.
          * Count only publications that are currently visible.
+         *
+         * This matters when the bibliography search is active.
          */
         const visibleItems = Array.from(
           list.querySelectorAll(":scope > li")
@@ -140,19 +57,29 @@ nav_order: 2
         });
 
         /*
-         * If the year contains three publications or fewer,
-         * show everything and do not add a scrollbar.
+         * If there are three publications or fewer,
+         * no scrollbar is necessary.
          */
         if (visibleItems.length <= maxVisiblePublications) {
           return;
         }
 
         /*
-         * Measure the real height of the first three visible
-         * publications.
+         * Add the class before measuring.
          *
-         * This is better than a fixed max-height because publication
-         * entries can have very different amounts of text.
+         * This is important because the class adds the same padding
+         * and border used by the final scrollable container.
+         */
+        list.classList.add("publication-year-scroll");
+
+        /*
+         * Temporarily remove the height restriction so all items
+         * retain their natural rendered dimensions.
+         */
+        list.style.maxHeight = "none";
+
+        /*
+         * Measure exactly the first three visible publications.
          */
         const firstItems = visibleItems.slice(
           0,
@@ -163,7 +90,9 @@ nav_order: 2
 
         let requiredHeight =
           parseFloat(listStyle.paddingTop || 0) +
-          parseFloat(listStyle.paddingBottom || 0);
+          parseFloat(listStyle.paddingBottom || 0) +
+          parseFloat(listStyle.borderTopWidth || 0) +
+          parseFloat(listStyle.borderBottomWidth || 0);
 
         firstItems.forEach(function (item) {
           const itemStyle = window.getComputedStyle(item);
@@ -175,17 +104,13 @@ nav_order: 2
         });
 
         /*
-         * Add a few pixels to avoid visually clipping the third item
-         * because of sub-pixel browser rounding.
+         * A tiny safety margin avoids clipping caused by
+         * sub-pixel browser rounding.
          */
         requiredHeight += 4;
 
         list.style.maxHeight =
           Math.ceil(requiredHeight) + "px";
-
-        list.classList.add(
-          "publication-year-scroll"
-        );
       });
     }
 
@@ -195,8 +120,20 @@ nav_order: 2
     updatePublicationScrollAreas();
 
     /*
-     * Recalculate when the browser width changes.
-     * Publication entries become taller on narrow/mobile screens.
+     * Recalculate after fonts/images finish loading.
+     *
+     * Publication previews can change the final item heights
+     * after DOMContentLoaded.
+     */
+    window.addEventListener("load", function () {
+      updatePublicationScrollAreas();
+    });
+
+    /*
+     * Recalculate when the viewport changes.
+     *
+     * This is necessary because publication text wraps differently
+     * on tablets and phones.
      */
     let resizeTimer;
 
@@ -209,8 +146,8 @@ nav_order: 2
     });
 
     /*
-     * The bibliography search hides and shows publication entries.
-     * Recalculate after each search update.
+     * Recalculate when bibliography search changes which entries
+     * are visible.
      */
     const searchInputs = publicationsRoot.querySelectorAll(
       'input[type="text"], input[type="search"]'
@@ -218,10 +155,6 @@ nav_order: 2
 
     searchInputs.forEach(function (input) {
       input.addEventListener("input", function () {
-        /*
-         * Give the existing al-folio search script time to update
-         * the publication list before measuring it again.
-         */
         window.setTimeout(function () {
           updatePublicationScrollAreas();
         }, 0);
@@ -229,14 +162,13 @@ nav_order: 2
     });
 
     /*
-     * Abstract / BibTeX buttons can expand publication entries.
-     * Recalculate after clicks because the height of one of the
-     * first three visible publications may change.
+     * Abstract, BibTeX and author-expansion buttons can change
+     * publication heights.
      */
     publicationsRoot.addEventListener("click", function () {
       window.setTimeout(function () {
         updatePublicationScrollAreas();
-      }, 50);
+      }, 100);
     });
   });
 </script>
