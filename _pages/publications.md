@@ -33,17 +33,9 @@ nav_order: 2
       );
 
       yearLists.forEach(function (list) {
-        /*
-         * Reset the list before measuring it.
-         */
         list.style.maxHeight = "none";
         list.classList.remove("publication-year-scroll");
 
-        /*
-         * Count only publications that are currently visible.
-         *
-         * This matters when the bibliography search is active.
-         */
         const visibleItems = Array.from(
           list.querySelectorAll(":scope > li")
         ).filter(function (item) {
@@ -57,30 +49,19 @@ nav_order: 2
         });
 
         /*
-         * If there are three publications or fewer,
-         * no scrollbar is necessary.
+         * If there are 3 or fewer visible publications,
+         * keep the box but do not add a scrollbar.
          */
         if (visibleItems.length <= maxVisiblePublications) {
           return;
         }
 
         /*
-         * Add the class before measuring.
-         *
-         * This is important because the class adds the same padding
-         * and border used by the final scrollable container.
+         * Add scroll behavior only for years with more than 3 publications.
          */
         list.classList.add("publication-year-scroll");
-
-        /*
-         * Temporarily remove the height restriction so all items
-         * retain their natural rendered dimensions.
-         */
         list.style.maxHeight = "none";
 
-        /*
-         * Measure exactly the first three visible publications.
-         */
         const firstItems = visibleItems.slice(
           0,
           maxVisiblePublications
@@ -103,38 +84,18 @@ nav_order: 2
             parseFloat(itemStyle.marginBottom || 0);
         });
 
-        /*
-         * A tiny safety margin avoids clipping caused by
-         * sub-pixel browser rounding.
-         */
         requiredHeight += 4;
 
-        list.style.maxHeight =
-          Math.ceil(requiredHeight) + "px";
+        list.style.maxHeight = Math.ceil(requiredHeight) + "px";
       });
     }
 
-    /*
-     * Initial calculation.
-     */
     updatePublicationScrollAreas();
 
-    /*
-     * Recalculate after fonts/images finish loading.
-     *
-     * Publication previews can change the final item heights
-     * after DOMContentLoaded.
-     */
     window.addEventListener("load", function () {
       updatePublicationScrollAreas();
     });
 
-    /*
-     * Recalculate when the viewport changes.
-     *
-     * This is necessary because publication text wraps differently
-     * on tablets and phones.
-     */
     let resizeTimer;
 
     window.addEventListener("resize", function () {
@@ -145,10 +106,6 @@ nav_order: 2
       }, 100);
     });
 
-    /*
-     * Recalculate when bibliography search changes which entries
-     * are visible.
-     */
     const searchInputs = publicationsRoot.querySelectorAll(
       'input[type="text"], input[type="search"]'
     );
@@ -161,10 +118,6 @@ nav_order: 2
       });
     });
 
-    /*
-     * Abstract, BibTeX and author-expansion buttons can change
-     * publication heights.
-     */
     publicationsRoot.addEventListener("click", function () {
       window.setTimeout(function () {
         updatePublicationScrollAreas();

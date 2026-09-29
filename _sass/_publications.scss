@@ -28,21 +28,13 @@
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
     text-align: right;
   }
 
-  /*****************************************************************************
-   * Bibliography list
-   *****************************************************************************/
-
   ol.bibliography {
     list-style: none;
-
-    margin-top: 0;
-    margin-bottom: 2rem;
-
     padding: 0;
+    margin-top: 0;
 
     li {
       margin-bottom: 1rem;
@@ -110,12 +102,10 @@
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
-
           margin-left: 0;
 
           &:hover {
@@ -150,7 +140,6 @@
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
@@ -171,7 +160,6 @@
 
       .hidden.open {
         max-height: 100em;
-
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
@@ -196,58 +184,61 @@
       border-color: var(--global-highlight-color);
     }
   }
+}
 
-  /*****************************************************************************
-   * Scrollable publication years
-   *
-   * This intentionally mirrors the appearance of .news-box and
-   * .news-box-scroll from _components.scss.
-   *****************************************************************************/
+/******************************************************************************
+ * Publications page: year boxes + optional scrollbar
+ *
+ * Applies only to the publications page because that page has:
+ * <div class="publications publications-scroll-by-year">
+ ******************************************************************************/
 
+.publications-scroll-by-year {
+  h2.bibliography {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  /*
+   * Every year gets a box, even when there are <= 3 publications.
+   */
+  ol.bibliography {
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+    padding: 0.75rem 1.25rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    background-color: var(--global-card-bg-color);
+
+    overflow: visible;
+    box-sizing: border-box;
+  }
+
+  /*
+   * Remove extra bottom space from the last publication in the box.
+   */
+  ol.bibliography > li:last-child {
+    margin-bottom: 0;
+  }
+
+  /*
+   * Only years with more than 3 visible publications get scroll behavior.
+   */
   ol.bibliography.publication-year-scroll {
     overflow-y: auto;
     overflow-x: hidden;
-
     overscroll-behavior: contain;
 
-    /*
-     * Same visual language as the news boxes.
-     */
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.75rem;
-
-    background-color: var(--global-card-bg-color);
-
-    /*
-     * Same horizontal spacing used by .news-box-scroll.
-     */
-    padding: 0.75rem 1.25rem;
-
-    /*
-     * Keep the scrollbar inside the rounded card.
-     */
-    box-sizing: border-box;
-
-    /*
-     * Firefox — identical to .news-box-scroll.
-     */
     scrollbar-width: thin;
     scrollbar-color:
       var(--global-text-color-light)
       transparent;
-
-    /*
-     * The last item should not create unnecessary empty space.
-     */
-    > li:last-child {
-      margin-bottom: 0;
-    }
   }
 
   /*
-   * Chrome / Edge / Safari
-   *
-   * These are intentionally the same values as .news-box-scroll.
+   * Same scrollbar style as news boxes.
    */
   ol.bibliography.publication-year-scroll::-webkit-scrollbar {
     width: 7px;
@@ -262,10 +253,6 @@
     border-radius: 999px;
   }
 
-  /*****************************************************************************
-   * Mobile
-   *****************************************************************************/
-
   @media (max-width: 576px) {
     h2.bibliography {
       margin-top: 1.5rem;
@@ -274,12 +261,6 @@
 
     ol.bibliography {
       margin-bottom: 1.5rem;
-    }
-
-    ol.bibliography.publication-year-scroll {
-      /*
-       * Matches the tighter spacing used by news on mobile.
-       */
       padding: 0.6rem 0.75rem;
     }
   }
