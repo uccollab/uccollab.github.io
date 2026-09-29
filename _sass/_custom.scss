@@ -44,3 +44,10 @@
   text-decoration: none;
   &:hover { text-decoration: underline; }
 }
+
+// Dividers between homepage sections
+.post h2 {
+  border-top: 1px solid var(--global-divider-color, #444);
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+}
