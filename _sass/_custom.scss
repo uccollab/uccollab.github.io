@@ -1,0 +1,46 @@
+// News page: sectioned boxes
+.news-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.news-box {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  background-color: var(--global-bg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.news-box-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.4rem;
+}
+
+.news-box-scroll {
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+
+  // Subtle custom scrollbar (webkit)
+  &::-webkit-scrollbar { width: 5px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--global-divider-color);
+    border-radius: 10px;
+  }
+}
+
+// Homepage "all news" link
+.news-all-link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
