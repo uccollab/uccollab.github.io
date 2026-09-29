@@ -37,87 +37,104 @@
 
     {% else %}
 
-      {% assign pub_news   = all_news | where: "category", "publications" %}
-      {% assign award_news = all_news | where: "category", "awards" %}
-      {% assign talk_news  = all_news | where: "category", "talks" %}
+{% assign pub_news = all_news | where: "category", "publications" %}
+{% assign award_news = all_news | where: "category", "awards" %}
+{% assign talk_news = all_news | where: "category", "talks" %}
 
-      {% assign sections = "Publications,publications,pub_news|Awards,awards,award_news|Talks and misc.,talks,talk_news" | split: "|" %}
+<div class="news-sections">
+  <section class="news-box">
+    <h2 class="news-box-title">📄 Publications</h2>
 
-      <div class="news-sections">
+    <div class="news-box-scroll">
+      {% if pub_news != blank %}
+        <table class="table table-sm table-borderless news-table">
+          <tbody>
+            {% for item in pub_news %}
+              <tr>
+                <th scope="row">
+                  {{ item.date | date: '%b %d, %Y' }}
+                </th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">
+                      {{ item.title }}
+                    </a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="news-empty">No publications so far...</p>
+      {% endif %}
+    </div>
+  </section>
 
-        <div class="news-box">
-          <h5 class="news-box-title">📄 Publications</h5>
-          <div class="news-box-scroll">
-            {% if pub_news != blank %}
-              <table class="table table-sm table-borderless">
-                {% for item in pub_news %}
-                  <tr>
-                    <th scope="row" style="width: 30%">{{ item.date | date: '%b %d, %Y' }}</th>
-                    <td>
-                      {% if item.inline %}
-                        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                      {% else %}
-                        <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                      {% endif %}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </table>
-            {% else %}
-              <p class="text-muted">No publications so far...</p>
-            {% endif %}
-          </div>
-        </div>
+  <section class="news-box">
+    <h2 class="news-box-title">🏆 Awards</h2>
 
-        <div class="news-box">
-          <h5 class="news-box-title">🏆 Awards</h5>
-          <div class="news-box-scroll">
-            {% if award_news != blank %}
-              <table class="table table-sm table-borderless">
-                {% for item in award_news %}
-                  <tr>
-                    <th scope="row" style="width: 30%">{{ item.date | date: '%b %d, %Y' }}</th>
-                    <td>
-                      {% if item.inline %}
-                        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                      {% else %}
-                        <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                      {% endif %}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </table>
-            {% else %}
-              <p class="text-muted">No awards so far...</p>
-            {% endif %}
-          </div>
-        </div>
+    <div class="news-box-scroll">
+      {% if award_news != blank %}
+        <table class="table table-sm table-borderless news-table">
+          <tbody>
+            {% for item in award_news %}
+              <tr>
+                <th scope="row">
+                  {{ item.date | date: '%b %d, %Y' }}
+                </th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">
+                      {{ item.title }}
+                    </a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="news-empty">No awards so far...</p>
+      {% endif %}
+    </div>
+  </section>
 
-        <div class="news-box">
-          <h5 class="news-box-title">🎤 Talks and misc.</h5>
-          <div class="news-box-scroll">
-            {% if talk_news != blank %}
-              <table class="table table-sm table-borderless">
-                {% for item in talk_news %}
-                  <tr>
-                    <th scope="row" style="width: 30%">{{ item.date | date: '%b %d, %Y' }}</th>
-                    <td>
-                      {% if item.inline %}
-                        {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                      {% else %}
-                        <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                      {% endif %}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </table>
-            {% else %}
-              <p class="text-muted">No talks or misc. news so far...</p>
-            {% endif %}
-          </div>
-        </div>
+  <section class="news-box">
+    <h2 class="news-box-title">🎤 Talks and misc.</h2>
 
-      </div>
+    <div class="news-box-scroll">
+      {% if talk_news != blank %}
+        <table class="table table-sm table-borderless news-table">
+          <tbody>
+            {% for item in talk_news %}
+              <tr>
+                <th scope="row">
+                  {{ item.date | date: '%b %d, %Y' }}
+                </th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">
+                      {{ item.title }}
+                    </a>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <p class="news-empty">No talks or misc. news so far...</p>
+      {% endif %}
+    </div>
+  </section>
+</div>
 
     {% endif %}
 

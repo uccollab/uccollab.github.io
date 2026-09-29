@@ -259,3 +259,168 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+/******************************************************************************
+ * News sections
+ ******************************************************************************/
+
+.news-sections {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.news-box {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background-color: var(--global-card-bg-color);
+  overflow: hidden;
+}
+
+.news-box-title {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  border-bottom: 1px solid var(--global-divider-color);
+
+  color: var(--global-text-color);
+  background-color: var(--global-card-bg-color);
+}
+
+.news-box-scroll {
+  // Roughly three news rows are visible.
+  max-height: 14rem;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 0.4rem 1.25rem;
+
+  scrollbar-width: thin;
+  scrollbar-color:
+    var(--global-text-color-light)
+    transparent;
+}
+
+.news-box-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.news-box-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-box-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--global-text-color-light);
+  border-radius: 999px;
+}
+
+.news-table {
+  margin-bottom: 0;
+  color: var(--global-text-color);
+}
+
+.news-table tr {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.news-table tr:last-child {
+  border-bottom: 0;
+}
+
+.news-table th,
+.news-table td {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  vertical-align: top;
+}
+
+.news-table th {
+  width: 9rem;
+  min-width: 9rem;
+
+  color: var(--global-text-color-light);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.news-empty {
+  margin: 1rem 0;
+  color: var(--global-text-color-light);
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .news-sections {
+    gap: 1rem;
+  }
+
+  .news-box-title {
+    padding: 0.85rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  .news-box-scroll {
+    max-height: 15rem;
+    padding: 0.25rem 0.75rem;
+  }
+
+  .news-table th,
+  .news-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .news-table th {
+    min-width: 0;
+    padding-bottom: 0;
+    font-size: 0.8rem;
+  }
+
+  .news-table td {
+    padding-top: 0.15rem;
+  }
+}
+
+/******************************************************************************
+ * Homepage sections
+ ******************************************************************************/
+
+.home-section {
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*
+ * Every section after the first gets a divider.
+ * The divider follows the current light/dark theme.
+ */
+.home-section + .home-section {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.home-section:first-child {
+  padding-top: 0;
+}
+
+.home-section:last-child {
+  padding-bottom: 0;
+}
+
+/*
+ * Avoid excessive spacing between divider and heading.
+ */
+.home-section > h2:first-child {
+  margin-top: 0;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .home-section {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
