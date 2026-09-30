@@ -24,13 +24,14 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+    font-weight: 500;
   }
-
+  
   ol.bibliography {
     list-style: none;
     padding: 0;
