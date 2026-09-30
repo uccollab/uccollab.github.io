@@ -1,4 +1,4 @@
-/*******************************************************************************
+/******************************************************************************
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
 
@@ -169,8 +169,43 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+/******************************************************************************
+ * Navbar
+ ******************************************************************************/
+
 // ExpNLP custom color
 .navbar .nav-link[href*="expnlp"] {
+  color: #f9481e !important;
+}
+
+// Active navbar item:
+// - normal text color instead of theme blue/purple
+// - thick underline
+// - white-ish in dark mode, black/dark in light mode
+.navbar .nav-link.active,
+.navbar .nav-item.active > .nav-link {
+  color: var(--global-text-color) !important;
+  position: relative;
+}
+
+.navbar .nav-link.active::after,
+.navbar .nav-item.active > .nav-link::after {
+  content: "";
+  position: absolute;
+
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: -0.35rem;
+
+  height: 3px;
+  border-radius: 999px;
+
+  background-color: var(--global-text-color);
+}
+
+// Keep ExpNLP orange even when it is the active page
+.navbar .nav-link[href*="expnlp"].active,
+.navbar .nav-item.active > .nav-link[href*="expnlp"] {
   color: #f9481e !important;
 }
 
