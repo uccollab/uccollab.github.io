@@ -8,7 +8,10 @@
   pages={180--185},
   year={2018},
   month={Jan-Feb},
-  organization={IEEE}
+  organization={IEEE},
+  doi={10.1109/ICSC.2018.00033},
+  url={https://doi.org/10.1109/ICSC.2018.00033},
+  abstract={Set Expansion is the problem of automatically extending a given set of seed elements with objects of the same class. In this paper we address the challenging scenario of extending singletons, that is, sets with only one seed element. Differently from existing work, we do not assume the presence of markup or an ontology, relying only on free unstructured text. We show that singleton expansion can be accomplished unsupervisedly by means of nearest-neighbor search over word embeddings, and propose an algorithm that significantly improves performance for both small and large long-tail expansions while remaining language independent.}
 }
 
 @inproceedings{atzori2019okgraph,
@@ -16,7 +19,13 @@
   author={Atzori, Maurizio and Balloccu, Simone and Bellanti, Andrea and Mameli, Emanuele and Usai, Stefano Raimondo},
   booktitle={10th Italian Information Retrieval Workshop (IIR 2019)},
   month={Sept},
-  year={2019}
+  year={2019},
+  pages={30--31},
+  volume={2441},
+  series={CEUR Workshop Proceedings},
+  publisher={CEUR-WS.org},
+  url={https://ceur-ws.org/Vol-2441/paper19.pdf},
+  abstract={In this report we introduce OKgraph, a software library for open Knowledge Graph extraction from free text. Named after a two-year project where we studied and developed unsupervised algorithms addressing tasks related to taxonomy learning, the library contains NLP tools powered by these results.}
 }
 
 @inproceedings{balloccu2020nlg,
@@ -25,7 +34,12 @@
   booktitle={1st Workshop on Smart Personal Health Interfaces (SmartPhil)@IUI},
   pages={13--32},
   month={Mar},
-  year={2020}
+  year={2020},
+  volume={2596},
+  series={CEUR Workshop Proceedings},
+  publisher={CEUR-WS.org},
+  url={https://ceur-ws.org/Vol-2596/paper2.pdf},
+  abstract={Communication in healthcare can improve therapy adherence and patient engagement. Research into healthcare-oriented Natural Language Generation systems suggests that tailoring to user profile can improve overall effectiveness. However, many systems adopt a single or small group of user profiles, overlooking that user subsets may have different needs and that these could evolve over time. We conceptualize a framework that can produce customised healthcare reports by extracting meaningful data insights and producing a final text which varies in content and terminology according to the user profile and traits. The dietary domain is used to show a working example.}
 }
 
 @article{atzori2020fully,
@@ -38,6 +52,8 @@
   month={May},
   year={2020},
   publisher={MDPI},
+  doi={10.3390/info11050268},
+  url={https://www.mdpi.com/2078-2489/11/5/268},
   abstract="The hypernymy relation is the one occurring between an instance term and its general term (e.g., “lion” and “animal”, “Italy” and “country”). This paper we addresses Hypernym Discovery, the NLP task that aims at finding valid hypernyms from words in a given text, proposing HyperRank, an unsupervised approach that therefore does not require manually-labeled training sets as most approaches in the literature. The proposed algorithm exploits the cosine distance of points in the vector space of word embeddings, as already proposed by previous state of the art approaches, but the ranking is then corrected by also weighting word frequencies and the absolute level of similarity, which is expected to be similar when measuring co-hyponyms and their common hypernym. This brings us two major advantages over other approaches—(1) we correct the inadequacy of semantic similarity which is known to cause a significant performance drop and (2) we take into accounts multiple words if provided, allowing to find common hypernyms for a set of co-hyponyms—a task ignored in other systems but very useful when coupled with set expansion (that finds co-hyponyms automatically). We then evaluate HyperRank against the SemEval 2018 Hypernym Discovery task and show that, regardless of the language or domain, our algorithm significantly outperforms all the existing unsupervised algorithms and some supervised ones as well. We also evaluate the algorithm on a new dataset to measure the improvements when finding hypernyms for sets of words instead of singletons."
 }
 
@@ -47,7 +63,10 @@
   booktitle={Proceedings of the Workshop on Intelligent Information Processing and Natural Language Generation (IntelLanG)@ECAI 2020},
   pages={62--70},
   month={Sept},
-  year={2020}
+  year={2020},
+  url={https://aclanthology.org/2020.intellang-1.7/},
+  arxiv={2007.09970},
+  abstract={Can stress affect not only your life but also how you read and interpret a text? Healthcare has shown evidence of such dynamics and in this short paper we discuss customising texts based on user stress level, as it could represent a critical factor when it comes to user engagement and behavioural change. We first show a real-world example in which user behaviour is influenced by stress, then, after discussing which tools can be employed to assess and measure it, we propose an initial method for tailoring the document by exploiting complexity reduction and affect enforcement. The result is a short and encouraging text which requires less commitment to be read and understood. We believe this work in progress can raise some interesting questions on a topic that is often overlooked in NLG.}
 }
 
 @inproceedings{10.1145/3450614.3463602,
@@ -81,6 +100,8 @@ publisher="SciTePress",
 organization="INSTICC",
 doi={10.5220/0011531400003523},
 isbn={978-989-758-629-3},
+url={https://www.scitepress.org/Papers/2022/115314/115314.pdf},
+abstract={The mental health domain poses serious challenges to the validity of existing Natural Language Processing approaches. Scarce and unbalanced data limits models reliability and fairness, therefore hampering real-world application. In this work, we address these challenges by using the Anno-MI dataset, containing professionally annotated transcriptions in motivational interviewing. We inspect the effects of data augmentation on classical machine and deep learning approaches for counselling quality classification. We first adopt augmentation to balance the target label, then conduct bias and fairness analysis using therapy topic as the sensitive variable, and finally implement a fairness-aware augmentation technique showing how topic-wise bias can be mitigated. Our work is a first step towards increasing reliability, reducing bias, and dealing with data scarcity and imbalance in mental health.},
 }
 
 @inproceedings{balloccu-reiter-2022-beyond,
@@ -108,7 +129,9 @@ isbn={978-989-758-629-3},
   number={},
   pages={6177-6181},
   keywords={Employee welfare;Annotations;Conferences;Medical treatment;Signal processing;Data collection;Natural language processing;Counselling;Motivational Interviewing;Dialogue;Natural Language Processing;Dataset},
-  doi={10.1109/ICASSP43922.2022.9746035}}
+  doi={10.1109/ICASSP43922.2022.9746035},
+  url={https://doi.org/10.1109/ICASSP43922.2022.9746035},
+  abstract={Research on natural language processing for counselling dialogue analysis has seen substantial development in recent years, but access to this area remains extremely limited due to the lack of publicly available expert-annotated therapy conversations. In this work, we introduce AnnoMI, the first publicly and freely accessible dataset of professionally transcribed and expert-annotated therapy dialogues. It consists of 133 conversations that demonstrate high- and low-quality motivational interviewing, and the annotations by domain experts cover key motivational interviewing attributes. We detail the data collection process including dialogue selection, transcription and annotation, and present analyses of AnnoMI and discuss its potential applications.}}
 
 @inproceedings{balloccu-reiter-2022-comparing,
     title = "Comparing informativeness of an {NLG} chatbot vs graphical app in diet-information domain",
@@ -120,6 +143,7 @@ isbn={978-989-758-629-3},
     address = "Waterville, Maine, USA and virtual meeting",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2022.inlg-main.13",
+    doi = "10.18653/v1/2022.inlg-main.13",
     pages = "156--185",
     abstract = "Visual representation of data like charts and tables can be challenging to understand for readers. Previous work showed that combining visualisations with text can improve the communication of insights in static contexts, but little is known about interactive ones. In this work we present an NLG chatbot that processes natural language queries and provides insights through a combination of charts and text. We apply it to nutrition, a domain communication quality is critical. Through crowd-sourced evaluation we compare the informativeness of our chatbot against traditional, static diet-apps. We find that the conversational context significantly improved users' understanding of dietary data in various tasks, and that users considered the chatbot as more useful and quick to use than traditional apps.",
 }
@@ -151,7 +175,10 @@ isbn={978-989-758-629-3},
   pages={110},
   month={March},
   year={2023},
-  publisher={MDPI}
+  publisher={MDPI},
+  doi={10.3390/fi15030110},
+  url={https://www.mdpi.com/1999-5903/15/3/110},
+  abstract={Research on the analysis of counselling conversations through natural language processing methods has seen remarkable growth in recent years. However, the potential of this field is still greatly limited by the lack of access to publicly available therapy dialogues, especially those with expert annotations. Building on AnnoMI, a public collection of 133 faithfully transcribed and expert-annotated demonstrations of high- and low-quality motivational interviewing, we introduce new expert-annotated utterance attributes and describe the data collection process in more detail. We analyse AnnoMI at utterance, conversation, and corpus levels, introduce utterance-level prediction tasks with potential real-world impacts and baseline models, and examine how well the models generalise to dialogues on unseen topics.}
 }
 
 @INPROCEEDINGS{10193140,
@@ -163,7 +190,9 @@ isbn={978-989-758-629-3},
   volume={},
   number={},
   pages={1-4},
-  doi={10.1109/ICASSPW59220.2023.10193140}
+  doi={10.1109/ICASSPW59220.2023.10193140},
+  url={https://ieeexplore.ieee.org/document/10193140/},
+  abstract={The popularity of wearable devices equipped with inertial measurement units and optical sensors has increased in recent years. These sensors provide valuable activity and heart-rate data that, when analysed across multiple users and over time, can offer profound insights into individual lifestyle habits. However, the high dimensionality of such data and user preference dynamics present significant challenges for mining useful insights. This paper proposes a novel approach that employs natural language processing to mine insights from wearable data, using a neural network model that leverages end-to-end feedback from users. Results demonstrate that this approach effectively increased daily step counts among users, showcasing the potential of this method for optimising health and wellness outcomes.}
 }
 
 @inproceedings{wu-etal-2023-experts,
@@ -200,6 +229,7 @@ isbn={978-989-758-629-3},
     address = "St. Julian{'}s, Malta",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.eacl-long.5",
+    doi = "10.18653/v1/2024.eacl-long.5",
     pages = "67--93",
     abstract = "Natural Language Processing (NLP) research is increasingly focusing on the use of Large Language Models (LLMs), with some of the most popular ones being either fully or partially closed-source. The lack of access to model details, especially regarding training data, has repeatedly raised concerns about data contamination among researchers. Several attempts have been made to address this issue, but they are limited to anecdotal evidence and trial and error. Additionally, they overlook the problem of indirect data leaking, where modelsare iteratively improved by using data coming from users. In this work, we conduct the first systematic analysis of work using OpenAI{'}s GPT-3.5 and GPT-4, the most prominently used LLMs today, in the context of data contamination. By analysing 255 papers and considering OpenAI{'}s data usage policy, we extensively document the amount of data leaked to these models during the first year after the model{'}s release. We report that these models have been globally exposed to ∼4.7M samples from 263 benchmarks. At the same time, we document a number of evaluation malpractices emerging in the reviewed papers, such as unfair or missing baseline comparisons and reproducibility issues. We release our results as a collaborative project on https://leak-llm.github.io/, where other researchers can contribute to our efforts.",
 }
@@ -242,6 +272,7 @@ isbn={978-989-758-629-3},
     address = "Tokyo, Japan",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.inlg-demos.5",
+    doi = "10.18653/v1/2024.inlg-demos.5",
     pages = "13--15",
     abstract = "We present {`}factgenie{`}: a framework for annotating and visualizing word spans in textual model outputs. Annotations can capture various span-based phenomena such as semantic inaccuracies or irrelevant text. With {`}factgenie{`}, the annotations can be collected both from human crowdworkers and large language models. Our framework consists of a web interface for data visualization and gathering text annotations, powered by an easily extensible codebase.",
 }
@@ -266,6 +297,7 @@ isbn={978-989-758-629-3},
     address = "Tokyo, Japan",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.inlg-main.44",
+    doi = "10.18653/v1/2024.inlg-main.44",
     pages = "557--583",
     abstract = "Automatic metrics are extensively used to evaluate Natural Language Processing systems. However, there has been increasing focus on how the are used and reported by practitioners within the field. In this paper, we have conducted a survey on the use of automatic metrics, focusing particularly on natural language generation tasks. We inspect which metrics are used as well as why they are chosen and how their use is reported. Our findings from this survey reveal significant shortcomings, including inappropriate metric usage, lack of implementation details and missing correlations with human judgements. We conclude with recommendations that we believe authors should follow to enable more rigour within the field.",
 }
@@ -290,6 +322,7 @@ isbn={978-989-758-629-3},
     address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.findings-emnlp.674",
+    doi = "10.18653/v1/2024.findings-emnlp.674",
     pages = "11519--11545",
     abstract = "Large Language Models (LLMs) are being employed by end-users for various tasks, including sensitive ones such as health counseling, disregarding potential safety concerns. It is thus necessary to understand how adequately LLMs perform in such domains. We conduct a case study on ChatGPT in nutrition counseling, a popular use-case where the model supports a user with their dietary struggles. We crowd-source real-world diet-related struggles, then work with nutrition experts to generate supportive text using ChatGPT. Finally, experts evaluate the safety and text quality of ChatGPT{'}s output. The result is the HAI-coaching dataset, containing {\textasciitilde}2.4K crowdsourced dietary struggles and {\textasciitilde}97K corresponding ChatGPT-generated and expert-annotated supportive texts. We analyse ChatGPT{'}s performance, discovering potentially harmful behaviours, especially for sensitive topics like mental health. Finally, we use HAI-coaching to test open LLMs on various downstream tasks, showing that even the latest models struggle to achieve good performance. HAI-coaching is available at https://github.com/uccollab/hai-coaching/",
 }
@@ -399,6 +432,9 @@ title={Shape Happens: Automatic Feature Manifold Discovery in LLMs via Supervise
 author={Tiblias, Federico and Bigoulaeva, Irina and Niu, Jingcheng and Balloccu, Simone and Gurevych, Iryna},
 journal={Transactions on Machine Learning Research},
 year={2026},
+url={https://openreview.net/forum?id=vCKZ40YYPr},
+arxiv={2510.01025},
+abstract={The linear representation hypothesis states that language models encode concepts as directions in their latent space, forming organized, multidimensional manifolds. Prior efforts focus on discovering specific geometries for specific features, and thus lack generalization. We introduce Supervised Multi-Dimensional Scaling, a model-agnostic method to automatically discover feature manifolds. We apply it to temporal reasoning as a case study, finding that different features form various geometric structures such as circles, lines, and clusters. The discovered structures consistently reflect the properties of the concepts they represent, are stable across model families and sizes, actively support reasoning in models, and dynamically reshape in response to context changes. Together, these findings shed light on the functional role of feature manifolds and support a model of entity-based reasoning in which language models encode and transform structured representations.},
 note={Paper accepted and currently pending publication. Current citation is temporary.}
 }
 
