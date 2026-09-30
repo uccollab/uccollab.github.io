@@ -209,6 +209,24 @@ ul.task-list input[type="checkbox"] {
   color: #f9481e !important;
 }
 
+// Mobile navbar:
+// prevent the active underline from stretching across the full menu width
+@media (max-width: 991.98px) {
+  .navbar .nav-link.active,
+  .navbar .nav-item.active > .nav-link {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+  }
+
+  .navbar .nav-link.active::after,
+  .navbar .nav-item.active > .nav-link::after {
+    left: 0.15rem;
+    right: 0.15rem;
+    bottom: -0.1rem;
+  }
+}
+
 // Social (bottom)
 
 .social {
