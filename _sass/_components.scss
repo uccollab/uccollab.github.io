@@ -179,15 +179,14 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Active navbar item:
-// - normal text color instead of theme blue/purple
-// - thick underline
-// - white-ish in dark mode, black/dark in light mode
+// neutral text color instead of theme blue/purple
 .navbar .nav-link.active,
 .navbar .nav-item.active > .nav-link {
   color: var(--global-text-color) !important;
   position: relative;
 }
 
+// Desktop active underline
 .navbar .nav-link.active::after,
 .navbar .nav-item.active > .nav-link::after {
   content: "";
@@ -209,21 +208,33 @@ ul.task-list input[type="checkbox"] {
   color: #f9481e !important;
 }
 
-// Mobile navbar:
-// prevent the active underline from stretching across the full menu width
+/*
+ * Mobile navbar
+ *
+ * Do not use the pseudo-element underline here because the theme makes
+ * mobile nav links span the menu width. Instead use text-decoration,
+ * which can only underline the actual text.
+ */
 @media (max-width: 991.98px) {
-  .navbar .nav-link.active,
-  .navbar .nav-item.active > .nav-link {
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-  }
-
   .navbar .nav-link.active::after,
   .navbar .nav-item.active > .nav-link::after {
-    left: 0.15rem;
-    right: 0.15rem;
-    bottom: -0.1rem;
+    content: none !important;
+    display: none !important;
+  }
+
+  .navbar .nav-link.active,
+  .navbar .nav-item.active > .nav-link {
+    text-decoration-line: underline !important;
+    text-decoration-color: var(--global-text-color) !important;
+    text-decoration-thickness: 3px !important;
+    text-underline-offset: 0.2em !important;
+  }
+
+  // Keep ExpNLP orange while its active underline stays neutral
+  .navbar .nav-link[href*="expnlp"].active,
+  .navbar .nav-item.active > .nav-link[href*="expnlp"] {
+    color: #f9481e !important;
+    text-decoration-color: var(--global-text-color) !important;
   }
 }
 
