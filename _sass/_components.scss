@@ -179,78 +179,45 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Active navbar item:
-// - normal text color instead of theme blue/purple
-// - thick underline
-// - white-ish in dark mode, black/dark in light mode
+// use an actual text underline instead of a pseudo-element.
+// This keeps the underline exactly as wide as the text on desktop and mobile.
 .navbar .nav-link.active,
-.navbar .nav-item.active > .nav-link {
+.navbar .nav-item.active > .nav-link,
+.navbar .nav-link.active:hover,
+.navbar .nav-item.active > .nav-link:hover,
+.navbar .nav-link.active:focus,
+.navbar .nav-item.active > .nav-link:focus {
   color: var(--global-text-color) !important;
-  position: relative;
+
+  text-decoration-line: underline !important;
+  text-decoration-color: var(--global-text-color) !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 0.35rem !important;
+  text-decoration-skip-ink: none;
 }
 
+// Disable the old pseudo-element underline completely
 .navbar .nav-link.active::after,
 .navbar .nav-item.active > .nav-link::after {
-  content: "";
-  position: absolute;
-
-  left: 0.5rem;
-  right: 0.5rem;
-  bottom: -0.15rem;
-
-  height: 3px;
-  border-radius: 999px;
-
-  background-color: var(--global-text-color);
+  content: none !important;
+  display: none !important;
 }
 
-// Keep ExpNLP orange even when it is the active page
+// Remove any active border supplied by the theme
+.navbar .nav-link.active,
+.navbar .nav-item.active,
+.navbar .nav-item.active > .nav-link {
+  border-bottom: none !important;
+}
+
+// Keep ExpNLP orange even when it is the active page.
+// Its underline remains white/black according to the current theme.
 .navbar .nav-link[href*="expnlp"].active,
-.navbar .nav-item.active > .nav-link[href*="expnlp"] {
+.navbar .nav-item.active > .nav-link[href*="expnlp"],
+.navbar .nav-link[href*="expnlp"].active:hover,
+.navbar .nav-item.active > .nav-link[href*="expnlp"]:hover {
   color: #f9481e !important;
-}
-
-// Mobile navbar:
-// make the active underline only as wide as the menu text
-@media (max-width: 991.98px) {
-  .navbar-collapse .navbar-nav {
-    align-items: flex-end;
-  }
-
-  .navbar-collapse .nav-item {
-    width: auto !important;
-    align-self: flex-end;
-  }
-
-  .navbar-collapse .nav-link {
-    display: inline-block !important;
-    width: auto !important;
-  }
-
-  // Remove any full-width active border from the theme
-  .navbar-collapse .nav-item.active,
-  .navbar-collapse .nav-link.active {
-    border-bottom: none !important;
-  }
-
-  .navbar-collapse .nav-link.active,
-  .navbar-collapse .nav-item.active > .nav-link {
-    position: relative;
-  }
-
-  .navbar-collapse .nav-link.active::after,
-  .navbar-collapse .nav-item.active > .nav-link::after {
-    content: "";
-    position: absolute;
-
-    left: 0.15rem;
-    right: 0.15rem;
-    bottom: -0.1rem;
-
-    height: 3px;
-    border-radius: 999px;
-
-    background-color: var(--global-text-color);
-  }
+  text-decoration-color: var(--global-text-color) !important;
 }
 
 // Social (bottom)
