@@ -493,3 +493,53 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 1.2rem;
   }
 }
+
+/******************************************************************************
+ * Responsive portrait sizes
+ ******************************************************************************/
+
+/*
+ * Tablet / narrow desktop
+ */
+@media (max-width: 991.98px) {
+  /*
+   * Homepage profile picture.
+   * Keep the surrounding profile/contact information full-width,
+   * but prevent the photograph itself from becoming enormous.
+   */
+  .profile img {
+    display: block;
+    width: min(70vw, 320px);
+    max-width: 320px;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*
+   * ExpNLP people photographs.
+   */
+  img[src*="/assets/img/people/"] {
+    width: min(42vw, 230px) !important;
+    max-width: 230px !important;
+    height: auto !important;
+  }
+}
+
+/*
+ * Phones
+ */
+@media (max-width: 576px) {
+  .profile img {
+    width: min(72vw, 280px);
+    max-width: 280px;
+  }
+
+  img[src*="/assets/img/people/"] {
+    width: min(52vw, 190px) !important;
+    max-width: 190px !important;
+    height: auto !important;
+  }
+}
