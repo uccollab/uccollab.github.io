@@ -179,14 +179,15 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Active navbar item:
-// neutral text color instead of theme blue/purple
+// - normal text color instead of theme blue/purple
+// - thick underline
+// - white-ish in dark mode, black/dark in light mode
 .navbar .nav-link.active,
 .navbar .nav-item.active > .nav-link {
   color: var(--global-text-color) !important;
   position: relative;
 }
 
-// Desktop active underline
 .navbar .nav-link.active::after,
 .navbar .nav-item.active > .nav-link::after {
   content: "";
@@ -208,33 +209,47 @@ ul.task-list input[type="checkbox"] {
   color: #f9481e !important;
 }
 
-/*
- * Mobile navbar
- *
- * Do not use the pseudo-element underline here because the theme makes
- * mobile nav links span the menu width. Instead use text-decoration,
- * which can only underline the actual text.
- */
+// Mobile navbar:
+// make the active underline only as wide as the menu text
 @media (max-width: 991.98px) {
-  .navbar .nav-link.active::after,
-  .navbar .nav-item.active > .nav-link::after {
-    content: none !important;
-    display: none !important;
+  .navbar-collapse .navbar-nav {
+    align-items: flex-end;
   }
 
-  .navbar .nav-link.active,
-  .navbar .nav-item.active > .nav-link {
-    text-decoration-line: underline !important;
-    text-decoration-color: var(--global-text-color) !important;
-    text-decoration-thickness: 3px !important;
-    text-underline-offset: 0.2em !important;
+  .navbar-collapse .nav-item {
+    width: auto !important;
+    align-self: flex-end;
   }
 
-  // Keep ExpNLP orange while its active underline stays neutral
-  .navbar .nav-link[href*="expnlp"].active,
-  .navbar .nav-item.active > .nav-link[href*="expnlp"] {
-    color: #f9481e !important;
-    text-decoration-color: var(--global-text-color) !important;
+  .navbar-collapse .nav-link {
+    display: inline-block !important;
+    width: auto !important;
+  }
+
+  // Remove any full-width active border from the theme
+  .navbar-collapse .nav-item.active,
+  .navbar-collapse .nav-link.active {
+    border-bottom: none !important;
+  }
+
+  .navbar-collapse .nav-link.active,
+  .navbar-collapse .nav-item.active > .nav-link {
+    position: relative;
+  }
+
+  .navbar-collapse .nav-link.active::after,
+  .navbar-collapse .nav-item.active > .nav-link::after {
+    content: "";
+    position: absolute;
+
+    left: 0.15rem;
+    right: 0.15rem;
+    bottom: -0.1rem;
+
+    height: 3px;
+    border-radius: 999px;
+
+    background-color: var(--global-text-color);
   }
 }
 
@@ -491,55 +506,5 @@ ul.task-list input[type="checkbox"] {
   .home-section {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-  }
-}
-
-/******************************************************************************
- * Responsive portrait sizes
- ******************************************************************************/
-
-/*
- * Tablet / narrow desktop
- */
-@media (max-width: 991.98px) {
-  /*
-   * Homepage profile picture.
-   * Keep the surrounding profile/contact information full-width,
-   * but prevent the photograph itself from becoming enormous.
-   */
-  .profile img {
-    display: block;
-    width: min(70vw, 320px);
-    max-width: 320px;
-    height: auto;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-  }
-
-  /*
-   * ExpNLP people photographs.
-   */
-  img[src*="/assets/img/people/"] {
-    width: min(42vw, 230px) !important;
-    max-width: 230px !important;
-    height: auto !important;
-  }
-}
-
-/*
- * Phones
- */
-@media (max-width: 576px) {
-  .profile img {
-    width: min(72vw, 280px);
-    max-width: 280px;
-  }
-
-  img[src*="/assets/img/people/"] {
-    width: min(52vw, 190px) !important;
-    max-width: 190px !important;
-    height: auto !important;
   }
 }
