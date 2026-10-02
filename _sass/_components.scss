@@ -78,6 +78,28 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Mobile profile image
+@media (max-width: 575.98px) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    width: 72%;
+    max-width: 320px;
+
+    float: none !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Tablet / desktop profile
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -179,45 +201,33 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Active navbar item:
-// use an actual text underline instead of a pseudo-element.
-// This keeps the underline exactly as wide as the text on desktop and mobile.
+// neutral text color instead of theme blue/purple
 .navbar .nav-link.active,
-.navbar .nav-item.active > .nav-link,
-.navbar .nav-link.active:hover,
-.navbar .nav-item.active > .nav-link:hover,
-.navbar .nav-link.active:focus,
-.navbar .nav-item.active > .nav-link:focus {
+.navbar .nav-item.active > .nav-link {
   color: var(--global-text-color) !important;
-
-  text-decoration-line: underline !important;
-  text-decoration-color: var(--global-text-color) !important;
-  text-decoration-thickness: 3px !important;
-  text-underline-offset: 0.35rem !important;
-  text-decoration-skip-ink: none;
+  position: relative;
 }
 
-// Disable the old pseudo-element underline completely
+// Active-page underline
 .navbar .nav-link.active::after,
 .navbar .nav-item.active > .nav-link::after {
-  content: none !important;
-  display: none !important;
+  content: "";
+  position: absolute;
+
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: -0.15rem;
+
+  height: 3px;
+  border-radius: 999px;
+
+  background-color: var(--global-text-color);
 }
 
-// Remove any active border supplied by the theme
-.navbar .nav-link.active,
-.navbar .nav-item.active,
-.navbar .nav-item.active > .nav-link {
-  border-bottom: none !important;
-}
-
-// Keep ExpNLP orange even when it is the active page.
-// Its underline remains white/black according to the current theme.
+// Keep ExpNLP orange even when active
 .navbar .nav-link[href*="expnlp"].active,
-.navbar .nav-item.active > .nav-link[href*="expnlp"],
-.navbar .nav-link[href*="expnlp"].active:hover,
-.navbar .nav-item.active > .nav-link[href*="expnlp"]:hover {
+.navbar .nav-item.active > .nav-link[href*="expnlp"] {
   color: #f9481e !important;
-  text-decoration-color: var(--global-text-color) !important;
 }
 
 // Social (bottom)

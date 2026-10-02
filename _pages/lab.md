@@ -24,7 +24,7 @@ description:
 
 ## Natural Language Processing For Expert Domains (ExpNLP)
 
-At ExpNLP, we work on AI (and NLP specifically) for expert domains. That means, we focus on the real-world impact of AI. We ask ourselves "How can language technologies support experts' work in complex, high-stakes settings"? This requires us to measure performance not only by benchmark scores, but also by reliability, transparency, and practical value. We highly value qualitative insights, explanations beyond pure scores, and human evaluation.
+At ExpNLP, we work on AI for expert domains. We focus on the real-world impact of AI, asking ourselves "How can AI support experts' work in complex, high-stakes settings"? This requires us to measure performance, reliability, transparency, and practical value. We highly value qualitative insights, going beyond benchmark scores, and human evaluation.
 
 Our research interests include: 
 
@@ -52,9 +52,9 @@ Our research interests include:
       <h4><a href="{{ '/people/doannamlongvu/' | relative_url }}">Doan Nam Long Vu</a></h4>
       <p><strong>Topics:</strong> Multimodal AI for mental health </p>
       <p>
-        I am a researcher working on NLP, large language models, and clinical AI, with a focus on interpretability and mental health applications. My research investigates how language models encode and respond to clinically relevant content, particularly how the register in which symptoms are described shapes model behavior and assessments. A central question driving my work is whether LLMs, when applied to mental health contexts, are responding to underlying clinical conditions or to the surface-level language used to express them.
+        I am a researcher working on clinical AI, with a focus on interpretability and mental health applications. My research investigates how AI models encode and respond to clinically relevant content, and how the register in which symptoms are described shapes model behavior and assessments. A central question driving my work is whether AI, when applied to mental health contexts, responds to underlying clinical conditions or to the surface-level language used to express them.
 
-        Additionally, I am exploring the deployment of state-of-the-art, open-source multimodal AI models in real-world clinical research scenarios. My applied work includes transforming clinical questionnaires into natural dialogues, developing dialogue-aware text-to-speech system, and utilizing automatic speech recognition for niche use cases, such as analyzing interactions between caretakers and children with autism. Furthermore, I am experimenting with video-based models for gaze tracking and behavioral classification in children.
+        Additionally, I am exploring state-of-the-art, open-source multimodal AI models in real-world clinical research scenarios. My applied work includes transforming clinical questionnaires into natural dialogues, developing dialogue-aware text-to-speech system, and automatic speech recognition for niche use cases, such as analyzing interactions between caretakers and children with autism. Furthermore, I am experimenting with video-based models for gaze tracking and behavioral classification in children.
       </p>
     </div>
   </div>
@@ -92,9 +92,9 @@ Our research interests include:
       <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
       <p>
-        I am a PhD student working on NLP, LLMs, and knowledge-intensive AI for industrial applications. In collaboration with Volkswagen, I focus on developing AI systems that support production planning and engineering decision-making.
+        I am a PhD student working on knowledge-intensive AI for industrial applications. In collaboration with Volkswagen, I focus on developing AI systems that support production planning and engineering decision-making.
 
-        My research investigates how expert knowledge from technical documents, standards, historical project data, and human experience can be incorporated into AI systems to make them more reliable, explainable, and effective in real-world industrial settings. In particular, I explore how LLMs can be combined with structured knowledge representations to build AI assistants that reason over domain knowledge and support experts in complex decision processes. My work also includes attribution-aware question answering, especially methods that improve the grounding and evidential support of LLM-generated responses.
+        My research investigates how expert knowledge from technical documents, standards, historical project data, and human experience can make AI systems reliable, explainable, and effective in real-world industrial settings. In particular, I explore how AI assistants can use structured knowledge representations and reason over domain knowledge and support experts in complex decision processes. My work also includes attribution-aware question answering, especially methods that improve the grounding and evidential support of LLM-generated responses.
       </p>
     </div>
   </div>
