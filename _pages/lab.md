@@ -8,6 +8,27 @@ show_title: false
 description:
 ---
 
+<style>
+  @media (max-width: 575.98px) {
+    .expnlp-person-photo {
+      width: 42% !important;
+      max-width: 150px !important;
+
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-bottom: 1rem !important;
+
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .expnlp-person-info {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+  }
+</style>
 
 <div class="expnlp-logo float-end ms-4 mb-3" style="width: clamp(180px, 28vw, 280px);">
   <img
@@ -26,7 +47,7 @@ description:
 
 At ExpNLP, we work on AI for expert domains. We focus on the real-world impact of AI, asking ourselves "How can AI support experts' work in complex, high-stakes settings"? This requires us to measure performance, reliability, transparency, and practical value. We highly value qualitative insights, going beyond benchmark scores, and human evaluation.
 
-Our research interests include: 
+Our research interests include:
 
 - **Evaluating AI in expert domains:** in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
 - **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively combine such data to support real-world expert workflows.
@@ -41,16 +62,23 @@ Our research interests include:
   <h3>PhD Students</h3>
 
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2 expnlp-person-photo">
       {% include figure.liquid
         path="assets/img/people/doannamlongvu.png"
         class="img-fluid rounded z-depth-1"
         alt="Doan"
       %}
     </div>
-    <div class="col-sm-10">
-      <h4><a href="{{ '/people/doannamlongvu/' | relative_url }}">Doan Nam Long Vu</a></h4>
-      <p><strong>Topics:</strong> Multimodal AI for mental health </p>
+
+    <div class="col-sm-10 expnlp-person-info">
+      <h4>
+        <a href="{{ '/people/doannamlongvu/' | relative_url }}">
+          Doan Nam Long Vu
+        </a>
+      </h4>
+
+      <p><strong>Topics:</strong> Multimodal AI for mental health</p>
+
       <p>
         I am a researcher working on clinical AI, with a focus on interpretability and mental health applications. My research investigates how AI models encode and respond to clinically relevant content, and how the register in which symptoms are described shapes model behavior and assessments. A central question driving my work is whether AI, when applied to mental health contexts, responds to underlying clinical conditions or to the surface-level language used to express them.
 
@@ -62,16 +90,23 @@ Our research interests include:
   <hr>
 
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2 expnlp-person-photo">
       {% include figure.liquid
         path="assets/img/people/annamokhova.png"
         class="img-fluid rounded z-depth-1"
         alt="Anna"
       %}
     </div>
-    <div class="col-sm-10">
-      <h4><a href="{{ '/people/annamokhova/' | relative_url }}">Anna Mokhova</a></h4>
+
+    <div class="col-sm-10 expnlp-person-info">
+      <h4>
+        <a href="{{ '/people/annamokhova/' | relative_url }}">
+          Anna Mokhova
+        </a>
+      </h4>
+
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
+
       <p>
         A key challenge of AI research today is for AI systems reflect the knowledge, judgment, and professional standards of domain experts. The central focus of my PhD is to advance AI systems in order for them to act as a supportive collaborator with the help of human experts insights. This alignment improves trust, reliability, and real-world usefulness, especially in high-stakes areas like software engineering. Besides human-AI scope, being a linguist, I am also interested in more traditional NLP topics such as how to tackle multilinguality or semantic ambiguity. Outside of my research, I enjoy exploring and practicing various forms of art, hiking and visiting new places.
       </p>
@@ -81,16 +116,23 @@ Our research interests include:
   <hr>
 
   <div class="row">
-    <div class="col-sm-2">
+    <div class="col-sm-2 expnlp-person-photo">
       {% include figure.liquid
         path="assets/img/people/ruilongwang.png"
         class="img-fluid rounded z-depth-1"
         alt="Ruilong"
       %}
     </div>
-    <div class="col-sm-10">
-      <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
+
+    <div class="col-sm-10 expnlp-person-info">
+      <h4>
+        <a href="{{ '/people/ruilongwang/' | relative_url }}">
+          Ruilong Wang
+        </a>
+      </h4>
+
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
+
       <p>
         I am a PhD student working on knowledge-intensive AI for industrial applications. In collaboration with Volkswagen, I focus on developing AI systems that support production planning and engineering decision-making.
 
@@ -106,18 +148,19 @@ Our research interests include:
 ## Student Thesis
 
 ### Concluded
+
 - Supervised by Dr. Simone Balloccu
-  - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models** —  Kai Zhao
+  - **Enhancing Natural Language Inference in Biomedical Applications Using Large Language Models** — Kai Zhao
 - Co-supervised by Ruilong Wang
   - **Time-Stamped Graphs for Cross-Year Reasoning in VolksWagen Annual Reports** — Karim Abdelrahman
-  - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning** —  Cagin Senemoglu
+  - **Contrast Set Generation for Evaluation QA Models in Annual Report reasoning** — Cagin Senemoglu
 - Co-supervised by Doan Nam Long Vu
-  - **Synthetic Therapist-Client Conversation Generation From Questionnaires** — Mohamed Aziz Boudabous 
+  - **Synthetic Therapist-Client Conversation Generation From Questionnaires** — Mohamed Aziz Boudabous
   - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues** — Marleen Sinsel
 
 ### Ongoing
 
- - 
+-
 
 ---
 
@@ -125,6 +168,8 @@ Our research interests include:
 
 If you are interested in working with us, feel free to get in touch!
 
-At the moment, we welcome application from B.Sc. and M.Sc. thesis students who want to work on compatible topics. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. If possible include a grade transcript, an initial topic (or at least proposals), and a CV. 
+#### Theses
+We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
 
-Application for internships are currently considered only if the candidate is self-funded (or virtual). Candidates are welcome to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with topic proposals. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
+#### PhDs, Postdocs, and internships
+Application are currently considered only if the candidate is self-funded (or virtual, should the topic be expecially relevant to the lab's vision). Candidates are welcome to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with CV, degree certification, grades transcript, and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
