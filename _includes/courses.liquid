@@ -1,37 +1,123 @@
 {% if site.teachings %}
-  <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
 
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
-      <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
+  {% assign sorted_courses = site.teachings | sort: 'course_name' %}
+  {% assign course_groups = sorted_courses | group_by_exp: 'course', 'course.course_key | default: course.title' %}
 
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
-              {% endif %}
+  <div class="teaching-courses">
+    {% for course_group in course_groups %}
 
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
-              {% endif %}
-            </div>
+      {% assign offerings = course_group.items | sort: 'offering_sort' | reverse %}
+      {% assign representative_course = offerings | first %}
 
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
+      <section class="teaching-course">
+        <h2 class="teaching-course-title">
+          {{ representative_course.course_name | default: representative_course.title }}
+        </h2>
+
+        <div class="teaching-offerings">
+          {% for offering in offerings %}
+
+            <details class="teaching-offering" name="teaching-offerings">
+              <summary class="teaching-offering-summary">
+
+                <span class="teaching-offering-main">
+
+                  {% if offering.institution %}
+                    <span class="teaching-offering-institution">
+                      {{ offering.institution }}
+                    </span>
+                  {% endif %}
+
+                  {% if offering.institution and offering.offering %}
+                    <span class="teaching-offering-separator">
+                      ·
+                    </span>
+                  {% endif %}
+
+                  {% if offering.offering %}
+                    <span class="teaching-offering-semester">
+                      {{ offering.offering }}
+                    </span>
+                  {% elsif offering.term %}
+                    <span class="teaching-offering-semester">
+                      {{ offering.term }}
+                    </span>
+                  {% endif %}
+
+                </span>
+
+              </summary>
+
+              <div class="teaching-offering-body">
+
+                <div class="teaching-offering-scroll">
+
+                  {% assign offering_content = offering.content | strip %}
+
+                  {% if offering_content != blank %}
+
+                    {% if offering.description %}
+                      <div class="teaching-offering-description">
+                        {{ offering.description | markdownify }}
+                      </div>
+                    {% endif %}
+
+                    {% if offering.instructor or offering.time %}
+                      <div class="teaching-offering-meta">
+
+                        {% if offering.instructor %}
+                          <div>
+                            <strong>Instructor:</strong>
+                            {{ offering.instructor }}
+                          </div>
+                        {% endif %}
+
+                        {% if offering.time %}
+                          <div>
+                            <strong>Time:</strong>
+                            {{ offering.time }}
+                          </div>
+                        {% endif %}
+
+                      </div>
+                    {% endif %}
+
+                    <div class="teaching-offering-content">
+                      {{ offering.content }}
+                    </div>
+
+                  {% elsif offering.course_id %}
+
+                    {% include course_schedule.liquid course_id=offering.course_id %}
+
+                  {% else %}
+
+                    {% if offering.description %}
+                      {{ offering.description | markdownify }}
+                    {% endif %}
+
+                    <p>No additional course material available.</p>
+
+                  {% endif %}
+
+                </div>
+
+                <div class="teaching-offering-footer">
+                  <a href="{{ offering.url | relative_url }}">
+                    Open full course page →
+                  </a>
+                </div>
+
               </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+            </details>
+
+          {% endfor %}
+        </div>
+      </section>
+
     {% endfor %}
   </div>
+
 {% else %}
   <p>No courses available yet.</p>
 {% endif %}
