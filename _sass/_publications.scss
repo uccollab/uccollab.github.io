@@ -224,14 +224,13 @@
    * Only years with more than 3 visible publications get scroll behavior.
    */
   ol.bibliography.publication-year-scroll {
-    overflow-y: auto;
-    overflow-x: hidden;
-    overscroll-behavior: contain;
+  overflow-y: auto;
+  overflow-x: hidden;
 
-    scrollbar-width: thin;
-    scrollbar-color:
-      var(--global-text-color-light)
-      transparent;
+  scrollbar-width: thin;
+  scrollbar-color:
+    var(--global-text-color-light)
+    transparent;
   }
 
   /*
