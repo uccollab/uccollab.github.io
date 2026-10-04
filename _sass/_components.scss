@@ -849,3 +849,19 @@ ul.task-list input[type="checkbox"] {
     height: auto !important;
   }
 }
+
+/******************************************************************************
+ * Force ExpNLP navbar color
+ ******************************************************************************/
+
+.navbar a[href*="expnlp" i],
+.navbar a[href*="expnlp" i] * {
+  color: #f9481e !important;
+}
+
+.navbar a[href*="expnlp" i]:hover,
+.navbar a[href*="expnlp" i]:focus,
+.navbar a[href*="expnlp" i].active,
+.navbar a[href*="expnlp" i].active * {
+  color: #f9481e !important;
+}
