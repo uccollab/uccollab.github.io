@@ -50,7 +50,7 @@ Additionally, I am exploring the deployment of state-of-the-art, open-source mul
 
 ## Publications
 
-<div class="publications">
+<div class="publications publications-scroll-by-year">
 
 
 

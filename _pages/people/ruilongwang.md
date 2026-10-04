@@ -50,7 +50,7 @@ My research investigates how expert knowledge from technical documents, standard
 
 ## Publications
 
-<div class="publications">
+<div class="publications publications-scroll-by-year">
 
 {% bibliography --file ruilongwang %}
 

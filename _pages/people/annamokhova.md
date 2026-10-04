@@ -45,7 +45,7 @@ A key challenge of AI research today is for AI systems reflect the knowledge, ju
 
 ## Publications
 
-<div class="publications">
+<div class="publications publications-scroll-by-year">
 
 
 {% bibliography --file annamokhova %}
