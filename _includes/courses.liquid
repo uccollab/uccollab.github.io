@@ -48,29 +48,17 @@
                       <div class="teaching-offering-info">
 
                         <div class="teaching-offering-title">
-
                           {% if offering.offering %}
-
                             {{ offering.offering }}
-
                           {% elsif offering.term and offering.year %}
-
                             {{ offering.term }} {{ offering.year }}
-
                           {% elsif offering.term %}
-
                             {{ offering.term }}
-
                           {% elsif offering.year %}
-
                             {{ offering.year }}
-
                           {% else %}
-
                             Course offering
-
                           {% endif %}
-
                         </div>
 
                         {% if offering.time %}
@@ -85,12 +73,12 @@
                           </div>
                         {% endif %}
 
-                      </div>
+                        <div class="teaching-offering-link">
+                          <a href="{{ offering.url | relative_url }}">
+                            Open full course page →
+                          </a>
+                        </div>
 
-                      <div class="teaching-offering-link">
-                        <a href="{{ offering.url | relative_url }}">
-                          Open full course page →
-                        </a>
                       </div>
 
                     </div>

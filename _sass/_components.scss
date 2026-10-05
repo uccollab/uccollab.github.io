@@ -188,16 +188,11 @@ ul.task-list input[type="checkbox"] {
   bottom: -0.15rem;
 
   height: 3px;
+
   border-radius: 999px;
 
   background-color: var(--global-text-color);
 }
-
-/*
- * Mobile navbar:
- * use a text underline so it cannot stretch across the
- * entire expanded mobile menu.
- */
 
 @media (max-width: 991.98px) {
   .navbar .nav-link.active::after,
@@ -215,34 +210,30 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-/*
- * ExpNLP always stays orange.
- * This intentionally comes after the active-link rules.
- */
+// ExpNLP always orange
 
-.navbar a[href*="/expnlp/"],
-.navbar a[href*="/expnlp/"] * {
+.navbar a[href*="expnlp" i],
+.navbar a[href*="expnlp" i] * {
   color: #f9481e !important;
 }
 
-.navbar a[href*="/expnlp/"]:hover,
-.navbar a[href*="/expnlp/"]:focus,
-.navbar a[href*="/expnlp/"].active,
-.navbar .nav-item.active > a[href*="/expnlp/"] {
+.navbar a[href*="expnlp" i]:hover,
+.navbar a[href*="expnlp" i]:focus,
+.navbar a[href*="expnlp" i].active,
+.navbar a[href*="expnlp" i].active *,
+.navbar .nav-item.active > a[href*="expnlp" i] {
   color: #f9481e !important;
 }
-
-/*
- * Keep the ExpNLP active underline neutral rather than orange.
- */
 
 @media (max-width: 991.98px) {
-  .navbar a[href*="/expnlp/"].active {
+  .navbar a[href*="expnlp" i].active {
     text-decoration-color: var(--global-text-color) !important;
   }
 }
 
-// Social
+/******************************************************************************
+ * Social
+ ******************************************************************************/
 
 .social {
   text-align: center;
@@ -292,22 +283,30 @@ ul.task-list input[type="checkbox"] {
   display: none;
   position: fixed;
   z-index: 1;
+
   padding-top: 100px;
+
   left: 0;
   top: 0;
+
   width: 100%;
   height: 100%;
+
   overflow: auto;
+
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wechat-modal > img {
   display: block;
   position: relative;
+
   top: 50%;
   left: 50%;
+
   width: 33%;
   max-width: 400px;
+
   transform: translate(-50%, -50%);
 }
 
@@ -339,19 +338,23 @@ ul.task-list input[type="checkbox"] {
 .news-sections {
   display: grid;
   gap: 1.5rem;
+
   margin-top: 1.5rem;
 }
 
 .news-box {
   border: 1px solid var(--global-divider-color);
   border-radius: 0.75rem;
+
   background-color: var(--global-card-bg-color);
+
   overflow: hidden;
 }
 
 .news-box-title {
   margin: 0;
   padding: 1rem 1.25rem;
+
   font-size: 1.25rem;
   font-weight: 600;
 
@@ -390,6 +393,7 @@ ul.task-list input[type="checkbox"] {
 
 .news-table {
   margin-bottom: 0;
+
   color: var(--global-text-color);
 }
 
@@ -405,6 +409,7 @@ ul.task-list input[type="checkbox"] {
 .news-table td {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+
   vertical-align: top;
 }
 
@@ -413,12 +418,15 @@ ul.task-list input[type="checkbox"] {
   min-width: 9rem;
 
   color: var(--global-text-color-light);
+
   font-weight: 500;
+
   white-space: nowrap;
 }
 
 .news-empty {
   margin: 1rem 0;
+
   color: var(--global-text-color-light);
 }
 
@@ -429,23 +437,28 @@ ul.task-list input[type="checkbox"] {
 
   .news-box-title {
     padding: 0.85rem 1rem;
+
     font-size: 1.1rem;
   }
 
   .news-box-scroll {
     max-height: 15rem;
+
     padding: 0.25rem 0.75rem;
   }
 
   .news-table th,
   .news-table td {
     display: block;
+
     width: 100%;
   }
 
   .news-table th {
     min-width: 0;
+
     padding-bottom: 0;
+
     font-size: 0.8rem;
   }
 
@@ -460,6 +473,7 @@ ul.task-list input[type="checkbox"] {
 
 .home-section {
   width: 100%;
+
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -488,16 +502,13 @@ ul.task-list input[type="checkbox"] {
 }
 
 /******************************************************************************
- * Teaching
+ * Teaching overview
  ******************************************************************************/
-
-/*
- * University level
- */
 
 .teaching-universities {
   display: grid;
   gap: 2.75rem;
+
   margin-top: 2rem;
 }
 
@@ -520,10 +531,6 @@ ul.task-list input[type="checkbox"] {
   gap: 0.9rem;
 }
 
-/*
- * Course level
- */
-
 .teaching-course {
   border: 1px solid var(--global-divider-color);
   border-radius: 0.75rem;
@@ -536,6 +543,7 @@ ul.task-list input[type="checkbox"] {
 .teaching-course-summary {
   display: flex;
   align-items: center;
+
   gap: 0.75rem;
 
   padding: 1rem 1.2rem;
@@ -604,28 +612,13 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 0;
 }
 
-/*
- * Offering level
- */
-
 .teaching-offerings {
   display: grid;
-  gap: 0.65rem;
+  gap: 1rem;
 }
 
 .teaching-offering-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  gap: 1.25rem;
-
-  padding: 0.8rem 0.95rem;
-
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.6rem;
-
-  background-color: var(--global-card-bg-color);
+  padding: 0;
 }
 
 .teaching-offering-info {
@@ -636,7 +629,7 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-text-color);
 
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .teaching-offering-meta {
@@ -648,25 +641,19 @@ ul.task-list input[type="checkbox"] {
 }
 
 .teaching-offering-link {
-  flex: 0 0 auto;
-
-  text-align: right;
+  margin-top: 0.15rem;
 
   font-size: 0.9rem;
 }
 
 .teaching-offering-link a {
-  white-space: nowrap;
   text-decoration: none;
 }
-
-/*
- * Mobile teaching layout
- */
 
 @media (max-width: 576px) {
   .teaching-universities {
     gap: 2rem;
+
     margin-top: 1.5rem;
   }
 
@@ -684,23 +671,154 @@ ul.task-list input[type="checkbox"] {
     padding: 0.9rem;
   }
 
-  .teaching-offering-row {
-    align-items: flex-start;
-    flex-direction: column;
+  .teaching-offerings {
+    gap: 0.9rem;
+  }
+}
 
-    gap: 0.5rem;
+/******************************************************************************
+ * Individual course pages
+ ******************************************************************************/
 
-    padding: 0.75rem 0.8rem;
+.course-back {
+  margin-bottom: 1.25rem;
+}
+
+.course-back a {
+  text-decoration: none;
+
+  font-size: 0.95rem;
+}
+
+.course-info {
+  margin-bottom: 1.5rem;
+}
+
+.course-info p {
+  margin-bottom: 0.3rem;
+}
+
+/*
+ * Schedule box.
+ *
+ * Same visual language as the publication boxes:
+ * rounded border, card background, thin scrollbar.
+ */
+
+.course-schedule-box {
+  width: 100%;
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+
+  background-color: var(--global-card-bg-color);
+
+  overflow: hidden;
+}
+
+.course-schedule-scroll {
+  max-height: 30rem;
+
+  overflow-y: auto;
+  overflow-x: auto;
+
+  padding: 0.75rem 1.25rem;
+
+  /*
+   * No overscroll-behavior: contain here.
+   * Once the schedule reaches the top/bottom,
+   * scrolling can continue on the main page.
+   */
+
+  scrollbar-width: thin;
+  scrollbar-color:
+    var(--global-text-color-light)
+    transparent;
+}
+
+.course-schedule-scroll::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.course-schedule-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.course-schedule-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--global-text-color-light);
+
+  border-radius: 999px;
+}
+
+.course-schedule-table {
+  width: 100%;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: var(--global-text-color);
+}
+
+.course-schedule-table th,
+.course-schedule-table td {
+  vertical-align: top;
+}
+
+.course-schedule-table thead th {
+  color: var(--global-text-color);
+
+  font-weight: 600;
+
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.course-schedule-table tbody tr {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.course-schedule-table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.course-schedule-week,
+.course-schedule-date {
+  white-space: nowrap;
+}
+
+.schedule-description {
+  margin-top: 0.3rem;
+}
+
+.schedule-description > :last-child {
+  margin-bottom: 0;
+}
+
+.schedule-materials {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+/*
+ * Mobile schedule.
+ */
+
+@media (max-width: 576px) {
+  .course-back {
+    margin-bottom: 1rem;
   }
 
-  .teaching-offering-link {
-    width: 100%;
+  .course-schedule-scroll {
+    max-height: 24rem;
 
-    text-align: left;
+    padding: 0.6rem 0.75rem;
   }
 
-  .teaching-offering-link a {
-    white-space: normal;
+  .course-schedule-table {
+    min-width: 650px;
   }
 }
 
