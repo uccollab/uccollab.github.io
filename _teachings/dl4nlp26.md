@@ -171,7 +171,7 @@ schedule:
       - Fundamentals of Diffusion LLMs
 
 
-  - week: 11
+  - week: 10
     date: Jun 30
     topic: Guest lecture (Cybersecurity, Interpretability, Mental health)
     description: |
@@ -180,7 +180,7 @@ schedule:
       - Natural Language Processing for Mental Health (Dr. Hiba Arnaout, UKP lab)
 
 
-  - week: 12
+  - week: 11
     date: Jul 07
     topic: Exam simulation
 ---
