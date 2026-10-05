@@ -133,6 +133,11 @@ ninja.data = [{
           description: "Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/dl4nlp25/";
+            },},{id: "teachings-deep-learning-for-natural-language-processing",
+          title: 'Deep Learning For Natural Language Processing',
+          description: "Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/dl4nlp26/";
             },},{
         id: 'social-email',
         title: 'email',
