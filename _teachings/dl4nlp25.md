@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Deep Learning For Natural Language Processing
+title: Deep Learning For Natural Language Processing 2025
 description: Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.
 
 institution: TU Darmstadt
@@ -198,5 +198,4 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 
 ## Material
 
-- Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH).
-- Other material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1788).
+- Material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1788).
