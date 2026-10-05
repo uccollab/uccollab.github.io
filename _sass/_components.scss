@@ -5,11 +5,10 @@
 // Checklist
 
 ul.task-list {
-  list-style-type: none; /* Remove bullets from all levels */
+  list-style-type: none;
 }
 
 ul.task-list > li ul {
-  /* Nested lists within .task-list */
   padding-inline-start: 1.5rem;
 }
 
@@ -49,7 +48,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.25rem;
   }
 }
 
@@ -173,22 +172,11 @@ ul.task-list input[type="checkbox"] {
  * Navbar
  ******************************************************************************/
 
-// ExpNLP custom color
-
-.navbar .nav-link[href*="expnlp"] {
-  color: #f9481e !important;
-}
-
-// Active navbar item:
-// neutral text color instead of theme blue/purple
-
 .navbar .nav-link.active,
 .navbar .nav-item.active > .nav-link {
   color: var(--global-text-color) !important;
   position: relative;
 }
-
-// Desktop active underline
 
 .navbar .nav-link.active::after,
 .navbar .nav-item.active > .nav-link::after {
@@ -205,15 +193,11 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-text-color);
 }
 
-// Keep ExpNLP orange even when it is the active page
-
-.navbar .nav-link[href*="expnlp"].active,
-.navbar .nav-item.active > .nav-link[href*="expnlp"] {
-  color: #f9481e !important;
-}
-
-// Mobile navbar:
-// use a true text underline so it cannot stretch across the menu
+/*
+ * Mobile navbar:
+ * use a text underline so it cannot stretch across the
+ * entire expanded mobile menu.
+ */
 
 @media (max-width: 991.98px) {
   .navbar .nav-link.active::after,
@@ -229,15 +213,36 @@ ul.task-list input[type="checkbox"] {
     text-decoration-thickness: 3px !important;
     text-underline-offset: 0.2em !important;
   }
+}
 
-  .navbar .nav-link[href*="expnlp"].active,
-  .navbar .nav-item.active > .nav-link[href*="expnlp"] {
-    color: #f9481e !important;
+/*
+ * ExpNLP always stays orange.
+ * This intentionally comes after the active-link rules.
+ */
+
+.navbar a[href*="/expnlp/"],
+.navbar a[href*="/expnlp/"] * {
+  color: #f9481e !important;
+}
+
+.navbar a[href*="/expnlp/"]:hover,
+.navbar a[href*="/expnlp/"]:focus,
+.navbar a[href*="/expnlp/"].active,
+.navbar .nav-item.active > a[href*="/expnlp/"] {
+  color: #f9481e !important;
+}
+
+/*
+ * Keep the ExpNLP active underline neutral rather than orange.
+ */
+
+@media (max-width: 991.98px) {
+  .navbar a[href*="/expnlp/"].active {
     text-decoration-color: var(--global-text-color) !important;
   }
 }
 
-// Social (bottom)
+// Social
 
 .social {
   text-align: center;
@@ -293,7 +298,6 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -358,7 +362,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 .news-box-scroll {
-  // Roughly three news rows are visible.
   max-height: 14rem;
 
   overflow-y: auto;
@@ -419,8 +422,6 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-text-color-light);
 }
 
-/* Mobile */
-
 @media (max-width: 576px) {
   .news-sections {
     gap: 1rem;
@@ -463,11 +464,6 @@ ul.task-list input[type="checkbox"] {
   padding-bottom: 1.5rem;
 }
 
-/*
- * Every section after the first gets a divider.
- * The divider follows the current light/dark theme.
- */
-
 .home-section + .home-section {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -480,15 +476,9 @@ ul.task-list input[type="checkbox"] {
   padding-bottom: 0;
 }
 
-/*
- * Avoid excessive spacing between divider and heading.
- */
-
 .home-section > h2:first-child {
   margin-top: 0;
 }
-
-/* Mobile */
 
 @media (max-width: 576px) {
   .home-section {
@@ -498,39 +488,43 @@ ul.task-list input[type="checkbox"] {
 }
 
 /******************************************************************************
- * Teaching courses
+ * Teaching
  ******************************************************************************/
 
-.teaching-courses {
+/*
+ * University level
+ */
+
+.teaching-universities {
   display: grid;
-  gap: 2.25rem;
+  gap: 2.75rem;
   margin-top: 2rem;
 }
 
-.teaching-course {
+.teaching-university {
   width: 100%;
 }
 
-.teaching-course-title {
+.teaching-university-title {
   margin-top: 0;
   margin-bottom: 1rem;
 
   color: var(--global-text-color);
 
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   font-weight: 600;
 }
 
-.teaching-offerings {
+.teaching-course-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.9rem;
 }
 
 /*
- * One university / semester offering.
+ * Course level
  */
 
-.teaching-offering {
+.teaching-course {
   border: 1px solid var(--global-divider-color);
   border-radius: 0.75rem;
 
@@ -539,52 +533,33 @@ ul.task-list input[type="checkbox"] {
   overflow: hidden;
 }
 
-/*
- * Clickable collapsed header.
- */
-
-.teaching-offering-summary {
+.teaching-course-summary {
   display: flex;
   align-items: center;
-
   gap: 0.75rem;
 
-  padding: 0.9rem 1.15rem;
+  padding: 1rem 1.2rem;
 
-  list-style: none;
   cursor: pointer;
+  list-style: none;
   user-select: none;
 
   color: var(--global-text-color);
   background-color: var(--global-card-bg-color);
 
-  font-size: 1rem;
-  font-weight: 500;
-
-  transition: background-color 0.15s ease;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-.teaching-offering-summary:hover {
-  background-color: var(--global-bg-color);
-}
-
-/*
- * Hide the native details triangle.
- */
-
-.teaching-offering-summary::-webkit-details-marker {
+.teaching-course-summary::-webkit-details-marker {
   display: none;
 }
 
-.teaching-offering-summary::marker {
+.teaching-course-summary::marker {
   content: "";
 }
 
-/*
- * Custom + / − indicator.
- */
-
-.teaching-offering-summary::before {
+.teaching-course-summary::before {
   content: "+";
 
   display: inline-flex;
@@ -603,199 +578,129 @@ ul.task-list input[type="checkbox"] {
   line-height: 1;
 }
 
-.teaching-offering[open] > .teaching-offering-summary::before {
+.teaching-course[open] > .teaching-course-summary::before {
   content: "−";
 }
 
-.teaching-offering[open] > .teaching-offering-summary {
+.teaching-course[open] > .teaching-course-summary {
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-.teaching-offering-main {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-
-  gap: 0.35rem;
+.teaching-course-body {
+  padding: 1.15rem 1.2rem 1.2rem;
 }
 
-.teaching-offering-institution {
-  font-weight: 600;
-}
+.teaching-course-description {
+  margin-bottom: 1.2rem;
 
-.teaching-offering-separator {
-  color: var(--global-text-color-light);
-}
-
-.teaching-offering-semester {
-  color: var(--global-text-color-light);
-}
-
-/*
- * Expanded body.
- */
-
-.teaching-offering-body {
-  background-color: var(--global-card-bg-color);
-}
-
-/*
- * Course contents stay inside a fixed maximum height.
- * Long syllabi therefore scroll instead of making the page enormous.
- */
-
-.teaching-offering-scroll {
-  max-height: 30rem;
-
-  overflow-y: auto;
-  overflow-x: auto;
-
-  padding: 1.25rem;
-
-  color: var(--global-text-color);
-
-  scrollbar-width: thin;
-  scrollbar-color:
-    var(--global-text-color-light)
-    transparent;
-}
-
-/*
- * Chrome / Edge / Safari scrollbar.
- */
-
-.teaching-offering-scroll::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
-}
-
-.teaching-offering-scroll::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.teaching-offering-scroll::-webkit-scrollbar-thumb {
-  background-color: var(--global-text-color-light);
-  border-radius: 999px;
-}
-
-/*
- * Description at the top of an embedded course.
- */
-
-.teaching-offering-description {
-  margin-bottom: 1rem;
-}
-
-.teaching-offering-description > :last-child {
-  margin-bottom: 0;
-}
-
-/*
- * Optional instructor/time metadata.
- */
-
-.teaching-offering-meta {
-  display: grid;
-  gap: 0.2rem;
-
-  margin-bottom: 1.25rem;
-
-  color: var(--global-text-color-light);
-
-  font-size: 0.95rem;
-}
-
-.teaching-offering-meta strong {
   color: var(--global-text-color);
 }
 
-/*
- * Avoid unnecessary whitespace at the boundaries of the
- * embedded course content.
- */
-
-.teaching-offering-content > :first-child,
-.teaching-offering-scroll > :first-child {
+.teaching-course-description > :first-child {
   margin-top: 0;
 }
 
-.teaching-offering-content > :last-child,
-.teaching-offering-scroll > :last-child {
+.teaching-course-description > :last-child {
   margin-bottom: 0;
 }
 
 /*
- * Make schedule tables behave sensibly inside the scroll box.
+ * Offering level
  */
 
-.teaching-offering-scroll table {
-  width: 100%;
+.teaching-offerings {
+  display: grid;
+  gap: 0.65rem;
 }
 
-.teaching-offering-scroll img {
-  max-width: 100%;
-  height: auto;
+.teaching-offering-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1.25rem;
+
+  padding: 0.8rem 0.95rem;
+
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.6rem;
+
+  background-color: var(--global-card-bg-color);
 }
 
-/*
- * Permanent link to the full standalone course page.
- */
+.teaching-offering-info {
+  min-width: 0;
+}
 
-.teaching-offering-footer {
-  padding: 0.7rem 1.25rem;
+.teaching-offering-title {
+  color: var(--global-text-color);
 
-  border-top: 1px solid var(--global-divider-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.teaching-offering-meta {
+  margin-top: 0.15rem;
+
+  color: var(--global-text-color-light);
+
+  font-size: 0.875rem;
+}
+
+.teaching-offering-link {
+  flex: 0 0 auto;
 
   text-align: right;
+
   font-size: 0.9rem;
 }
 
-.teaching-offering-footer a {
+.teaching-offering-link a {
+  white-space: nowrap;
   text-decoration: none;
 }
 
 /*
- * Mobile teaching layout.
+ * Mobile teaching layout
  */
 
 @media (max-width: 576px) {
-  .teaching-courses {
-    gap: 1.75rem;
+  .teaching-universities {
+    gap: 2rem;
     margin-top: 1.5rem;
   }
 
-  .teaching-course-title {
-    margin-bottom: 0.75rem;
-
-    font-size: 1.3rem;
-    line-height: 1.3;
+  .teaching-university-title {
+    font-size: 1.4rem;
   }
 
-  .teaching-offering-summary {
+  .teaching-course-summary {
+    padding: 0.85rem 0.9rem;
+
+    font-size: 1rem;
+  }
+
+  .teaching-course-body {
+    padding: 0.9rem;
+  }
+
+  .teaching-offering-row {
+    align-items: flex-start;
+    flex-direction: column;
+
     gap: 0.5rem;
 
-    padding: 0.8rem 0.85rem;
-
-    font-size: 0.95rem;
+    padding: 0.75rem 0.8rem;
   }
 
-  .teaching-offering-summary::before {
-    flex-basis: 1.25rem;
+  .teaching-offering-link {
+    width: 100%;
 
-    width: 1.25rem;
-    height: 1.25rem;
-
-    font-size: 1.2rem;
+    text-align: left;
   }
 
-  .teaching-offering-scroll {
-    max-height: 24rem;
-
-    padding: 1rem 0.85rem;
-  }
-
-  .teaching-offering-footer {
-    padding: 0.65rem 0.85rem;
+  .teaching-offering-link a {
+    white-space: normal;
   }
 }
 
@@ -803,14 +708,7 @@ ul.task-list input[type="checkbox"] {
  * Responsive portrait sizes
  ******************************************************************************/
 
-/*
- * Tablet / narrow desktop.
- */
-
 @media (max-width: 991.98px) {
-  /*
-   * Homepage profile picture.
-   */
   .profile img {
     display: block;
 
@@ -823,19 +721,12 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 1rem;
   }
 
-  /*
-   * ExpNLP people photographs.
-   */
   img[src*="/assets/img/people/"] {
     width: min(42vw, 230px) !important;
     max-width: 230px !important;
     height: auto !important;
   }
 }
-
-/*
- * Phones.
- */
 
 @media (max-width: 576px) {
   .profile img {
@@ -848,20 +739,4 @@ ul.task-list input[type="checkbox"] {
     max-width: 190px !important;
     height: auto !important;
   }
-}
-
-/******************************************************************************
- * Force ExpNLP navbar color
- ******************************************************************************/
-
-.navbar a[href*="expnlp" i],
-.navbar a[href*="expnlp" i] * {
-  color: #f9481e !important;
-}
-
-.navbar a[href*="expnlp" i]:hover,
-.navbar a[href*="expnlp" i]:focus,
-.navbar a[href*="expnlp" i].active,
-.navbar a[href*="expnlp" i].active * {
-  color: #f9481e !important;
 }

@@ -2,11 +2,19 @@
 layout: course
 title: Deep Learning For Natural Language Processing
 description: Complete crash-course on Natural Language Processing. From basic text classification, all the way to Large Language Models, Reinforcement Learning From Human Feedback etc.
+
+institution: TU Darmstadt
+course_key: dl4nlp
+course_name: Deep Learning for Natural Language Processing
+offering: SoSe 2025
+offering_sort: 2025-04-01
+
 year: 2025
 term: Summer Semester
 
 time: Tuesdays, 13:30-15:20 AM
 course_id: dl4nlp25
+
 schedule:
   - week: 1
     date: Apr 22
@@ -189,5 +197,6 @@ This course covers both foundation and up-to-date methodologies for Natural Lang
 - Probability and statistics fundamentals
 
 ## Material
+
 - Available publicly on [YouTube](https://www.youtube.com/watch?v=6uAaPJRJ4yI&list=PLTTKNnlG40NryM57dItbOs9uVuarenyjH).
 - Other material (slides, exercises, homeworks, and exam solutions etc.) on [Moodle](https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1788).
