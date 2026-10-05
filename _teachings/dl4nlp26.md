@@ -154,13 +154,6 @@ schedule:
       - Grokking
 
   - week: 9
-    date: Jun 24
-    topic: Transformers, Self-attention and BERT (double lecture)
-    description: |
-
-
-
-  - week: 10
     date: Jun 9
     topic: Pushing boundaries of LLMs 1
     description: |
