@@ -32,7 +32,7 @@ latest_posts:
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
 Darmstadt (DE) <br>
 
-[Link to academic CV (updated 16/10/2026)](https://uccollab.github.io/assets/pdf/CV.pdf)
+[Link to academic CV (updated 16/10/2026)](https://uccollab.github.io/assets/CV.pdf)
 
 I have {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience in AI research, and {{ site.data.stats.publications_count }} peer-reviewed publications. I worked within several EU-funded projects, including Horizon 2020, ERC and EU Erasmus Traineeship. My research focuses on AI for mental health and behaviour change, safety and controllability evaluation, and more generally on AI applied to expert domains. I have extensive experience in the human evaluation of AI. 
 
