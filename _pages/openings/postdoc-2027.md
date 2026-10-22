@@ -79,14 +79,14 @@ Please send your application to <a href="mailto:simone.balloccu@tu-darmstadt.de"
 
 ## References
 
-- [Dutta et al., 2025] Subhabrata Dutta, Timo Kaufmann, Goran Glavaš, Ivan Habernal, Kristian Kersting, Frauke Kreuter, Mira Mezini, Iryna Gurevych, Eyke Hüllermeier and Hinrich Schuetze. "Problem Solving Through Human-AI Preference-Based Cooperation." _Computational Linguistics_, 51(4):1337–1372, 2025.
-- [Gururaja et al., 2025] Sireesh Gururaja, Nupoor Gandhi, Jeremiah Milbauer and Emma Strubell. "Beyond Text: Characterizing Domain Expert Needs in Document Research." [Findings of ACL 2025](https://arxiv.org/pdf/2504.12495), pages 4732–4745.
-- [Kaufmann et al., 2025] Timo Kaufmann, Paul Weng, Viktor Bengs and Eyke Hüllermeier. "A Survey of Reinforcement Learning from Human Feedback." [_Transactions on Machine Learning Research_](https://arxiv.org/abs/2312.14925), 2025.
-- [Klein, 1998] Gary Klein. _Sources of Power: How People Make Decisions._ MIT Press, 1998.
-- [Lacombe and Bardin, 2025] Guilhem Lacombe and Sébastien Bardin. "Attacker Control and Bug Prioritization." [USENIX Security 2025](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-573-lacombe.pdf).
-- [Mancoridis et al., 2025] Marina Mancoridis, Bec Weeks, Keyon Vafa and Sendhil Mullainathan. "Potemkin Understanding in Large Language Models." ICML 2025.
-- [Mokhova et al., 2026] A. Mokhova, Subhabrata Dutta, Iryna Gurevych and Simone Balloccu. "Subjective Code Preferences in Experts and Large Language Models." arXiv:2605.25296, 2026.
-- [Siththaranjan et al., 2024] Anand Siththaranjan, Cassidy Laidlaw and Dylan Hadfield-Menell. "Distributional Preference Learning: Understanding and Accounting for Hidden Context in RLHF." ICLR 2024.
-- [Vu and Balloccu, 2026] D. N. L. Vu and Simone Balloccu. "Prompts Without Evidence: How Neuroimaging Mentions Shift Clinical Vision-Language Model Predictions." [arXiv:2603.28387](https://arxiv.org/pdf/2603.28387), 2026.
-- [Wang and Balloccu, 2026] R. Wang and Simone Balloccu. "ARQA: A Benchmark for Grounded Table–Text QA in Enterprise Annual Reports." [EACL 2026 (Industry Track)](https://aclanthology.org/2026.eacl-industry.63.pdf).
-- [Wunder et al., 2024] Julia Wunder, Andreas Kurtz, Christian Eichenmüller, Freya Gassmann and Zinaida Benenson. "Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities." [IEEE S&P 2024](https://arxiv.org/pdf/2308.15259). 
+- [Dutta et al., 2025] [Subhabrata Dutta, Timo Kaufmann, Goran Glavaš, Ivan Habernal, Kristian Kersting, Frauke Kreuter, Mira Mezini, Iryna Gurevych, Eyke Hüllermeier and Hinrich Schütze. "Problem Solving Through Human–AI Preference-based Cooperation." _Computational Linguistics_, 51(4):1337–1372, 2025.](https://aclanthology.org/2025.cl-4.8/)
+- [Gururaja et al., 2025] [Sireesh Gururaja, Nupoor Gandhi, Jeremiah Milbauer and Emma Strubell. "Beyond Text: Characterizing Domain Expert Needs in Document Research." Findings of ACL 2025, pages 4732–4745.](https://aclanthology.org/2025.findings-acl.244/)
+- [Kaufmann et al., 2025] [Timo Kaufmann, Paul Weng, Viktor Bengs and Eyke Hüllermeier. "A Survey of Reinforcement Learning from Human Feedback." _Transactions on Machine Learning Research_, 2025.](https://arxiv.org/abs/2312.14925)
+- [Klein, 1998] [Gary Klein. _Sources of Power: How People Make Decisions._ MIT Press, 1998.](https://mitpressbookstore.mit.edu/book/9780262534291)
+- [Lacombe and Bardin, 2025] [Guilhem Lacombe and Sébastien Bardin. "Attacker Control and Bug Prioritization." USENIX Security 2025.](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-573-lacombe.pdf)
+- [Mancoridis et al., 2025] [Marina Mancoridis, Bec Weeks, Keyon Vafa and Sendhil Mullainathan. "Potemkin Understanding in Large Language Models." ICML 2025.](https://arxiv.org/abs/2506.21521)
+- [Mokhova et al., 2026] [A. Mokhova, Subhabrata Dutta, Iryna Gurevych and Simone Balloccu. "Subjective Code Preferences in Experts and Large Language Models." arXiv:2605.25296, 2026.](https://arxiv.org/abs/2605.25296)
+- [Siththaranjan et al., 2024] [Anand Siththaranjan, Cassidy Laidlaw and Dylan Hadfield-Menell. "Distributional Preference Learning: Understanding and Accounting for Hidden Context in RLHF." ICLR 2024.](https://arxiv.org/abs/2312.08358)
+- [Vu and Balloccu, 2026] [D. N. L. Vu and Simone Balloccu. "Prompts Without Evidence: How Neuroimaging Mentions Shift Clinical Vision-Language Model Predictions." arXiv:2603.28387, 2026.](https://arxiv.org/abs/2603.28387)
+- [Wang and Balloccu, 2026] [R. Wang and Simone Balloccu. "ARQA: A Benchmark for Grounded Table–Text QA in Enterprise Annual Reports." EACL 2026 (Industry Track).](https://aclanthology.org/2026.eacl-industry.63/)
+- [Wunder et al., 2024] [Julia Wunder, Andreas Kurtz, Christian Eichenmüller, Freya Gassmann and Zinaida Benenson. "Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities." IEEE S&P 2024.](https://arxiv.org/abs/2308.15259)
