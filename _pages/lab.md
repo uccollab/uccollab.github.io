@@ -55,7 +55,9 @@ Our research interests include:
 
 ---
 
-## People
+<details class="teaching-course expnlp-section">
+<summary class="teaching-course-summary">People</summary>
+<div class="expnlp-section-scroll">
 
 <div class="publications">
 
@@ -143,9 +145,13 @@ Our research interests include:
 
 </div>
 
----
+</div>
+</details>
 
-## Student Theses
+<details class="teaching-course expnlp-section">
+<summary class="teaching-course-summary">Student Theses</summary>
+<div class="expnlp-section-scroll" markdown="1">
+
 We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
 
 ### Concluded
@@ -161,13 +167,16 @@ We welcome application from B.Sc. and M.Sc. students who want to work on topics 
 
 ---
 
-## Ongoing
+### Ongoing
 
 - No ongoing thesis at the moment.
 
+</div>
+</details>
+
 ---
 
-#### Open positions
+## Open positions
  
 - **Postdoctoral Researcher – Expert Judgment in LLMs, with a Focus on Cybersecurity** (January – December 2027, apply by 15 November 2026). <a href="{{ '/expnlp/postdoc-2027/' | relative_url }}">Read the full announcement</a>.
 

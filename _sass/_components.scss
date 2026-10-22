@@ -373,9 +373,7 @@ ul.task-list input[type="checkbox"] {
   padding: 0.4rem 1.25rem;
 
   scrollbar-width: thin;
-  scrollbar-color:
-    var(--global-text-color-light)
-    transparent;
+  scrollbar-color: var(--global-text-color-light) transparent;
 }
 
 .news-box-scroll::-webkit-scrollbar {
@@ -677,6 +675,61 @@ ul.task-list input[type="checkbox"] {
 }
 
 /******************************************************************************
+ * ExpNLP page: expandable sections (People, Student Theses)
+ *
+ * Same card and +/− toggle as the teaching overview; the open body is a
+ * fixed-height box with the thin scrollbar used for publications and news.
+ ******************************************************************************/
+
+.expnlp-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.expnlp-section-scroll {
+  max-height: 28rem;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 1.15rem 1.2rem 1.2rem;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-text-color-light) transparent;
+}
+
+.expnlp-section-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.expnlp-section-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.expnlp-section-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--global-text-color-light);
+
+  border-radius: 999px;
+}
+
+.expnlp-section-scroll > :first-child,
+.expnlp-section-scroll > .publications > :first-child {
+  margin-top: 0;
+}
+
+.expnlp-section-scroll > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .expnlp-section-scroll {
+    max-height: 24rem;
+
+    padding: 0.9rem;
+  }
+}
+
+/******************************************************************************
  * Individual course pages
  ******************************************************************************/
 
@@ -734,9 +787,7 @@ ul.task-list input[type="checkbox"] {
    */
 
   scrollbar-width: thin;
-  scrollbar-color:
-    var(--global-text-color-light)
-    transparent;
+  scrollbar-color: var(--global-text-color-light) transparent;
 }
 
 .course-schedule-scroll::-webkit-scrollbar {
