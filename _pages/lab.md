@@ -164,9 +164,9 @@ Our research interests include:
 
 ---
 
-## Openings / Collaboration
-
-If you are interested in working with us, feel free to get in touch!
+#### Open positions
+ 
+- **Postdoctoral Researcher – Expert Judgment in LLMs, with a Focus on Cybersecurity** (January – December 2027, apply by 15 November 2026). <a href="{{ '/expnlp/postdoc-2027/' | relative_url }}">Read the full announcement</a>.
 
 #### Theses
 We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
