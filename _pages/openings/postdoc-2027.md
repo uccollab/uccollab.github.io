@@ -73,7 +73,7 @@ If you feel like you're a good fit for the position, please submit the following
 
 **Application deadline:** 15/11/2026. After that, the position will remain open until filled. We will consider applications as soon as they are submitted.
 
-Please send your application to <a href="mailto:simone.balloccu@tu-darmstadt.de">Dr. Simone Balloccu (simone.balloccu@tu-darmstadt.de)</a>.
+Please send your application to <a href="mailto:simone.balloccu@tu-darmstadt.de">Dr. Simone Balloccu (simone.balloccu@tu-darmstadt.de)</a> with object "Expert Judgment in LLMs, with a Focus on Cybersecurity".
 
 ---
 
