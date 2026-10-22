@@ -146,6 +146,7 @@ Our research interests include:
 ---
 
 ## Student Thesis
+We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
 
 ### Concluded
 
@@ -160,7 +161,7 @@ Our research interests include:
 
 ### Ongoing
 
--
+- No ongoing thesis at the moment.
 
 ---
 
@@ -168,8 +169,5 @@ Our research interests include:
  
 - **Postdoctoral Researcher – Expert Judgment in LLMs, with a Focus on Cybersecurity** (January – December 2027, apply by 15 November 2026). <a href="{{ '/expnlp/postdoc-2027/' | relative_url }}">Read the full announcement</a>.
 
-#### Theses
-We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
-
-#### PhDs, Postdocs, and internships
-Application are currently considered only if the candidate is self-funded (or virtual, should the topic be expecially relevant to the lab's vision). Candidates are welcome to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with CV, degree certification, grades transcript, and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
+#### General info: PhDs, Postdocs, and internships
+Outside of currently open positions (if any), applications are considered only from self-funded candidates. Feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with CV, degree certification, grades transcript (if applying for PhD), and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
