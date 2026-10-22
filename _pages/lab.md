@@ -159,7 +159,9 @@ We welcome application from B.Sc. and M.Sc. students who want to work on topics 
   - **Synthetic Therapist-Client Conversation Generation From Questionnaires** — Mohamed Aziz Boudabous
   - **Expressive Text-To-Speech Generation and Evaluation for Therapist-Client Dialogues** — Marleen Sinsel
 
-### Ongoing
+---
+
+## Ongoing
 
 - No ongoing thesis at the moment.
 
@@ -168,6 +170,8 @@ We welcome application from B.Sc. and M.Sc. students who want to work on topics 
 #### Open positions
  
 - **Postdoctoral Researcher – Expert Judgment in LLMs, with a Focus on Cybersecurity** (January – December 2027, apply by 15 November 2026). <a href="{{ '/expnlp/postdoc-2027/' | relative_url }}">Read the full announcement</a>.
+
+---
 
 #### General info: PhDs, Postdocs, and internships
 Outside of currently open positions (if any), applications are considered only from self-funded candidates. Feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with CV, degree certification, grades transcript (if applying for PhD), and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
