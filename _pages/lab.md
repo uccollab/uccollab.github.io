@@ -145,7 +145,7 @@ Our research interests include:
 
 ---
 
-## Student Thesis
+## Student Theses
 We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
 
 ### Concluded
