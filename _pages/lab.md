@@ -80,12 +80,6 @@ Our research interests include:
       </h4>
 
       <p><strong>Topics:</strong> Multimodal AI for mental health</p>
-
-      <p>
-        I am a researcher working on clinical AI, with a focus on interpretability and mental health applications. My research investigates how AI models encode and respond to clinically relevant content, and how the register in which symptoms are described shapes model behavior and assessments. A central question driving my work is whether AI, when applied to mental health contexts, responds to underlying clinical conditions or to the surface-level language used to express them.
-
-        Additionally, I am exploring state-of-the-art, open-source multimodal AI models in real-world clinical research scenarios. My applied work includes transforming clinical questionnaires into natural dialogues, developing dialogue-aware text-to-speech system, and automatic speech recognition for niche use cases, such as analyzing interactions between caretakers and children with autism. Furthermore, I am experimenting with video-based models for gaze tracking and behavioral classification in children.
-      </p>
     </div>
   </div>
 
@@ -108,10 +102,6 @@ Our research interests include:
       </h4>
 
       <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
-
-      <p>
-        A key challenge of AI research today is for AI systems reflect the knowledge, judgment, and professional standards of domain experts. The central focus of my PhD is to advance AI systems in order for them to act as a supportive collaborator with the help of human experts insights. This alignment improves trust, reliability, and real-world usefulness, especially in high-stakes areas like software engineering. Besides human-AI scope, being a linguist, I am also interested in more traditional NLP topics such as how to tackle multilinguality or semantic ambiguity. Outside of my research, I enjoy exploring and practicing various forms of art, hiking and visiting new places.
-      </p>
     </div>
   </div>
 
@@ -134,12 +124,6 @@ Our research interests include:
       </h4>
 
       <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
-
-      <p>
-        I am a PhD student working on knowledge-intensive AI for industrial applications. In collaboration with Volkswagen, I focus on developing AI systems that support production planning and engineering decision-making.
-
-        My research investigates how expert knowledge from technical documents, standards, historical project data, and human experience can make AI systems reliable, explainable, and effective in real-world industrial settings. In particular, I explore how AI assistants can use structured knowledge representations and reason over domain knowledge and support experts in complex decision processes. My work also includes attribution-aware question answering, especially methods that improve the grounding and evidential support of LLM-generated responses.
-      </p>
     </div>
   </div>
 
