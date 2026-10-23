@@ -63,68 +63,44 @@ Our research interests include:
 
   <h3>PhD Students</h3>
 
-  <div class="row">
-    <div class="col-sm-2 expnlp-person-photo">
-      {% include figure.liquid
-        path="assets/img/people/doannamlongvu.png"
-        class="img-fluid rounded z-depth-1"
-        alt="Doan"
-      %}
+  <div class="row expnlp-people">
+
+    <div class="col-sm-4 expnlp-person">
+      <a href="{{ '/people/doannamlongvu/' | relative_url }}">
+        {% include figure.liquid
+          path="assets/img/people/doannamlongvu.png"
+          class="img-fluid rounded z-depth-1"
+          alt="Doan"
+        %}
+      </a>
+      <h4><a href="{{ '/people/doannamlongvu/' | relative_url }}">Doan Nam Long Vu</a></h4>
+      <p>Multimodal AI for mental health</p>
     </div>
 
-    <div class="col-sm-10 expnlp-person-info">
-      <h4>
-        <a href="{{ '/people/doannamlongvu/' | relative_url }}">
-          Doan Nam Long Vu
-        </a>
-      </h4>
-
-      <p><strong>Topics:</strong> Multimodal AI for mental health</p>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="row">
-    <div class="col-sm-2 expnlp-person-photo">
-      {% include figure.liquid
-        path="assets/img/people/annamokhova.png"
-        class="img-fluid rounded z-depth-1"
-        alt="Anna"
-      %}
+    <div class="col-sm-4 expnlp-person">
+      <a href="{{ '/people/annamokhova/' | relative_url }}">
+        {% include figure.liquid
+          path="assets/img/people/annamokhova.png"
+          class="img-fluid rounded z-depth-1"
+          alt="Anna"
+        %}
+      </a>
+      <h4><a href="{{ '/people/annamokhova/' | relative_url }}">Anna Mokhova</a></h4>
+      <p>Expert-AI collaboration in coding</p>
     </div>
 
-    <div class="col-sm-10 expnlp-person-info">
-      <h4>
-        <a href="{{ '/people/annamokhova/' | relative_url }}">
-          Anna Mokhova
-        </a>
-      </h4>
-
-      <p><strong>Topics:</strong> Expert-AI collaboration in coding</p>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="row">
-    <div class="col-sm-2 expnlp-person-photo">
-      {% include figure.liquid
-        path="assets/img/people/ruilongwang.png"
-        class="img-fluid rounded z-depth-1"
-        alt="Ruilong"
-      %}
+    <div class="col-sm-4 expnlp-person">
+      <a href="{{ '/people/ruilongwang/' | relative_url }}">
+        {% include figure.liquid
+          path="assets/img/people/ruilongwang.png"
+          class="img-fluid rounded z-depth-1"
+          alt="Ruilong"
+        %}
+      </a>
+      <h4><a href="{{ '/people/ruilongwang/' | relative_url }}">Ruilong Wang</a></h4>
+      <p>Multimodal RAG systems for automotive applications</p>
     </div>
 
-    <div class="col-sm-10 expnlp-person-info">
-      <h4>
-        <a href="{{ '/people/ruilongwang/' | relative_url }}">
-          Ruilong Wang
-        </a>
-      </h4>
-
-      <p><strong>Topics:</strong> Multimodal RAG systems for automotive applications</p>
-    </div>
   </div>
 
 </div>
@@ -167,4 +143,4 @@ We welcome application from B.Sc. and M.Sc. students who want to work on topics 
 ---
 
 #### General info: PhDs, Postdocs, and internships
-Outside of currently open positions (if any), applications are considered only from self-funded candidates. Feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a> with CV, degree certification, grades transcript (if applying for PhD), and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
+Outside of currently open positions (if any), applications are considered only from self-funded candidates. Feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Provide a CV, degree certification, grades transcript (if applying for PhD), and research statement. We strongly suggest to highlight the overlapping between your proposal and the existing research directions of the ExpNLP.
