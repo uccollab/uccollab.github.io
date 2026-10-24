@@ -30,28 +30,29 @@ description:
   }
 </style>
 
-<div class="expnlp-logo float-end ms-4 mb-3" style="width: clamp(180px, 28vw, 280px);">
+<div class="expnlp-logo mb-4" style="width: clamp(220px, 70vw, 420px);">
   <img
     class="only-light img-fluid"
     src="{{ '/assets/img/logo-light.png' | relative_url }}"
-    alt="ExpNLP"
+    alt="ExpNLP – NLP for Expert Domains"
   >
   <img
     class="only-dark img-fluid"
     src="{{ '/assets/img/logo-dark.png' | relative_url }}"
-    alt="ExpNLP"
+    alt="ExpNLP – NLP for Expert Domains"
   >
 </div>
 
-## Natural Language Processing For Expert Domains (ExpNLP)
+<h2 class="sr-only">Natural Language Processing For Expert Domains (ExpNLP)</h2>
 
-At ExpNLP, we work on AI for expert domains. We focus on the real-world impact of AI, asking ourselves "How can AI support experts' work in complex, high-stakes settings"? This requires us to measure performance, reliability, transparency, and practical value. We highly value qualitative insights, going beyond benchmark scores, and human evaluation.
+At ExpNLP, we focus on real-world applications of AI to complex, high-stakes use cases. From mental health to software engineering, finance and more, we ask ourselves how AI can support domain experts. Answering this requires us to go beyond simple benchmarking: we highly value qualitative insights and human evaluation.
 
-Our research interests include:
+Some of our current directions:
 
-- **Evaluating AI in expert domains:** in areas like software engineering, healthcare, and industry, errors are costly and understanding strengths and limitations of AI is critical.
-- **Integrating multimodal data in Expert AI:** experts deal with many forms of information beyond text, including images, structured data, reports, and other domain-specific signals. Expert AI must effectively combine such data to support real-world expert workflows.
-- **Expert–AI interaction and collaboration:** we aim to design AI systems that assist rather than replace domain experts, enabling powerful partnerships and better decision-making.
+- **Evaluating AI in expert domains:** understanding the strengths and limitations of AI where errors are costly.
+- **Modelling expert judgment:** capturing heterogenous decision-making in experts, when there is no single right answer.
+- **Integrating multimodal data:** experts deal with many forms of information beyond text. AI must combine these to support experts' real workflows.
+- **AI as a collaborator:** we aim to design AI systems that assist rather than replace domain experts, enabling better decisions.
 
 ---
 
