@@ -34,9 +34,9 @@ Darmstadt (DE) <br>
 
 [Academic CV (updated 16/10/2026)](https://uccollab.github.io/assets/CV.pdf)
 
-I'm an AI researchers with {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience, and {{ site.data.stats.publications_count }} peer-reviewed publications. My research focuses on how AI can support domain experts, and how effective it can be in real-world scenarios. I have extensive experience in the human evaluation of AI, and tend to prioritize it in my work.
+I'm an AI researcher with {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience, and {{ site.data.stats.publications_count }} peer-reviewed publications. My research focuses on how AI can support domain experts, and how effective it can be in real-world scenarios. I have extensive experience in the human evaluation of AI, and tend to prioritize it in my work.
 
-Since Oct 2024, I lead the "NLP for expert domains" (ExpNLP) research lab at TU Darmstadt. My current research includes efficient RAG systems for corporate knowledge basis, Multimodal NLP applied to mental health, and modelling expert preferences in LLMs.
+Since Oct 2024, I lead the "NLP for expert domains" (ExpNLP) research lab at TU Darmstadt. My current research includes efficient RAG systems for corporate knowledge bases, multimodal NLP applied to mental health, and modelling expert preferences in LLMs.
 
 ---
 
