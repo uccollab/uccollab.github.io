@@ -32,7 +32,7 @@ latest_posts:
 Room D205, S2|02 Robert-Piloty-Building, Hochschulstraße 10, 64289<br>
 Darmstadt (DE) <br>
 
-[Link to academic CV (updated 16/10/2026)](https://uccollab.github.io/assets/CV.pdf)
+[Academic CV (updated 16/10/2026)](https://uccollab.github.io/assets/CV.pdf)
 
 I'm an AI researchers with {{ years_experience }} year{% if years_experience != 1 %}s{% endif %} of experience, and {{ site.data.stats.publications_count }} peer-reviewed publications. My research focuses on how AI can support domain experts, and how effective it can be in real-world scenarios. I have extensive experience in the human evaluation of AI, and tend to prioritize it in my work.
 
