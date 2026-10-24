@@ -83,7 +83,7 @@ ninja.data = [{
           section: "News",},{id: "news-invited-talk-how-expert-is-your-expert-ai-in-the-real-world-cental-uclouvain",
           title: 'Invited talk: “How expert is your ‘expert AI’ in the real world? @CENTAL...',
           description: "",
-          section: "News",},{id: "news-we-re-hiring-expnlp-is-looking-for-a-postdoc-january-december-2027-to-work-on-expert-judgment-in-llms-with-a-focus-on-cybersecurity-apply-by-15-november-2026-full-announcement-happy-to-chat-about-it-at-emnlp-2026",
+          section: "News",},{id: "news-we-re-hiring-expnlp-is-looking-for-a-postdoc-january-december-2027-to-work-on-expert-judgment-in-llms-with-a-focus-on-cybersecurity-apply-by-15-november-2026-happy-to-chat-about-it-at-emnlp-2026",
           title: '📢 We’re hiring! ExpNLP is looking for a postdoc (January – December 2027)...',
           description: "",
           section: "News",},{id: "projects-project-1",
