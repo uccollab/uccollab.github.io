@@ -38,6 +38,8 @@ $black-color: #000000 !default;
 // shade of the same hue for light mode so links stay readable on white.
 $expnlp-orange: #fd3a00;
 $expnlp-orange-deep: #c2410c;
+// Softer, lighter shade of the same hue for links in dark mode (less neon).
+$expnlp-orange-soft: #ff8a65;
 
 $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
