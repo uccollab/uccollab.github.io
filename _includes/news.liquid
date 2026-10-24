@@ -5,31 +5,30 @@
 
     {% if include.limit %}
 
-      <div
-        class="table-responsive"
-        {% if page.announcements.scrollable and news_size > 3 %}
-          style="max-height: 60vw"
-        {% endif %}
-      >
-        <table class="table table-sm table-borderless">
-          {% if page.announcements.limit %}
-            {% assign news_limit = page.announcements.limit %}
-          {% else %}
-            {% assign news_limit = news_size %}
-          {% endif %}
-          {% for item in all_news limit: news_limit %}
-            <tr>
-              <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
+      <div class="news-box">
+        <div class="news-box-scroll">
+          <table class="table table-sm table-borderless news-table">
+            <tbody>
+              {% if page.announcements.limit %}
+                {% assign news_limit = page.announcements.limit %}
+              {% else %}
+                {% assign news_limit = news_size %}
+              {% endif %}
+              {% for item in all_news limit: news_limit %}
+                <tr>
+                  <th scope="row">{{ item.date | date: '%b %d, %Y' }}</th>
+                  <td>
+                    {% if item.inline %}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {% else %}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
       </div>
       <div class="text-right mt-2">
         <a href="{{ '/news/' | relative_url }}" class="news-all-link">all news &rarr;</a>

@@ -74,7 +74,7 @@ layout: default
       </section>
     {% endif %}
 
-    {% if page.latest_posts and page.latest_posts.enabled %}
+    {% if page.latest_posts and page.latest_posts.enabled and site.posts.size > 0 %}
       <section class="home-section">
         <h2>
           <a href="{{ '/blog/' | relative_url }}" style="color: inherit">

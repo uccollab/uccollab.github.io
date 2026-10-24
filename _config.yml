@@ -7,7 +7,8 @@ first_name: Simone
 middle_name:
 last_name: Balloccu
 contact_note: >
-  Emails preferred.
+  Emails preferred.<br>
+  Original template <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Template based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
