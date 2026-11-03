@@ -557,7 +557,7 @@ ul.task-list input[type="checkbox"] {
   font-weight: 600;
 }
 
-/* Icons in the ExpNLP section titles (light/dark variants via .only-light/.only-dark) */
+/* ExpNLP section titles: small icon before the text, "+" after it */
 .expnlp-section-icon {
   flex: 0 0 auto;
 
@@ -565,6 +565,10 @@ ul.task-list input[type="checkbox"] {
   height: 1.4rem;
 
   object-fit: contain;
+}
+
+.expnlp-section > .teaching-course-summary::before {
+  order: 1;
 }
 
 .teaching-course-summary::-webkit-details-marker {
