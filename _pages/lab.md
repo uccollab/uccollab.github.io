@@ -57,7 +57,7 @@ Some of our current directions:
 ---
 
 <details class="teaching-course expnlp-section">
-<summary class="teaching-course-summary">People</summary>
+<summary class="teaching-course-summary"><img class="expnlp-section-icon only-light" src="{{ '/assets/img/icons/people-light.png' | relative_url }}" alt="" aria-hidden="true"><img class="expnlp-section-icon only-dark" src="{{ '/assets/img/icons/people-dark.png' | relative_url }}" alt="" aria-hidden="true">People</summary>
 <div class="expnlp-section-scroll">
 
 <div class="publications">
@@ -110,7 +110,7 @@ Some of our current directions:
 </details>
 
 <details class="teaching-course expnlp-section">
-<summary class="teaching-course-summary">Student Theses</summary>
+<summary class="teaching-course-summary"><img class="expnlp-section-icon only-light" src="{{ '/assets/img/icons/thesis-light.png' | relative_url }}" alt="" aria-hidden="true"><img class="expnlp-section-icon only-dark" src="{{ '/assets/img/icons/thesis-dark.png' | relative_url }}" alt="" aria-hidden="true">Student Theses</summary>
 <div class="expnlp-section-scroll" markdown="1">
 
 We welcome application from B.Sc. and M.Sc. students who want to work on topics relevant to the lab vision. If you are interested, feel free to <a href="mailto:simone.balloccu@tu-darmstadt.de">contact Dr. Simone Balloccu</a>. Include a grades transcript, CV, and initial proposal PDF (or at least a topic proposal).
@@ -135,11 +135,14 @@ We welcome application from B.Sc. and M.Sc. students who want to work on topics 
 </div>
 </details>
 
----
+<details class="teaching-course expnlp-section">
+<summary class="teaching-course-summary"><img class="expnlp-section-icon only-light" src="{{ '/assets/img/icons/job-light.png' | relative_url }}" alt="" aria-hidden="true"><img class="expnlp-section-icon only-dark" src="{{ '/assets/img/icons/job-dark.png' | relative_url }}" alt="" aria-hidden="true">Openings</summary>
+<div class="expnlp-section-scroll" markdown="1">
 
-## Open positions
- 
 - **Postdoctoral Researcher – Expert Judgment in LLMs, with a Focus on Cybersecurity** (January – December 2027, apply by 15 November 2026). <a href="{{ '/expnlp/postdoc-2027/' | relative_url }}">Read the full announcement</a>.
+
+</div>
+</details>
 
 ---
 
