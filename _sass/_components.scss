@@ -77,6 +77,12 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Keep the bio in its own column next to the photo, instead of wrapping
+// underneath it once the text is taller than the photo.
+.profile + .clearfix {
+  display: flow-root;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
