@@ -557,6 +557,16 @@ ul.task-list input[type="checkbox"] {
   font-weight: 600;
 }
 
+/* Icons in the ExpNLP section titles (light/dark variants via .only-light/.only-dark) */
+.expnlp-section-icon {
+  flex: 0 0 auto;
+
+  width: 1.4rem;
+  height: 1.4rem;
+
+  object-fit: contain;
+}
+
 .teaching-course-summary::-webkit-details-marker {
   display: none;
 }
