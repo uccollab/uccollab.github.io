@@ -70,7 +70,7 @@ Some of our current directions:
       <a href="{{ '/people/doannamlongvu/' | relative_url }}">
         {% include figure.liquid
           path="assets/img/people/doannamlongvu.png"
-          class="img-fluid rounded z-depth-1"
+          class="img-fluid rounded-circle z-depth-1"
           alt="Doan"
         %}
       </a>
@@ -82,7 +82,7 @@ Some of our current directions:
       <a href="{{ '/people/annamokhova/' | relative_url }}">
         {% include figure.liquid
           path="assets/img/people/annamokhova.png"
-          class="img-fluid rounded z-depth-1"
+          class="img-fluid rounded-circle z-depth-1"
           alt="Anna"
         %}
       </a>
@@ -94,7 +94,7 @@ Some of our current directions:
       <a href="{{ '/people/ruilongwang/' | relative_url }}">
         {% include figure.liquid
           path="assets/img/people/ruilongwang.png"
-          class="img-fluid rounded z-depth-1"
+          class="img-fluid rounded-circle z-depth-1"
           alt="Ruilong"
         %}
       </a>
